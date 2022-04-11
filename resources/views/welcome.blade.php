@@ -518,17 +518,17 @@
                         </a>
                     </li>
             </ul>-->
-            
-
-            <div class="catalog__items">            
-                    <a href="https://gsr.by/product/sahar/sahar-bridzh" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
+            <div class="catalog__items">
+                @foreach($goods as $key => $value)            
+                <a href="{{ route('goods.show', $value['id']) }}" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
                        
-                            <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/167/f86g5bP7d09kvBWb7tpGO5vCGAcbjvUtH3hO9pvI.jpg&#39;)"></div>
+                            <div class="catalog__card-img" style="background-image: url({{ $value['images'][0] }})"></div>
                             <div class="catalog__card-txt">
-                                <h2>Сахар</h2>
-                                <p>белый кусковой</p><p><strong>В ФОРМЕ «БРИДЖ»</strong></p>
+                                <h2>{{ $value['title'] }}</h2>
+                                <p>{{ $value['short_description'] }}</p><p><strong>{{ $value['forma'] }}</strong></p>
                             </div>
-                    </a>         
+                    </a>  
+                @endforeach       
                     <!--<a href="https://gsr.by/product/sahar/sahar-pressovannyj-s-koricej" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
                        
                             <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/168/a7ANaUY4J2oUbAMSWTwALJ5WOl9fm5WxSMwiYecQ.jpg&#39;)"></div>
