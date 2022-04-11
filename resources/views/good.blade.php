@@ -135,7 +135,7 @@
                 </div>
             </div>
         </div>-->
-        <div class="col-9 col-xl-3 header-wrap-btn">
+        <!--<div class="col-9 col-xl-3 header-wrap-btn">
             <div class="header__group-buttons">
                 <a href="https://gsr.by/product/sahar/sahar-bridzh" id="search" class="searh-btn">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="36" viewBox="0 0 35 36">
@@ -145,25 +145,25 @@
                 </a>
                 <a href="https://gsr.by/product/sahar/sahar-bridzh" id="sv_button" class="version-blind">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 472.615 472.615" xml:space="preserve">
-<g>
-    <g>
-        <path d="M472.615,205.774h-25.344c-12.797-37.99-48.686-65.462-90.935-65.462c-43.224,0-79.837,28.73-91.823,68.087
-			c-7.582-5.011-17.305-8.115-28.211-8.115c-10.903,0-20.624,3.103-28.207,8.114c-11.989-39.357-48.608-68.085-91.831-68.085
-			c-42.249,0-78.135,27.472-90.93,65.462H0v19.692h20.925c-0.403,3.565-0.656,7.175-0.656,10.846
-			c0,52.933,43.063,95.99,95.995,95.99s96-43.058,96-95.99c0-0.552-0.073-1.085-0.083-1.635h0.069
-			c0-6.952,9.88-14.702,24.053-14.702c14.178,0,24.053,7.75,24.053,14.702h0.073c-0.01,0.549-0.083,1.083-0.083,1.635
-			c0,52.933,43.058,95.99,95.99,95.99s96-43.058,96-95.99c0-3.671-0.253-7.281-0.656-10.846h20.935V205.774z M116.264,312.611
-			c-42.072,0-76.303-34.231-76.303-76.298c0-42.077,34.231-76.308,76.303-76.308c42.077,0,76.308,34.231,76.308,76.308
-			C192.572,278.38,158.341,312.611,116.264,312.611z M356.337,312.611c-42.067,0-76.298-34.231-76.298-76.298
-			c0-42.077,34.231-76.308,76.298-76.308c42.077,0,76.308,34.231,76.308,76.308C432.644,278.38,398.413,312.611,356.337,312.611z"></path>
-    </g>
-</g>
+                                                <g>
+                                                    <g>
+                                                        <path d="M472.615,205.774h-25.344c-12.797-37.99-48.686-65.462-90.935-65.462c-43.224,0-79.837,28.73-91.823,68.087
+                                                            c-7.582-5.011-17.305-8.115-28.211-8.115c-10.903,0-20.624,3.103-28.207,8.114c-11.989-39.357-48.608-68.085-91.831-68.085
+                                                            c-42.249,0-78.135,27.472-90.93,65.462H0v19.692h20.925c-0.403,3.565-0.656,7.175-0.656,10.846
+                                                            c0,52.933,43.063,95.99,95.995,95.99s96-43.058,96-95.99c0-0.552-0.073-1.085-0.083-1.635h0.069
+                                                            c0-6.952,9.88-14.702,24.053-14.702c14.178,0,24.053,7.75,24.053,14.702h0.073c-0.01,0.549-0.083,1.083-0.083,1.635
+                                                            c0,52.933,43.058,95.99,95.99,95.99s96-43.058,96-95.99c0-3.671-0.253-7.281-0.656-10.846h20.935V205.774z M116.264,312.611
+                                                            c-42.072,0-76.303-34.231-76.303-76.298c0-42.077,34.231-76.308,76.303-76.308c42.077,0,76.308,34.231,76.308,76.308
+                                                            C192.572,278.38,158.341,312.611,116.264,312.611z M356.337,312.611c-42.067,0-76.298-34.231-76.298-76.298
+                                                            c0-42.077,34.231-76.308,76.298-76.308c42.077,0,76.308,34.231,76.308,76.308C432.644,278.38,398.413,312.611,356.337,312.611z"></path>
+                                                    </g>
+                                                </g>
 
-</svg>
+                    </svg>
 
 
                 </a>
-                <!--<div class="lang" id="lang">
+                <div class="lang" id="lang">
                                             <a href="https://gsr.by/product/sahar/sahar-bridzh" class="lang-current">RU</a>
                                         <div class="langs-dropdown">
 
@@ -173,7 +173,7 @@
                                                                             <a href="https://gsr.by/setlocale/ar">AR</a>
                                             </div>
 
-                </div>-->
+                </div>
                 <div class="toggle-menu toggle-fixed">
                     <div class="toggle-menu-wrap">
                         <div class="header__toggle-element">
@@ -187,7 +187,7 @@
 
 
             </div>
-        </div>
+        </div>-->
     </div>
 </header>
 <div class="section-menu">
@@ -215,7 +215,7 @@
                 </div>
             </div>
             <div class="col-9 col-xl-3 header-wrap-btn">
-                <div class="header__group-buttons">
+                <!--<div class="header__group-buttons">
                     <a href="https://gsr.by/product/sahar/sahar-bridzh" id="search" class="searh-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="36" viewBox="0 0 35 36">
                             <image id="search_3_" data-name="search (3)" width="35" height="36" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAkCAYAAAAD3IPhAAAABHNCSVQICAgIfAhkiAAAA5lJREFUWEftl0loVEEQhvPck2hwTUQJehEXRCQuFxWiJMRcPGgUXEDMQRJwAUHEg4joRb0oCAZcohFUUMT1oBhFBY0rQfCiggcFjShuccEtfn9SEybjvNc9MyEq2PDTM/O6/vq7XnV1TdDS0pL1t4zgnxcTBMFoopkPFNaXbOhhZ0TXOzII2ITDMjAFfAQ/TEB35hxwG1xA2MZ0hTnFIGIz5CtBN3P6gTnXxATMwifQz+avzLsRtSFVUaFiECHnJ0Ax6GVODzAfBo04k6gs1uUxTQSLQKWJ/MJcDxaw7qevqKRiTMhVSCYB7fQIqIY48uhhp1dWA+aD3uAGKPEVFCbmJCTKD41tqeaB5ddai+Y57Ct8ovObGIi2YLjCiHakKiTm1ASt5ruiucsnh5KJeYuxcqQOgiqfHYWtQdBeni0GzXANcXF1EGO7WYNRD5DjyhEneVsOKZk/gyr4lPyhI1HMTVYqafdgWO1y5vOcDe5h3TLQAOf0VMToGL4DczC85uPMtQYxM1mjEtEXzp5eYjAaw8JboA8YFKsjLmeu5/AOYM1zoBJRBO/jMJv214TRDBadBtkYSFCnDbi/QaYrpAxupULSES9mGivOAiWuClanDcR8h6wZlMKtO8wpZhQr7gId66EY6YhnPBAyGJKnQIImwPvEKUYLLJzaQQVGulsyHnCWQ6Ij7Xz9iUf7CkY6fgcRo0sv44GYQ5Co8NXDWRpFmChGd8g+oHYgF2MVq7QHQtTnKHFVLpbCd8pbjL2qZ8wq3ccwXpK2krbXrtt+HmiCq9DFlexuUke3ygxrIFnvIkn2HCFb+X25PSuHp8HFE9ZC1GE4F6giq2tb5yKKf25CdMmqQTuOva4D54jq9PR+ZwEdyYug0lWVreurNbv+zMqVnb5tSGQPDPl+i5B6Xo0z4Ci4B5rstwLmyWAhmG3RUNI+AuOB+pntPoJ8GnI5UiKqeGm374Ga8NiVoRZBDtULq1C+ADrKjeA8iN3UhQh6ZRtIOjnFxKyIUgmf1VYUA0VK942GKrZehxzX4vBSnI1yRrVrKtDnvKhy4S0mfisIU4QG2m+vcSAxyXcbBIrgZVBkwiWo9Z9F4khLTJjjCEHZPNNtPdbW5CPozR8RI6dEU1X9OhgH9KdPOdThMu6SyMTlkBqtO2AE0IkbGR+hLhVjEVK+3QfDga6JYe1i+ZJqCmS83lrRBxAV4F//IFpHl0cmaif/xYRF5xch0ZvIlDdPtwAAAABJRU5ErkJggg=="></image>
@@ -224,21 +224,21 @@
                     </a>
                     <a href="https://gsr.by/product/sahar/sahar-bridzh" id="sv_button" class="version-blind">
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 472.615 472.615" xml:space="preserve">
-<g>
-    <g>
-        <path d="M472.615,205.774h-25.344c-12.797-37.99-48.686-65.462-90.935-65.462c-43.224,0-79.837,28.73-91.823,68.087
-			c-7.582-5.011-17.305-8.115-28.211-8.115c-10.903,0-20.624,3.103-28.207,8.114c-11.989-39.357-48.608-68.085-91.831-68.085
-			c-42.249,0-78.135,27.472-90.93,65.462H0v19.692h20.925c-0.403,3.565-0.656,7.175-0.656,10.846
-			c0,52.933,43.063,95.99,95.995,95.99s96-43.058,96-95.99c0-0.552-0.073-1.085-0.083-1.635h0.069
-			c0-6.952,9.88-14.702,24.053-14.702c14.178,0,24.053,7.75,24.053,14.702h0.073c-0.01,0.549-0.083,1.083-0.083,1.635
-			c0,52.933,43.058,95.99,95.99,95.99s96-43.058,96-95.99c0-3.671-0.253-7.281-0.656-10.846h20.935V205.774z M116.264,312.611
-			c-42.072,0-76.303-34.231-76.303-76.298c0-42.077,34.231-76.308,76.303-76.308c42.077,0,76.308,34.231,76.308,76.308
-			C192.572,278.38,158.341,312.611,116.264,312.611z M356.337,312.611c-42.067,0-76.298-34.231-76.298-76.298
-			c0-42.077,34.231-76.308,76.298-76.308c42.077,0,76.308,34.231,76.308,76.308C432.644,278.38,398.413,312.611,356.337,312.611z"></path>
-    </g>
-</g>
+                    <g>
+                    <g>
+                        <path d="M472.615,205.774h-25.344c-12.797-37.99-48.686-65.462-90.935-65.462c-43.224,0-79.837,28.73-91.823,68.087
+                            c-7.582-5.011-17.305-8.115-28.211-8.115c-10.903,0-20.624,3.103-28.207,8.114c-11.989-39.357-48.608-68.085-91.831-68.085
+                            c-42.249,0-78.135,27.472-90.93,65.462H0v19.692h20.925c-0.403,3.565-0.656,7.175-0.656,10.846
+                            c0,52.933,43.063,95.99,95.995,95.99s96-43.058,96-95.99c0-0.552-0.073-1.085-0.083-1.635h0.069
+                            c0-6.952,9.88-14.702,24.053-14.702c14.178,0,24.053,7.75,24.053,14.702h0.073c-0.01,0.549-0.083,1.083-0.083,1.635
+                            c0,52.933,43.058,95.99,95.99,95.99s96-43.058,96-95.99c0-3.671-0.253-7.281-0.656-10.846h20.935V205.774z M116.264,312.611
+                            c-42.072,0-76.303-34.231-76.303-76.298c0-42.077,34.231-76.308,76.303-76.308c42.077,0,76.308,34.231,76.308,76.308
+                            C192.572,278.38,158.341,312.611,116.264,312.611z M356.337,312.611c-42.067,0-76.298-34.231-76.298-76.298
+                            c0-42.077,34.231-76.308,76.298-76.308c42.077,0,76.308,34.231,76.308,76.308C432.644,278.38,398.413,312.611,356.337,312.611z"></path>
+                    </g>
+                    </g>
 
-</svg>
+                    </svg>
 
 
                     </a>
@@ -252,24 +252,24 @@
                                                                             <a href="https://gsr.by/setlocale/ar">AR</a>
                                             </div>
 
-                </div>
-                    <div class="toggle-menu toggle-closed">
-                        <div class="toggle-menu-wrap">
-                            <!-- 							<div class="header__toggle-element">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </div> -->
-                            <div class="header__toggle-element-open">
-                                <span></span>
-                                <span></span>
+                    </div>
+                        <div class="toggle-menu toggle-closed">
+                            <div class="toggle-menu-wrap">
+                                 							<div class="header__toggle-element">
+                                                                <span></span>
+                                                                <span></span>
+                                                                <span></span>
+                                                            </div>
+                                <div class="header__toggle-element-open">
+                                    <span></span>
+                                    <span></span>
+                                </div>
                             </div>
+
                         </div>
 
-                    </div>
 
-
-                </div>
+                </div>-->
             </div>
         </div>
         <div class="menu-wrap">
@@ -458,184 +458,172 @@
 
     <div class="section-card-product">
         <div class="container">
-            <div class="back-link">
-                <a href="https://gsr.by/products"><i class="fal fa-chevron-left"></i> В каталог</a>
-            </div>
+           <!--<div class="back-link">
+              <a href="https://gsr.by/products"><i class="fal fa-chevron-left"></i> В каталог</a>
+           </div>-->
         </div>
-
         <div class="row">
-            <div class="card__slider-wrap pl-200">
-                <div class="card-slider slick-initialized slick-slider">
+            <div class="col-md-5">
+                <div>
+                    <div style="display: flex">
+                        @for($i = 0; $i < 2; $i++)
+                            <div>
+                                <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px">
+                            </div>
+                        @endfor
+                    </div>
 
-                                                                        <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 2800px; transform: translate3d(0px, 0px, 0px);"><div class="card-slider-item slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" style="width: 560px;">
-                                <img src="./sahar-bridzh_files/WSpS4iWF29zAnRd58Ws5TD0O0UNbM5blcfcgCOh7.jpg" alt="">
-                            </div><div class="card-slider-item slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" style="width: 560px;">
-                                <img src="./sahar-bridzh_files/HiPGX8SwOYQEo5Lm5rDR6LmGbTPAMh9N67ZDyNW6.jpg" alt="">
-                            </div><div class="card-slider-item slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" style="width: 560px;">
-                                <img src="./sahar-bridzh_files/6qPmQIGLHjfbmYqMEb00GyOmjvnc8ND7GvpMHHah.jpg" alt="">
-                            </div><div class="card-slider-item slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" style="width: 560px;">
-                                <img src="./sahar-bridzh_files/BMM8KzPAW58j0MrP1co9x12qO2aI4bz8jivzkKKc.jpg" alt="">
-                            </div><div class="card-slider-item slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 560px;">
-                                <img src="./sahar-bridzh_files/7zSiQ19zdQ7QFlP4Z92oJEZiMEGJ5fD4UH8fC5US.jpg" alt="">
-                            </div></div></div>
-                                                    
-                                                    
-                                                    
-                                                    
-                                                            </div>
-                                <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="20" style="background-size: 20% 100%;"></div>
-                <div class="card-slider-nav slick-initialized slick-slider">
+                    <div style="display: flex">
+                        @for($i = 2; $i < 4; $i++)
+                            <div>
+                                <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px">
+                            </div>
+                        @endfor
+                    </div>
 
-                    
-                        
-                            <div class="slick-list draggable" style="padding: 0px 50px;"><div class="slick-track" style="opacity: 1; width: 385px; transform: translate3d(39px, 0px, 0px);"><div class="card-slider-nav-item slick-slide slick-current slick-center" data-slick-index="0" aria-hidden="true" tabindex="0" style="width: 57px;">
-                                <div class="nav-item-wrap">
-                                    <img src="./sahar-bridzh_files/WSpS4iWF29zAnRd58Ws5TD0O0UNbM5blcfcgCOh7.jpg" alt="">
+                    <div style="display: flex">
+                        @for($i = 4; $i < 6; $i++)
+                            @if(isset($good['images'][$i]))
+                                <div>
+                                    <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px">
                                 </div>
-                            </div><div class="card-slider-nav-item slick-slide" data-slick-index="1" aria-hidden="true" tabindex="0" style="width: 57px;">
-                                <div class="nav-item-wrap">
-                                    <img src="./sahar-bridzh_files/HiPGX8SwOYQEo5Lm5rDR6LmGbTPAMh9N67ZDyNW6.jpg" alt="">
-                                </div>
-                            </div><div class="card-slider-nav-item slick-slide" data-slick-index="2" aria-hidden="true" tabindex="0" style="width: 57px;">
-                                <div class="nav-item-wrap">
-                                    <img src="./sahar-bridzh_files/6qPmQIGLHjfbmYqMEb00GyOmjvnc8ND7GvpMHHah.jpg" alt="">
-                                </div>
-                            </div><div class="card-slider-nav-item slick-slide" data-slick-index="3" aria-hidden="true" tabindex="0" style="width: 57px;">
-                                <div class="nav-item-wrap">
-                                    <img src="./sahar-bridzh_files/BMM8KzPAW58j0MrP1co9x12qO2aI4bz8jivzkKKc.jpg" alt="">
-                                </div>
-                            </div><div class="card-slider-nav-item slick-slide" data-slick-index="4" aria-hidden="true" tabindex="0" style="width: 57px;">
-                                <div class="nav-item-wrap">
-                                    <img src="./sahar-bridzh_files/7zSiQ19zdQ7QFlP4Z92oJEZiMEGJ5fD4UH8fC5US.jpg" alt="">
-                                </div>
-                            </div></div></div>            
+                            @endif
+                        @endfor
+                    </div>
                 </div>
             </div>
+
             <div class="card__description">
                 <div class="card__description-top">
                     <div class="card__description-wrap">
                         <div class="dropdown-social-wrap">
                             <div class="dropdown-social">
-                                <div class="share-icon">
-                                    <span class="share">
+                            <!--<div class="share-icon">
+                                <span class="share">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="transform:;-ms-filter:">
-                                        <circle fill="none" cx="17.5" cy="18.5" r="1.5"></circle><circle fill="none" cx="5.5" cy="11.5" r="1.5"></circle><circle fill="none" cx="17.5" cy="5.5" r="1.5"></circle><path d="M5.5,15c0.91,0,1.733-0.358,2.357-0.93l6.26,3.577C14.048,17.922,14,18.204,14,18.5c0,1.93,1.57,3.5,3.5,3.5 s3.5-1.57,3.5-3.5S19.43,15,17.5,15c-0.91,0-1.733,0.358-2.357,0.93l-6.26-3.577c0.063-0.247,0.103-0.502,0.108-0.768l6.151-3.515 C15.767,8.642,16.59,9,17.5,9C19.43,9,21,7.43,21,5.5S19.43,2,17.5,2S14,3.57,14,5.5c0,0.296,0.048,0.578,0.117,0.853L8.433,9.602 C7.808,8.64,6.729,8,5.5,8C3.57,8,2,9.57,2,11.5S3.57,15,5.5,15z M17.5,17c0.827,0,1.5,0.673,1.5,1.5S18.327,20,17.5,20 S16,19.327,16,18.5S16.673,17,17.5,17z M17.5,4C18.327,4,19,4.673,19,5.5S18.327,7,17.5,7S16,6.327,16,5.5S16.673,4,17.5,4z M5.5,10C6.327,10,7,10.673,7,11.5S6.327,13,5.5,13S4,12.327,4,11.5S4.673,10,5.5,10z"></path></svg>
+                                        <circle fill="none" cx="17.5" cy="18.5" r="1.5"></circle>
+                                        <circle fill="none" cx="5.5" cy="11.5" r="1.5"></circle>
+                                        <circle fill="none" cx="17.5" cy="5.5" r="1.5"></circle>
+                                        <path d="M5.5,15c0.91,0,1.733-0.358,2.357-0.93l6.26,3.577C14.048,17.922,14,18.204,14,18.5c0,1.93,1.57,3.5,3.5,3.5 s3.5-1.57,3.5-3.5S19.43,15,17.5,15c-0.91,0-1.733,0.358-2.357,0.93l-6.26-3.577c0.063-0.247,0.103-0.502,0.108-0.768l6.151-3.515 C15.767,8.642,16.59,9,17.5,9C19.43,9,21,7.43,21,5.5S19.43,2,17.5,2S14,3.57,14,5.5c0,0.296,0.048,0.578,0.117,0.853L8.433,9.602 C7.808,8.64,6.729,8,5.5,8C3.57,8,2,9.57,2,11.5S3.57,15,5.5,15z M17.5,17c0.827,0,1.5,0.673,1.5,1.5S18.327,20,17.5,20 S16,19.327,16,18.5S16.673,17,17.5,17z M17.5,4C18.327,4,19,4.673,19,5.5S18.327,7,17.5,7S16,6.327,16,5.5S16.673,4,17.5,4z M5.5,10C6.327,10,7,10.673,7,11.5S6.327,13,5.5,13S4,12.327,4,11.5S4.673,10,5.5,10z"></path>
+                                    </svg>
                                 </span>
-                                </div>
-                                                                <div class="dropdown-content">
-                                    <!---->
-                                    <!--<a href="https://www.instagram.com/gsrby_official/?hl=ru" target="_blank">-->
-                                    <!--    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.596 28.596">-->
-                                    <!--        <g id="instagram_8_" data-name="instagram (8)" transform="translate(0.501 -4.021)">-->
-                                    <!--            <path id="Контур_3373" data-name="Контур 3373" d="M20.125,0H7.469A7.478,7.478,0,0,0,0,7.47V20.126a7.478,7.478,0,0,0,7.47,7.47H20.125a7.478,7.478,0,0,0,7.47-7.47V7.47A7.478,7.478,0,0,0,20.125,0Z" transform="translate(0 4.521)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"/>-->
-                                    <!--            <path id="Контур_3374" data-name="Контур 3374" d="M123.815,129.742a5.928,5.928,0,1,1,5.928-5.928A5.934,5.934,0,0,1,123.815,129.742Zm0,0" transform="translate(-110.018 -105.496)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"/>-->
-                                    <!--            <path id="Контур_3375" data-name="Контур 3375" d="M361.067,70.584a1.208,1.208,0,1,1,1.208-1.208A1.209,1.209,0,0,1,361.067,70.584Zm0,0" transform="translate(-339.545 -59.053)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"/>-->
-                                    <!--        </g>-->
-                                    <!--    </svg>-->
-                                    <!--</a>-->
-                                    <!---->
-                                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://gsr.by/product/sahar/sahar-bridzh" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.434 37.865">
-                                            <path id="facebook_6_" data-name="facebook (6)" d="M21.256,6.121h3.365V.26a43.458,43.458,0,0,0-4.9-.26c-4.852,0-8.176,3.052-8.176,8.662v5.163H6.187v6.553h5.355V36.865h6.565V20.379h5.138l.816-6.553H18.105V9.312c0-1.894.512-3.19,3.15-3.19Z" transform="translate(-5.687 0.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-                                        </svg>
-                                    </a>
-                                    <a href="https://vkontakte.ru/share.php?url=https://gsr.by/product/sahar/sahar-bridzh" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.233 25.635">
-                                            <path id="vk_6_" data-name="vk (6)" d="M35.043,19.126c-.683-.862-.487-1.246,0-2.017.009-.009,5.645-7.8,6.226-10.438l0,0c.289-.963,0-1.67-1.4-1.67H35.259a1.982,1.982,0,0,0-2.008,1.286,37.767,37.767,0,0,1-5.677,9.275c-1.073,1.054-1.57,1.392-2.156,1.392-.289,0-.737-.338-.737-1.3V6.67c0-1.154-.329-1.67-1.3-1.67H16.12a1.1,1.1,0,0,0-1.175,1.04c0,1.094,1.663,1.346,1.835,4.425v6.681c0,1.464-.266,1.733-.855,1.733-1.57,0-5.379-5.65-7.637-12.117C7.832,5.509,7.387,5,6.2,5H1.584C.266,5,0,5.609,0,6.288c0,1.2,1.57,7.167,7.3,15.05,3.818,5.381,9.2,8.3,14.088,8.3,2.94,0,3.3-.648,3.3-1.761,0-5.142-.266-5.627,1.207-5.627.683,0,1.858.338,4.6,2.933,3.137,3.078,3.653,4.455,5.409,4.455h4.617c1.316,0,1.983-.648,1.6-1.925C41.244,25.023,35.31,19.5,35.043,19.126Z" transform="translate(0.5 -4.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-                                        </svg>
-                                    </a>
-                                        <a href="https://connect.ok.ru/offer?url=https://gsr.by/product/sahar/sahar-bridzh" target="_blank">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.841 41.011">
-                                                <g id="odnoklassniki_1_" data-name="odnoklassniki (1)" transform="translate(-95.737 0.5)">
-                                                    <path id="Контур_3376" data-name="Контур 3376" d="M128.337,21.528a10.764,10.764,0,1,0-10.764-10.764A10.764,10.764,0,0,0,128.337,21.528Zm0-16.56a5.8,5.8,0,1,1-5.8,5.8A5.8,5.8,0,0,1,128.337,4.968Z" transform="translate(-19.68 0)" fill="none" stroke="#991426" stroke-width="1"></path>
-                                                    <path id="Контур_3377" data-name="Контур 3377" d="M119.2,265.211a4.17,4.17,0,0,0,1.876-3.478,3,3,0,0,0-1.684-2.741,3.146,3.146,0,0,0-3.312.311,12.6,12.6,0,0,1-14.846,0,3.163,3.163,0,0,0-3.312-.311,3.007,3.007,0,0,0-1.686,2.739,4.175,4.175,0,0,0,1.876,3.478,19.117,19.117,0,0,0,4.852,2.318q.437.136.9.252l-5,4.894a3.312,3.312,0,0,0,4.613,4.754l.081-.081,5.1-5.279,5.11,5.289a3.312,3.312,0,0,0,4.758-4.609l-.081-.081-5-4.889q.465-.119.906-.253A19.047,19.047,0,0,0,119.2,265.211Z" transform="translate(0 -238.582)" fill="none" stroke="#991426" stroke-width="1"></path>
-                                                </g>
-                                            </svg>
-                                        </a>
-                                </div>
+                            </div>-->
+                            <div class="dropdown-content">
+                                <!---->
+                                <!--<a href="https://www.instagram.com/gsrby_official/?hl=ru" target="_blank">-->
+                                <!--    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.596 28.596">-->
+                                <!--        <g id="instagram_8_" data-name="instagram (8)" transform="translate(0.501 -4.021)">-->
+                                <!--            <path id="Контур_3373" data-name="Контур 3373" d="M20.125,0H7.469A7.478,7.478,0,0,0,0,7.47V20.126a7.478,7.478,0,0,0,7.47,7.47H20.125a7.478,7.478,0,0,0,7.47-7.47V7.47A7.478,7.478,0,0,0,20.125,0Z" transform="translate(0 4.521)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"/>-->
+                                <!--            <path id="Контур_3374" data-name="Контур 3374" d="M123.815,129.742a5.928,5.928,0,1,1,5.928-5.928A5.934,5.934,0,0,1,123.815,129.742Zm0,0" transform="translate(-110.018 -105.496)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"/>-->
+                                <!--            <path id="Контур_3375" data-name="Контур 3375" d="M361.067,70.584a1.208,1.208,0,1,1,1.208-1.208A1.209,1.209,0,0,1,361.067,70.584Zm0,0" transform="translate(-339.545 -59.053)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"/>-->
+                                <!--        </g>-->
+                                <!--    </svg>-->
+                                <!--</a>-->
+                                <!---->
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=https://gsr.by/product/sahar/sahar-bridzh" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.434 37.865">
+                                        <path id="facebook_6_" data-name="facebook (6)" d="M21.256,6.121h3.365V.26a43.458,43.458,0,0,0-4.9-.26c-4.852,0-8.176,3.052-8.176,8.662v5.163H6.187v6.553h5.355V36.865h6.565V20.379h5.138l.816-6.553H18.105V9.312c0-1.894.512-3.19,3.15-3.19Z" transform="translate(-5.687 0.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+                                    </svg>
+                                </a>
+                                <a href="https://vkontakte.ru/share.php?url=https://gsr.by/product/sahar/sahar-bridzh" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.233 25.635">
+                                        <path id="vk_6_" data-name="vk (6)" d="M35.043,19.126c-.683-.862-.487-1.246,0-2.017.009-.009,5.645-7.8,6.226-10.438l0,0c.289-.963,0-1.67-1.4-1.67H35.259a1.982,1.982,0,0,0-2.008,1.286,37.767,37.767,0,0,1-5.677,9.275c-1.073,1.054-1.57,1.392-2.156,1.392-.289,0-.737-.338-.737-1.3V6.67c0-1.154-.329-1.67-1.3-1.67H16.12a1.1,1.1,0,0,0-1.175,1.04c0,1.094,1.663,1.346,1.835,4.425v6.681c0,1.464-.266,1.733-.855,1.733-1.57,0-5.379-5.65-7.637-12.117C7.832,5.509,7.387,5,6.2,5H1.584C.266,5,0,5.609,0,6.288c0,1.2,1.57,7.167,7.3,15.05,3.818,5.381,9.2,8.3,14.088,8.3,2.94,0,3.3-.648,3.3-1.761,0-5.142-.266-5.627,1.207-5.627.683,0,1.858.338,4.6,2.933,3.137,3.078,3.653,4.455,5.409,4.455h4.617c1.316,0,1.983-.648,1.6-1.925C41.244,25.023,35.31,19.5,35.043,19.126Z" transform="translate(0.5 -4.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+                                    </svg>
+                                </a>
+                                <a href="https://connect.ok.ru/offer?url=https://gsr.by/product/sahar/sahar-bridzh" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.841 41.011">
+                                        <g id="odnoklassniki_1_" data-name="odnoklassniki (1)" transform="translate(-95.737 0.5)">
+                                        <path id="Контур_3376" data-name="Контур 3376" d="M128.337,21.528a10.764,10.764,0,1,0-10.764-10.764A10.764,10.764,0,0,0,128.337,21.528Zm0-16.56a5.8,5.8,0,1,1-5.8,5.8A5.8,5.8,0,0,1,128.337,4.968Z" transform="translate(-19.68 0)" fill="none" stroke="#991426" stroke-width="1"></path>
+                                        <path id="Контур_3377" data-name="Контур 3377" d="M119.2,265.211a4.17,4.17,0,0,0,1.876-3.478,3,3,0,0,0-1.684-2.741,3.146,3.146,0,0,0-3.312.311,12.6,12.6,0,0,1-14.846,0,3.163,3.163,0,0,0-3.312-.311,3.007,3.007,0,0,0-1.686,2.739,4.175,4.175,0,0,0,1.876,3.478,19.117,19.117,0,0,0,4.852,2.318q.437.136.9.252l-5,4.894a3.312,3.312,0,0,0,4.613,4.754l.081-.081,5.1-5.279,5.11,5.289a3.312,3.312,0,0,0,4.758-4.609l-.081-.081-5-4.889q.465-.119.906-.253A19.047,19.047,0,0,0,119.2,265.211Z" transform="translate(0 -238.582)" fill="none" stroke="#991426" stroke-width="1"></path>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
                             </div>
                         </div>
-
-                        <div class="card-title">Сахар</div>
+                        <div class="card-title">{{ $good['title'] }}</div>
                         <div class="card-sub-title">
-                            <p>белый кусковой</p><p><strong>В ФОРМЕ «БРИДЖ»</strong></p>
+                            <p>{{ $good['short_description'] }}</p>
+                            <p><strong>{{ $good['forma'] }}</strong></p>
                         </div>
                         <div class="card-description">
-                            <p>Сахар белый кусковой – это классическое дополнение к вашим напиткам в форме кубиков. Обладает отличными вкусовыми характеристиками. Кусковой сахар рафинад можно купить как в форме кубиков, так и в форме карточных мастей («бридж»).<br></p><p>Оригинальная форма сахара в виде карточных мастей – «бридж»- украсит стол и приятно удивит Ваших гостей.&nbsp;<br></p><p><br></p><p><strong>Пищевая ценность</strong> (в 100 г. продукта): углеводы – 100 г.</p><p><strong></strong><strong>Энергетическая ценность</strong> (в 100 г. продукта): 1700 кДж (400 ккал.)</p><p><strong>Срок годности:</strong> с даты упаковки 5 лет</p>
-
-
+                            <p>{{ $good['description'] }}<br><strong>Пищевая ценность</strong> (в 100 г. продукта): 
+                            {{ $good['nutritional_value'] }}
+                            </p>
+                            <p><strong></strong><strong>Энергетическая ценность</strong> (в 100 г. продукта): {{ $good['energy_value'] }}</p>
+                            <p><strong>Срок годности:</strong> с даты упаковки {{ $good['shelf_life'] }}</p>
                         </div>
-
-                                           <hr>
+                        <hr>
                         <div class="card-char">
                             <table>
-                                                                    <tbody><tr>
-                                        <td><span>
-                                            <svg id="box-seam" xmlns="http://www.w3.org/2000/svg" width="21.523" height="21.419" viewBox="0 0 21.523 21.419">
-      <path id="Контур_3442" data-name="Контур 3442" d="M11.012,1.566a.673.673,0,0,0-.5,0L2.483,4.778,5.717,6.07,14,2.76Zm4.794,1.918L7.528,6.8l3.234,1.293,8.278-3.31L15.806,3.485Zm4.372,2.287-8.744,3.5V19.925l8.744-3.5V5.773ZM10.089,19.927V9.268l-8.744-3.5V16.43ZM10.012.317a2.018,2.018,0,0,1,1.5,0L21.1,4.153a.673.673,0,0,1,.422.624V16.43a1.345,1.345,0,0,1-.846,1.248l-9.665,3.866a.673.673,0,0,1-.5,0L.847,17.678A1.345,1.345,0,0,1,0,16.43V4.778a.673.673,0,0,1,.423-.624Z" transform="translate(0 -0.173)" fill-rule="evenodd"></path>
-    </svg>
-                                        </span>Состав</td>
-                                        <td>Сахар белый кристаллический</td>
-                                    </tr>
-                                                                                                                                    <tr>
-                                        <td><span>
-                                            <svg id="box" xmlns="http://www.w3.org/2000/svg" width="21.523" height="21.419" viewBox="0 0 21.523 21.419">
-      <path id="Контур_3443" data-name="Контур 3443" d="M11.012,1.566a.673.673,0,0,0-.5,0L2.483,4.778l8.278,3.31,8.278-3.31Zm9.166,4.205-8.744,3.5V19.926l8.744-3.5V5.773ZM10.089,19.927V9.268l-8.744-3.5V16.43ZM10.012.317a2.018,2.018,0,0,1,1.5,0L21.1,4.153a.673.673,0,0,1,.422.624V16.43a1.345,1.345,0,0,1-.846,1.248l-9.665,3.866a.673.673,0,0,1-.5,0L.847,17.678A1.345,1.345,0,0,1,0,16.43V4.778a.673.673,0,0,1,.423-.624Z" transform="translate(0 -0.173)" fill-rule="evenodd"></path>
-    </svg>
-                                        </span>Упаковка</td>
-                                        <td>Картонная коробка</td>
-                                    </tr>
-                                                                                            </tbody></table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span>
+                                        <svg id="box-seam" xmlns="http://www.w3.org/2000/svg" width="21.523" height="21.419" viewBox="0 0 21.523 21.419">
+                                            <path id="Контур_3442" data-name="Контур 3442" d="M11.012,1.566a.673.673,0,0,0-.5,0L2.483,4.778,5.717,6.07,14,2.76Zm4.794,1.918L7.528,6.8l3.234,1.293,8.278-3.31L15.806,3.485Zm4.372,2.287-8.744,3.5V19.925l8.744-3.5V5.773ZM10.089,19.927V9.268l-8.744-3.5V16.43ZM10.012.317a2.018,2.018,0,0,1,1.5,0L21.1,4.153a.673.673,0,0,1,.422.624V16.43a1.345,1.345,0,0,1-.846,1.248l-9.665,3.866a.673.673,0,0,1-.5,0L.847,17.678A1.345,1.345,0,0,1,0,16.43V4.778a.673.673,0,0,1,.423-.624Z" transform="translate(0 -0.173)" fill-rule="evenodd"></path>
+                                        </svg>
+                                        </span>
+                                        Состав
+                                    </td>
+                                    <td>Сахар белый кристаллический</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>
+                                        <svg id="box" xmlns="http://www.w3.org/2000/svg" width="21.523" height="21.419" viewBox="0 0 21.523 21.419">
+                                            <path id="Контур_3443" data-name="Контур 3443" d="M11.012,1.566a.673.673,0,0,0-.5,0L2.483,4.778l8.278,3.31,8.278-3.31Zm9.166,4.205-8.744,3.5V19.926l8.744-3.5V5.773ZM10.089,19.927V9.268l-8.744-3.5V16.43ZM10.012.317a2.018,2.018,0,0,1,1.5,0L21.1,4.153a.673.673,0,0,1,.422.624V16.43a1.345,1.345,0,0,1-.846,1.248l-9.665,3.866a.673.673,0,0,1-.5,0L.847,17.678A1.345,1.345,0,0,1,0,16.43V4.778a.673.673,0,0,1,.423-.624Z" transform="translate(0 -0.173)" fill-rule="evenodd"></path>
+                                        </svg>
+                                        </span>
+                                        Упаковка
+                                    </td>
+                                    <td>Картонная коробка</td>
+                                </tr>
+                            </tbody>
+                            </table>
                         </div>
-                       
                     </div>
                 </div>
-
-                                <div class="card-variable">
+                <div class="card-variable">
                     <h3>Варианты упаковки</h3>
-
-                                            <div class="card-variable-item">
-
-                            <div class="v-img">
-                                                                    <img src="./sahar-bridzh_files/MdqJtSzUwr68NXd0tWjIwTvfgSqvkGzFAGVnPzRd.jpg" alt="">
-                                                            </div>
-
-                            <div class="v-properties">
-                                <div class="v-properties-wrap">
-                                    <table>
-                                        <tbody><tr>
-                                            <td>Вес</td>
-                                            <td>0,5 кг.</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Форма</td>
-                                            <td>Картонная коробка</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Групповая упаковка</td>
-                                            <td>по 12 коробок в гофроящик (6 кг.)</td>
-                                        </tr>
-                                    </tbody></table>
-                                </div>
-                                                            </div>
-
+                    <div class="card-variable-item">
+                        <div class="v-img">
+                            <img src="./sahar-bridzh_files/MdqJtSzUwr68NXd0tWjIwTvfgSqvkGzFAGVnPzRd.jpg" alt="">
                         </div>
-
-                      
-                </div>
+                        <div class="v-properties">
+                            <div class="v-properties-wrap">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Вес</td>
+                                        <td>0,5 кг.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Форма</td>
+                                        <td>Картонная коробка</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Групповая упаковка</td>
+                                        <td>по 12 коробок в гофроящик (6 кг.)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+     </div>
+</div>
 
 
-    </div>
-
-
-            <div class="section-footer">
-    <div class="footer-inner">
-        <div class="footer-inner-top">
-            <div class="contact-info-row contact-info-addres">
-                <p><strong>ул. Заводская 2, 222611, г.п. Городея, <br>
-Несвижский р-н, Минская область</strong></p>
+    <div class="section-footer">
+        <div class="footer-inner">
+            <div class="footer-inner-top">
+                <div class="contact-info-row contact-info-addres">
+                    <p><strong>ул. Заводская 2, 222611, г.п. Городея, <br>
+            Несвижский р-н, Минская область</strong></p>
             </div>
             <div class="contact-info-row">
                 <p><a href="tel:+375 1770 62 524">+375 1770 62 524</a></p>
@@ -643,48 +631,47 @@
             <div class="contact-info-row contact-info-mail">
                 <p><a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a></p>
                 <br>
-                                <a href="https://gsr.by/media/1002/Y3vxMV41bqBCOndFd5ZKCnIvyzOk0mAY9LqNIL7W.pdf" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
+                                <!--<a href="https://gsr.by/media/1002/Y3vxMV41bqBCOndFd5ZKCnIvyzOk0mAY9LqNIL7W.pdf" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>-->
                             </div>
             <div class="block-social">
 
                 <a href="https://www.instagram.com/gsrby_official/?hl=ru" class="social-icon" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.596 28.596">
-            <g id="instagram_8_" data-name="instagram (8)" transform="translate(0.501 -4.021)">
-                <path id="Контур_3373" data-name="Контур 3373" d="M20.125,0H7.469A7.478,7.478,0,0,0,0,7.47V20.126a7.478,7.478,0,0,0,7.47,7.47H20.125a7.478,7.478,0,0,0,7.47-7.47V7.47A7.478,7.478,0,0,0,20.125,0Z" transform="translate(0 4.521)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-                <path id="Контур_3374" data-name="Контур 3374" d="M123.815,129.742a5.928,5.928,0,1,1,5.928-5.928A5.934,5.934,0,0,1,123.815,129.742Zm0,0" transform="translate(-110.018 -105.496)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-                <path id="Контур_3375" data-name="Контур 3375" d="M361.067,70.584a1.208,1.208,0,1,1,1.208-1.208A1.209,1.209,0,0,1,361.067,70.584Zm0,0" transform="translate(-339.545 -59.053)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-            </g>
-        </svg>
-    </a>
-    <a href="https://m.facebook.com/gsr.byy/" class="social-icon" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.434 37.865">
-            <path id="facebook_6_" data-name="facebook (6)" d="M21.256,6.121h3.365V.26a43.458,43.458,0,0,0-4.9-.26c-4.852,0-8.176,3.052-8.176,8.662v5.163H6.187v6.553h5.355V36.865h6.565V20.379h5.138l.816-6.553H18.105V9.312c0-1.894.512-3.19,3.15-3.19Z" transform="translate(-5.687 0.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-        </svg>
-    </a>
-    <a href="https://vk.com/gsr_by" class="social-icon" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.233 25.635">
-            <path id="vk_6_" data-name="vk (6)" d="M35.043,19.126c-.683-.862-.487-1.246,0-2.017.009-.009,5.645-7.8,6.226-10.438l0,0c.289-.963,0-1.67-1.4-1.67H35.259a1.982,1.982,0,0,0-2.008,1.286,37.767,37.767,0,0,1-5.677,9.275c-1.073,1.054-1.57,1.392-2.156,1.392-.289,0-.737-.338-.737-1.3V6.67c0-1.154-.329-1.67-1.3-1.67H16.12a1.1,1.1,0,0,0-1.175,1.04c0,1.094,1.663,1.346,1.835,4.425v6.681c0,1.464-.266,1.733-.855,1.733-1.57,0-5.379-5.65-7.637-12.117C7.832,5.509,7.387,5,6.2,5H1.584C.266,5,0,5.609,0,6.288c0,1.2,1.57,7.167,7.3,15.05,3.818,5.381,9.2,8.3,14.088,8.3,2.94,0,3.3-.648,3.3-1.761,0-5.142-.266-5.627,1.207-5.627.683,0,1.858.338,4.6,2.933,3.137,3.078,3.653,4.455,5.409,4.455h4.617c1.316,0,1.983-.648,1.6-1.925C41.244,25.023,35.31,19.5,35.043,19.126Z" transform="translate(0.5 -4.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-        </svg>
-    </a>
-    <a href="https://m.ok.ru/group/55253855240282/album/878670904666" class="social-icon" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.841 41.011">
-            <g id="odnoklassniki_1_" data-name="odnoklassniki (1)" transform="translate(-95.737 0.5)">
-                <path id="Контур_3376" data-name="Контур 3376" d="M128.337,21.528a10.764,10.764,0,1,0-10.764-10.764A10.764,10.764,0,0,0,128.337,21.528Zm0-16.56a5.8,5.8,0,1,1-5.8,5.8A5.8,5.8,0,0,1,128.337,4.968Z" transform="translate(-19.68 0)" fill="none" stroke="#991426" stroke-width="1"></path>
-                <path id="Контур_3377" data-name="Контур 3377" d="M119.2,265.211a4.17,4.17,0,0,0,1.876-3.478,3,3,0,0,0-1.684-2.741,3.146,3.146,0,0,0-3.312.311,12.6,12.6,0,0,1-14.846,0,3.163,3.163,0,0,0-3.312-.311,3.007,3.007,0,0,0-1.686,2.739,4.175,4.175,0,0,0,1.876,3.478,19.117,19.117,0,0,0,4.852,2.318q.437.136.9.252l-5,4.894a3.312,3.312,0,0,0,4.613,4.754l.081-.081,5.1-5.279,5.11,5.289a3.312,3.312,0,0,0,4.758-4.609l-.081-.081-5-4.889q.465-.119.906-.253A19.047,19.047,0,0,0,119.2,265.211Z" transform="translate(0 -238.582)" fill="none" stroke="#991426" stroke-width="1"></path>
-            </g>
-        </svg>
-    </a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.596 28.596">
+                <g id="instagram_8_" data-name="instagram (8)" transform="translate(0.501 -4.021)">
+                    <path id="Контур_3373" data-name="Контур 3373" d="M20.125,0H7.469A7.478,7.478,0,0,0,0,7.47V20.126a7.478,7.478,0,0,0,7.47,7.47H20.125a7.478,7.478,0,0,0,7.47-7.47V7.47A7.478,7.478,0,0,0,20.125,0Z" transform="translate(0 4.521)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+                    <path id="Контур_3374" data-name="Контур 3374" d="M123.815,129.742a5.928,5.928,0,1,1,5.928-5.928A5.934,5.934,0,0,1,123.815,129.742Zm0,0" transform="translate(-110.018 -105.496)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+                    <path id="Контур_3375" data-name="Контур 3375" d="M361.067,70.584a1.208,1.208,0,1,1,1.208-1.208A1.209,1.209,0,0,1,361.067,70.584Zm0,0" transform="translate(-339.545 -59.053)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+                </g>
+            </svg>
+        </a>
+        <a href="https://m.facebook.com/gsr.byy/" class="social-icon" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.434 37.865">
+                <path id="facebook_6_" data-name="facebook (6)" d="M21.256,6.121h3.365V.26a43.458,43.458,0,0,0-4.9-.26c-4.852,0-8.176,3.052-8.176,8.662v5.163H6.187v6.553h5.355V36.865h6.565V20.379h5.138l.816-6.553H18.105V9.312c0-1.894.512-3.19,3.15-3.19Z" transform="translate(-5.687 0.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+            </svg>
+        </a>
+        <a href="https://vk.com/gsr_by" class="social-icon" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.233 25.635">
+                <path id="vk_6_" data-name="vk (6)" d="M35.043,19.126c-.683-.862-.487-1.246,0-2.017.009-.009,5.645-7.8,6.226-10.438l0,0c.289-.963,0-1.67-1.4-1.67H35.259a1.982,1.982,0,0,0-2.008,1.286,37.767,37.767,0,0,1-5.677,9.275c-1.073,1.054-1.57,1.392-2.156,1.392-.289,0-.737-.338-.737-1.3V6.67c0-1.154-.329-1.67-1.3-1.67H16.12a1.1,1.1,0,0,0-1.175,1.04c0,1.094,1.663,1.346,1.835,4.425v6.681c0,1.464-.266,1.733-.855,1.733-1.57,0-5.379-5.65-7.637-12.117C7.832,5.509,7.387,5,6.2,5H1.584C.266,5,0,5.609,0,6.288c0,1.2,1.57,7.167,7.3,15.05,3.818,5.381,9.2,8.3,14.088,8.3,2.94,0,3.3-.648,3.3-1.761,0-5.142-.266-5.627,1.207-5.627.683,0,1.858.338,4.6,2.933,3.137,3.078,3.653,4.455,5.409,4.455h4.617c1.316,0,1.983-.648,1.6-1.925C41.244,25.023,35.31,19.5,35.043,19.126Z" transform="translate(0.5 -4.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+            </svg>
+        </a>
+        <a href="https://m.ok.ru/group/55253855240282/album/878670904666" class="social-icon" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.841 41.011">
+                <g id="odnoklassniki_1_" data-name="odnoklassniki (1)" transform="translate(-95.737 0.5)">
+                    <path id="Контур_3376" data-name="Контур 3376" d="M128.337,21.528a10.764,10.764,0,1,0-10.764-10.764A10.764,10.764,0,0,0,128.337,21.528Zm0-16.56a5.8,5.8,0,1,1-5.8,5.8A5.8,5.8,0,0,1,128.337,4.968Z" transform="translate(-19.68 0)" fill="none" stroke="#991426" stroke-width="1"></path>
+                    <path id="Контур_3377" data-name="Контур 3377" d="M119.2,265.211a4.17,4.17,0,0,0,1.876-3.478,3,3,0,0,0-1.684-2.741,3.146,3.146,0,0,0-3.312.311,12.6,12.6,0,0,1-14.846,0,3.163,3.163,0,0,0-3.312-.311,3.007,3.007,0,0,0-1.686,2.739,4.175,4.175,0,0,0,1.876,3.478,19.117,19.117,0,0,0,4.852,2.318q.437.136.9.252l-5,4.894a3.312,3.312,0,0,0,4.613,4.754l.081-.081,5.1-5.279,5.11,5.289a3.312,3.312,0,0,0,4.758-4.609l-.081-.081-5-4.889q.465-.119.906-.253A19.047,19.047,0,0,0,119.2,265.211Z" transform="translate(0 -238.582)" fill="none" stroke="#991426" stroke-width="1"></path>
+                </g>
+            </svg>
+        </a>
 
             </div>
         </div>
         <div class="footer-inner-bottom">
             <div class="copy">© 2021  Городейский сахарный комбинат</div>
-            <div class="site-develop"><a href="https://scroll.by/" target="_blank">Сайт изготовлен<span></span></a>
-            </div>
+            <!--<div class="site-develop"><a href="https://scroll.by/" target="_blank">Сайт изготовлен<span></span></a>
+            </div>-->
+        </div>
         </div>
     </div>
-
-</div>
 <div class="back-top" style="opacity: 1; pointer-events: auto;"><i class="arrow-top"></i></div>
 
 
@@ -725,31 +712,26 @@
 </div>
 
 
-<script src="./sahar-bridzh_files/jquery.min.js.Без названия"></script>
-<script src="./sahar-bridzh_files/slick.min.js.Без названия"></script>
-<script src="./sahar-bridzh_files/bootstrap.min.js.Без названия"></script>
-<script src="./sahar-bridzh_files/json.txt" type="text/javascript">
-</script>
-<script src="./sahar-bridzh_files/api.js.Без названия"></script>
-<script src="./sahar-bridzh_files/jquery.maskedinput.min.js.Без названия"></script>
-<script src="./sahar-bridzh_files/aos.js.Без названия"></script>
-<script src="./sahar-bridzh_files/cookie.js.Без названия"></script>
-<script src="./sahar-bridzh_files/slabo.js.Без названия"></script>
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/slick.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<!--<script src="./sahar_files/json.txt" type="text/javascript"></script>-->
+<script src="{{ asset('js/api.js') }}"></script>
+<script src="{{ asset('js/jquery.maskedinput.min.js') }}"></script>
+<script src="{{ asset('js/aos.js') }}"></script>
+<!--<script src="./sahar_files/cookie.js"></script>-->
+<script src="{{ asset('js/slabo.js') }}"></script>
 
-<script src="./sahar-bridzh_files/slider.js.Без названия"></script>
-<script src="./sahar-bridzh_files/jquery.fancybox.min.js.Без названия"></script>
+<script src="{{ asset('js/slider.js') }}"></script>
+<script src="{{ asset('js/jquery.fancybox.min.js') }}"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         $(".fancybox").fancybox();
     });
 </script>
-<script src="./sahar-bridzh_files/app.js.Без названия"></script>
-
-
-
-    
+<script src="{{ asset('js/app.js') }}"></script>
     <div class="modal fade modal-notify" id="modal-success" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+  <!--<div class="modal-dialog modal-dialog-centered modal-md" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title my-0 d-block w-100 font-b">Успешно отправлено!</h5>
@@ -764,7 +746,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>-->
 </div>
 
 <div class="modal fade modal-notify" id="modal-error" tabindex="-1" role="dialog" aria-hidden="true">
@@ -785,9 +767,9 @@
   </div>
 </div>
 
-     <div class="cookie-wrapper">
-    <div class="cookie">
-    <!-- <div class="cookie-close"><img src="https://gsr.by/assets/images/src/close.svg" alt=""></div> -->
+    <!--<div class="cookie-wrapper">
+        <div class="cookie">
+            <div class="cookie-close"><img src="https://gsr.by/assets/images/src/close.svg" alt=""></div> 
         <div class="cookie-wrap">
             <div>
                 <p> </p><p>С целью улучшения работы сайта используются файлы «cookies» (файлы с данными о прошлых посещениях сайта). 
@@ -797,7 +779,7 @@
               Принять
             </div>
         </div>
-    </div>
+    </div>-->
 </div>
 
     
