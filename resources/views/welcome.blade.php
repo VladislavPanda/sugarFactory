@@ -11,10 +11,10 @@
 		<link rel="shortcut icon" href="https://gsr.by/assets/images/src/favicon-gsr.jpg" type="image/x-icon">
 
         <link rel="preconnect" href="https://fonts.gstatic.com/">
-        <link href="./sahar_files/css2" rel="stylesheet">
+        <link href="{{ asset('css/css2') }}" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/all.css') }}">
-        <link rel="stylesheet" href=" {{ asset('css/bootstrap.min.css') }}">
-        <link rel="stylesheet" href=" {{ asset('css/slick.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/slick.min.css') }}">
 
         <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/jquery.fancybox.min.css') }}">
@@ -113,7 +113,7 @@
         </div>
         <div class="col-4 col-xl-6 d-none d-xl-block header-wrap-menu">
             <div class="row">
-                <div class="col-12">
+                <!--<div class="col-12">
                     <ul class="header__top-menu li-group li-style">
                         <li><a href="https://gsr.by/partners">Партнерам</a></li>
                         <li><a href="https://gsr.by/stolbcovskij-filial">Столбцовский филиал</a></li>
@@ -121,10 +121,10 @@
                         <li><a href="https://gsr.by/entertainment/rc-bumerang">Боулинг</a></li>
                         <li><a href="http://hotel.gsr.by/" target="_blank">Гостиница<span><img src="./sahar_files/exit-target.svg" alt=""></span></a></li>
                     </ul>
-                </div>
+                </div>-->
             </div>
             <div class="row">
-                <div class="col-12">
+                <!--<div class="col-12">
                     <ul class="header__main-menu li-group">
                         <li><a href="https://gsr.by/about">Предприятие</a></li>
 
@@ -132,10 +132,10 @@
                         <li><a href="https://gsr.by/information/news">Новости</a></li>
                         <li><a href="https://gsr.by/contacts">Контакты</a></li>
                     </ul>
-                </div>
+                </div>-->
             </div>
         </div>
-        <div class="col-9 col-xl-3 header-wrap-btn">
+        <!--<div class="col-9 col-xl-3 header-wrap-btn">
             <div class="header__group-buttons">
                 <a href="https://gsr.by/products/sahar" id="search" class="searh-btn">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="36" viewBox="0 0 35 36">
@@ -188,7 +188,7 @@
 
             </div>
         </div>
-    </div>
+    </div>-->
 </header>
 <div class="section-menu">
     <div class="section-menu-wrap">
@@ -276,7 +276,7 @@
             <div class="container">
                 <div class="menu-wrapper">
                     <div class="row w-100">
-                        <div class="col-md-8">
+                        <!--<div class="col-md-8">
                             <div class="row">
                                 <div class="col-md-6 mb-5">
                                     <div class="header__top-menu-title">
@@ -358,7 +358,7 @@
                                 <li><span><a href="https://gsr.by/information/elektronnoe-obrashenie">Электронное обращение</a></span></li>
 
                             </ul>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -370,9 +370,9 @@
                     <p>Тел.: <strong>+375 1770 62 524</strong></p>
                     <p>E-mail: <strong>info@gsr.by, marketing@gsr.by</strong></p>
                 </div>
-                <div class="col-md-6">
-                                            <a href="https://gsr.by/media/1002/Y3vxMV41bqBCOndFd5ZKCnIvyzOk0mAY9LqNIL7W.pdf" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
-                                    </div>
+                <!--<div class="col-md-6">
+                    <a href="https://gsr.by/media/1002/Y3vxMV41bqBCOndFd5ZKCnIvyzOk0mAY9LqNIL7W.pdf" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
+                </div>-->
                 <div class="col-md-12">
                     <div class="block-social">
 
@@ -444,13 +444,13 @@
             </h2>
         </div>
     </div>
-    <nav aria-label="breadcrumb">
+    <!--<nav aria-label="breadcrumb">
         <ol class="breadcrumb">
            <li class="breadcrumb-item"><a href="https://gsr.by/">Главная</a></li>
             <li class="breadcrumb-item"><a href="https://gsr.by/products">Продукция</a></li>
             <li class="breadcrumb-item">Сахар</li>
         </ol>
-    </nav>
+    </nav>-->
 
 </div>
 
@@ -459,7 +459,7 @@
     <div class="catalog__cols">
         <div class="catalog__cols1">
             <div class="catalog__menu">
-                <ul>
+                <!--<ul>
                     
                         <li class="active aos-init aos-animate" data-aos="fade-right" data-aos-offset="150"><a href="https://gsr.by/products/sahar">Сахар</a></li>
                     
@@ -470,12 +470,12 @@
                         <li class="aos-init aos-animate" data-aos="fade-right" data-aos-offset="150"><a href="https://gsr.by/products/ovoshnaya-produkciya">Овощная продукция</a></li>
                     
                         <li class="aos-init aos-animate" data-aos="fade-right" data-aos-offset="150"><a href="https://gsr.by/products/pobochnaya-produkciya">Побочная продукция</a></li>
-                                    </ul>
+                </ul>-->
             </div>
         </div>
         <div class="catalog__cols12">
-            
-            <ul class="catalog__tags list-inline aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
+            <h4>Каталог</h4>
+            <!--<ul class="catalog__tags list-inline aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
 
                 <li class="catalog-tag  active ">
                     <a href="https://gsr.by/products/sahar">Все
@@ -517,7 +517,7 @@
                         <a href="https://gsr.by/products/sahar?tag_product=sakhar-trostnikovyy">Сахар тростниковый
                         </a>
                     </li>
-                                            </ul>
+            </ul>-->
             
 
             <div class="catalog__items">
@@ -629,28 +629,67 @@
                        
                     </a>
                     
+                    <!-- 2 страница -->
+                <a href="https://gsr.by/product/sahar/pudra-s-koricej" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
+                       
+                        <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/223/4TvSNDzH7AZuEtZULnR5fSupwYoNN9e5u6KQf4gN.jpg&#39;)"></div>
+                        <div class="catalog__card-txt">
+                            <h2>Пудра</h2>
+                            <p>сахарная «Городейская» с корицей</p>
+                            
+                        </div>
+                   
+                </a>
                 
+                            
+                <a href="https://gsr.by/product/sahar/pudra-s-vanilyu" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
+                   
+                        <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/226/prJYtp3D1tMMSwdVgI5BQdjCsvv4uGrQWrLz4Din.jpg&#39;)"></div>
+                        <div class="catalog__card-txt">
+                            <h2>Пудра</h2>
+                            <p>сахарная «Городейская» с ванилью<br></p>
+                            
+                        </div>
+                   
+                </a>
+                
+                            
+                <a href="https://gsr.by/product/sahar/sahar-ledencovyj-48-gramm" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
+                   
+                        <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/230/fuPPpIbAWF0YxJaxnTANdiDwNI6SYA1xtwEgoSZg.jpg&#39;)"></div>
+                        <div class="catalog__card-txt">
+                            <h2>Сахар</h2>
+                            <p>белый кристаллический «Леденцовый»</p><p><strong>НА ПАЛОЧКЕ</strong><br></p>
+                            
+                        </div>
+                   
+                </a>
+                
+                            
+                <a href="https://gsr.by/product/sahar/sahar-trostnikovyj" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
+                   
+                        <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/237/Ye2TQY8NLr4XHDNiOt6hv7tL9imET5LD6HLdHtRr.jpg&#39;)"></div>
+                        <div class="catalog__card-txt">
+                            <h2>Сахар</h2>
+                            <p>тростниковый<br></p><p><strong>В ФОРМЕ КУБИКОВ</strong></p>
+                            
+                        </div>
+                   
+                </a>
             </div>
 
         </div>
     </div>
 
             <div class="catalog__pagination aos-init aos-animate" data-aos="fade-in" data-aos-offset="80">
-            <div class="pagination">
+            <!--<div class="pagination">
 
                 <ul class="list-inline">
-    
-
-                <!-- "Three Dots" Separator -->
-            
-                                                                        <li><a href="https://gsr.by/products/sahar#" class="active">1</a></li>
-                                                                                <li><a href="https://gsr.by/products/sahar?page=2">2</a></li>
-                                                        
-        <li class="last"><a href="https://gsr.by/products/sahar?page=2"><i class="fal fa-angle-right"></i></a></li>
-    </ul>
-
-
-            </div>
+                    <li><a href="https://gsr.by/products/sahar#" class="active">1</a></li>
+                    <li><a href="https://gsr.by/products/sahar?page=2">2</a></li>
+                    <li class="last"><a href="https://gsr.by/products/sahar?page=2"><i class="fal fa-angle-right"></i></a></li>
+                </ul>
+            </div>-->
         </div>
     
 </div>
@@ -669,8 +708,8 @@
             <div class="contact-info-row contact-info-mail">
                 <p><a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a></p>
                 <br>
-                                <a href="https://gsr.by/media/1002/Y3vxMV41bqBCOndFd5ZKCnIvyzOk0mAY9LqNIL7W.pdf" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
-                            </div>
+                <!--<a href="https://gsr.by/media/1002/Y3vxMV41bqBCOndFd5ZKCnIvyzOk0mAY9LqNIL7W.pdf" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>-->
+            </div>
             <div class="block-social">
 
                 <a href="https://www.instagram.com/gsrby_official/?hl=ru" class="social-icon" target="_blank">
@@ -705,8 +744,8 @@
         </div>
         <div class="footer-inner-bottom">
             <div class="copy">© 2021  Городейский сахарный комбинат</div>
-            <div class="site-develop"><a href="https://scroll.by/" target="_blank">Сайт изготовлен<span></span></a>
-            </div>
+            <!--<div class="site-develop"><a href="https://scroll.by/" target="_blank">Сайт изготовлен<span></span></a>
+            </div>-->
         </div>
     </div>
 
@@ -751,19 +790,18 @@
 </div>
 
 
-<script src="./sahar_files/jquery.min.js.Без названия"></script>
-<script src="./sahar_files/slick.min.js.Без названия"></script>
-<script src="./sahar_files/bootstrap.min.js.Без названия"></script>
-<script src="./sahar_files/json.txt" type="text/javascript">
-</script>
-<script src="./sahar_files/api.js.Без названия"></script>
-<script src="./sahar_files/jquery.maskedinput.min.js.Без названия"></script>
-<script src="./sahar_files/aos.js.Без названия"></script>
-<script src="./sahar_files/cookie.js.Без названия"></script>
-<script src="./sahar_files/slabo.js.Без названия"></script>
+<script src="{{ asset('jquery.min.js') }}"></script>
+<script src="{{ asset('slick.min.js') }}"></script>
+<script src="{{ asset('bootstrap.min.js') }}"></script>
+<!--<script src="./sahar_files/json.txt" type="text/javascript"></script>-->
+<script src="{{ asset('api.js') }}"></script>
+<script src="{{ asset('jquery.maskedinput.min.js') }}"></script>
+<script src="{{ asset('aos.js') }}"></script>
+<!--<script src="./sahar_files/cookie.js"></script>-->
+<script src="{{ asset('slabo.js') }}"></script>
 
-<script src="./sahar_files/slider.js.Без названия"></script>
-<script src="./sahar_files/jquery.fancybox.min.js.Без названия"></script>
+<script src="{{ asset('slider.js') }}"></script>
+<script src="{{ asset('jquery.fancybox.min.js') }}"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         $(".fancybox").fancybox();
@@ -782,11 +820,7 @@
 
     });
 </script>
-<script src="./sahar_files/app.js.Без названия"></script>
-
-
-
-    
+<script src="{{ asset('app.js') }}"></script>
     <div class="modal fade modal-notify" id="modal-success" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-md" role="document">
     <div class="modal-content">
@@ -824,9 +858,9 @@
   </div>
 </div>
 
-     <div class="cookie-wrapper">
+    <!--<div class="cookie-wrapper">
     <div class="cookie">
-    <!-- <div class="cookie-close"><img src="https://gsr.by/assets/images/src/close.svg" alt=""></div> -->
+    <div class="cookie-close"><img src="https://gsr.by/assets/images/src/close.svg" alt=""></div>
         <div class="cookie-wrap">
             <div>
                 <p> </p><p>С целью улучшения работы сайта используются файлы «cookies» (файлы с данными о прошлых посещениях сайта). 
@@ -836,7 +870,7 @@
               Принять
             </div>
         </div>
-    </div>
+    </div>-->
 </div>
 
     
