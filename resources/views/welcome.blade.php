@@ -520,21 +520,16 @@
             </ul>-->
             
 
-            <div class="catalog__items">
-                                
+            <div class="catalog__items">            
                     <a href="https://gsr.by/product/sahar/sahar-bridzh" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
                        
                             <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/167/f86g5bP7d09kvBWb7tpGO5vCGAcbjvUtH3hO9pvI.jpg&#39;)"></div>
                             <div class="catalog__card-txt">
                                 <h2>Сахар</h2>
                                 <p>белый кусковой</p><p><strong>В ФОРМЕ «БРИДЖ»</strong></p>
-                                
                             </div>
-                       
-                    </a>
-                    
-                                
-                    <a href="https://gsr.by/product/sahar/sahar-pressovannyj-s-koricej" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
+                    </a>         
+                    <!--<a href="https://gsr.by/product/sahar/sahar-pressovannyj-s-koricej" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
                        
                             <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/168/a7ANaUY4J2oUbAMSWTwALJ5WOl9fm5WxSMwiYecQ.jpg&#39;)"></div>
                             <div class="catalog__card-txt">
@@ -543,9 +538,7 @@
                                 
                             </div>
                        
-                    </a>
-                    
-                                
+                    </a>            
                     <a href="https://gsr.by/product/sahar/sahar" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
                        
                             <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/150/WfiwuzyW0HmmMV4oKegWtGagjDYxNhpsZDYx0TwR.jpg&#39;)"></div>
@@ -555,9 +548,7 @@
                                 
                             </div>
                        
-                    </a>
-                    
-                                
+                    </a>           
                     <a href="https://gsr.by/product/sahar/sahar-pressovannyj-limon" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
                        
                             <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/174/48TZqUXV2m6fnyB6f13wkLrmM7Vu9ZZACREyFbaP.jpg&#39;)"></div>
@@ -567,9 +558,7 @@
                                 
                             </div>
                        
-                    </a>
-                    
-                                
+                    </a>        
                     <a href="https://gsr.by/product/sahar/sahar-pressovannyj-myata" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
                        
                             <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/180/jMPIscREgaReYEVTyQpI1nFIJETcYK6LoKoYPo42.jpg&#39;)"></div>
@@ -579,9 +568,7 @@
                                 
                             </div>
                        
-                    </a>
-                    
-                                
+                    </a>        
                     <a href="https://gsr.by/product/sahar/sahar-pressovannyj-lesnye-yagody" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
                        
                             <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/186/4R1sacBapnivJ7peGJ4XNNPmpsuUA1WGuWAv0YPK.jpg&#39;)"></div>
@@ -591,9 +578,7 @@
                                 
                             </div>
                        
-                    </a>
-                    
-                                
+                    </a>        
                     <a href="https://gsr.by/product/sahar/sahar-belyj-kristallicheskij-porcionnyj" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
                        
                             <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/209/xuyZKH3T2PpfkpWcuMk3X0wNpYTsv3i1bvTJA9GK.jpg&#39;)"></div>
@@ -603,9 +588,7 @@
                                 
                             </div>
                        
-                    </a>
-                    
-                                
+                    </a>           
                     <a href="https://gsr.by/product/sahar/sahar-belyj-kristallicheskij-fasovannyj" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
                        
                             <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/213/2uXGY3BtLNeW7rT4rVlFMHJsSZ1LbWSGrgUFhUt9.jpg&#39;)"></div>
@@ -615,9 +598,7 @@
                                 
                             </div>
                        
-                    </a>
-                    
-                                
+                    </a>          
                     <a href="https://gsr.by/product/sahar/pudra" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
                        
                             <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/220/SjzqR3c3eFyvVVLBBECk6ar5oKhTO2Y6s1UGfRw4.jpg&#39;)"></div>
@@ -628,54 +609,44 @@
                             </div>
                        
                     </a>
-                    
-                    <!-- 2 страница -->
-                <a href="https://gsr.by/product/sahar/pudra-s-koricej" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                       
+                    <a href="https://gsr.by/product/sahar/pudra-s-koricej" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
                         <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/223/4TvSNDzH7AZuEtZULnR5fSupwYoNN9e5u6KQf4gN.jpg&#39;)"></div>
                         <div class="catalog__card-txt">
                             <h2>Пудра</h2>
                             <p>сахарная «Городейская» с корицей</p>
                             
-                        </div>
-                   
-                </a>
-                
-                            
-                <a href="https://gsr.by/product/sahar/pudra-s-vanilyu" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                   
-                        <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/226/prJYtp3D1tMMSwdVgI5BQdjCsvv4uGrQWrLz4Din.jpg&#39;)"></div>
-                        <div class="catalog__card-txt">
-                            <h2>Пудра</h2>
-                            <p>сахарная «Городейская» с ванилью<br></p>
-                            
-                        </div>
-                   
-                </a>
-                
-                            
-                <a href="https://gsr.by/product/sahar/sahar-ledencovyj-48-gramm" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                   
-                        <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/230/fuPPpIbAWF0YxJaxnTANdiDwNI6SYA1xtwEgoSZg.jpg&#39;)"></div>
-                        <div class="catalog__card-txt">
-                            <h2>Сахар</h2>
-                            <p>белый кристаллический «Леденцовый»</p><p><strong>НА ПАЛОЧКЕ</strong><br></p>
-                            
-                        </div>
-                   
-                </a>
-                
-                            
-                <a href="https://gsr.by/product/sahar/sahar-trostnikovyj" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                   
-                        <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/237/Ye2TQY8NLr4XHDNiOt6hv7tL9imET5LD6HLdHtRr.jpg&#39;)"></div>
-                        <div class="catalog__card-txt">
-                            <h2>Сахар</h2>
-                            <p>тростниковый<br></p><p><strong>В ФОРМЕ КУБИКОВ</strong></p>
-                            
-                        </div>
-                   
-                </a>
+                        </div>   
+                    </a>        
+                    <a href="https://gsr.by/product/sahar/pudra-s-vanilyu" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
+                    
+                            <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/226/prJYtp3D1tMMSwdVgI5BQdjCsvv4uGrQWrLz4Din.jpg&#39;)"></div>
+                            <div class="catalog__card-txt">
+                                <h2>Пудра</h2>
+                                <p>сахарная «Городейская» с ванилью<br></p>
+                                
+                            </div>
+                    
+                    </a>              
+                    <a href="https://gsr.by/product/sahar/sahar-ledencovyj-48-gramm" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
+                    
+                            <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/230/fuPPpIbAWF0YxJaxnTANdiDwNI6SYA1xtwEgoSZg.jpg&#39;)"></div>
+                            <div class="catalog__card-txt">
+                                <h2>Сахар</h2>
+                                <p>белый кристаллический «Леденцовый»</p><p><strong>НА ПАЛОЧКЕ</strong><br></p>
+                                
+                            </div>
+                    
+                    </a>          
+                    <a href="https://gsr.by/product/sahar/sahar-trostnikovyj" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
+                    
+                            <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/237/Ye2TQY8NLr4XHDNiOt6hv7tL9imET5LD6HLdHtRr.jpg&#39;)"></div>
+                            <div class="catalog__card-txt">
+                                <h2>Сахар</h2>
+                                <p>тростниковый<br></p><p><strong>В ФОРМЕ КУБИКОВ</strong></p>
+                                
+                            </div>
+                    
+                    </a>-->
             </div>
 
         </div>
