@@ -464,10 +464,10 @@
         </div>
         <div class="row">
             <div class="col-md-5">
-                <div>
+                <div style="margin-left: 10px">
                     <div style="display: flex">
                         @for($i = 0; $i < 2; $i++)
-                            <div>
+                            <div class="image_block">
                                 <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px">
                             </div>
                         @endfor
@@ -475,7 +475,7 @@
 
                     <div style="display: flex">
                         @for($i = 2; $i < 4; $i++)
-                            <div>
+                            <div class="image_block">
                                 <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px">
                             </div>
                         @endfor
@@ -484,7 +484,7 @@
                     <div style="display: flex">
                         @for($i = 4; $i < 6; $i++)
                             @if(isset($good['images'][$i]))
-                                <div>
+                                <div class="image_block">
                                     <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px">
                                 </div>
                             @endif
@@ -773,7 +773,7 @@
         <div class="cookie-wrap">
             <div>
                 <p> </p><p>С целью улучшения работы сайта используются файлы «cookies» (файлы с данными о прошлых посещениях сайта). 
-Продолжая использовать данный сайт и нажимая на кнопку «Принять», я подтверждаю, что я ознакомлен(а) с <a href="https://gsr.by/privacy.pdf" target="_blank">Политикой обработки персональных данных</a>  и согласен(на) на обработку моих персональных данных на изложенных в <a href="https://gsr.by/file/%D0%A1%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%B8%D0%B5_%D0%BD%D0%B0_%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D1%83_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82_%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%BE%D0%B2_1647411725.pdf" target="_blank">Согласии на обработку персональных данных</a> условиях.</p><p></p>
+        nk">Согласии на обработку персональных данных</a> условиях.</p><p></p>
             </div>
             <div class="cookie-wrap__accept">
               Принять
