@@ -28,8 +28,7 @@ class PlatformProvider extends OrchidServiceProvider
     public function registerMainMenu(): array
     {
         return [
-            Menu::make('Basic Elements')
-            ->title('Заявки')
+            Menu::make('Заказы')
             ->icon('note')
             ->route('platform.example.fields'),
 
