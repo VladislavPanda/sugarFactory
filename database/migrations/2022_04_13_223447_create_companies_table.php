@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('companies', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('user_id')->nullable();
-            $table->string('company_name')->nullable();
+            $table->string('name')->nullable();
             $table->foreign('user_id')->on('users')->references('id');
 
             $table->timestamps();

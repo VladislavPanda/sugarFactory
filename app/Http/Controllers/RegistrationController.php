@@ -20,5 +20,8 @@ class RegistrationController extends Controller
                                  'password' => $request->input('password')
                                 ]
                             );
+
+        // Записываем данные в таблицу компаний-клиентов
+        $company = Company::create(['user_id' => $user->id, 'name' => $request->input('company_name')]);
     }   
 }
