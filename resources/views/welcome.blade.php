@@ -142,21 +142,33 @@
         <!-- Верстка модального окна регистрации -->
         <div id="registerModal">
             <span id="registerModal__close" class="close">ₓ</span>
-            <form action="">
+            
+            @if ($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+            
+            <form action="{{ route('register') }}" method="post">
+                @csrf
                 <label>Email</label>
-                <input type="email">
+                <input type="email" name="email">
 
                 <label>Название организации</label>
-                <input type="text">
+                <input type="text" name="company_name">
 
                 <label>Ваше имя</label>
-                <input type="text">
+                <input type="text" name="client_name">
 
                 <label>Придумайте пароль</label>
-                <input type="password">
+                <input type="password" name="password">
 
                 <label>Подтверждение пароля</label>
-                <input type="password">
+                <input type="password" name="password_confirm">
 
                 <input type="submit" value="Зарегистрироваться">
             </form>
@@ -167,11 +179,12 @@
         <div id="authModal">
             <span id="authModal__close" class="close">ₓ</span>
             <form action="">
+                @csrf
                 <label>Email</label>
-                <input type="email">
+                <input type="email" name="email">
 
                 <label>Пароль</label>
-                <input type="password"> <br>
+                <input type="password" name="password"> <br>
 
                 <input type="submit" value="Войти">
             </form>

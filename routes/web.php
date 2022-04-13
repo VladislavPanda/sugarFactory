@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GoodController;
+use App\Http\Controllers\RegistrationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +16,6 @@ use App\Http\Controllers\GoodController;
 */
 
 Route::get('/', [GoodController::class, 'index']);
-Route::get('/goods/{good}', [GoodController::class, 'show'])->name('goods.show');
+Route::get('/goods/{good}', [GoodController::class, 'show'])->name('goods.show'); // Роут страницы карточки товара
+Route::post('/store', [RegistrationController::class, 'store'])->name('register'); // Роут регистрации
+
