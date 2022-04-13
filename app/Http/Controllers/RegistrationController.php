@@ -7,6 +7,10 @@ use App\Models\User;
 
 class RegistrationController extends Controller
 {
+    public function index(){
+        return view('registration');
+    }
+
     public function store(RegistrationRequest $request){
         dd($request->all());
     }   

@@ -468,17 +468,8 @@
                     </li>
             </ul>-->
             <div class="catalog__items">
-                @foreach($goods as $key => $value)            
-                <a href="{{ route('goods.show', $value['id']) }}" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                       
-                            <div class="catalog__card-img" style="background-image: url({{ $value['images'][0] }})"></div>
-                            <div class="catalog__card-txt">
-                                <h2>{{ $value['title'] }}</h2>
-                                <p>{{ $value['short_description'] }}</p><p><strong>{{ $value['forma'] }}</strong></p>
-                            </div>
-                    </a>  
-                @endforeach       
-                    <!--<a href="https://gsr.by/product/sahar/sahar-pressovannyj-s-koricej" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
+                     
+                <a href="https://gsr.by/product/sahar/sahar-pressovannyj-s-koricej" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
                        
                             <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/168/a7ANaUY4J2oUbAMSWTwALJ5WOl9fm5WxSMwiYecQ.jpg&#39;)"></div>
                             <div class="catalog__card-txt">
@@ -595,7 +586,7 @@
                                 
                             </div>
                     
-                    </a>-->
+                    </a>
             </div>
 
         </div>
@@ -777,25 +768,7 @@
     </div>
   </div>
 </div>
-
-    <!--<div class="cookie-wrapper">
-    <div class="cookie">
-    <div class="cookie-close"><img src="https://gsr.by/assets/images/src/close.svg" alt=""></div>
-        <div class="cookie-wrap">
-            <div>
-                <p> </p><p>С целью улучшения работы сайта используются файлы «cookies» (файлы с данными о прошлых посещениях сайта). 
-Продолжая использовать данный сайт и нажимая на кнопку «Принять», я подтверждаю, что я ознакомлен(а) с <a href="https://gsr.by/privacy.pdf" target="_blank">Политикой обработки персональных данных</a>  и согласен(на) на обработку моих персональных данных на изложенных в <a href="https://gsr.by/file/%D0%A1%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%B8%D0%B5_%D0%BD%D0%B0_%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D1%83_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82_%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%BE%D0%B2_1647411725.pdf" target="_blank">Согласии на обработку персональных данных</a> условиях.</p><p></p>
-            </div>
-            <div class="cookie-wrap__accept">
-              Принять
-            </div>
-        </div>
-    </div>-->
 </div>
-
-    
-
 <div class="betternet-wrapper"></div><g-ext-in></g-ext-in>
-
 </body>
 </html>

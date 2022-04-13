@@ -17,5 +17,6 @@ use App\Http\Controllers\RegistrationController;
 
 Route::get('/', [GoodController::class, 'index']);
 Route::get('/goods/{good}', [GoodController::class, 'show'])->name('goods.show'); // Роут страницы карточки товара
-Route::post('/store', [RegistrationController::class, 'store'])->name('register'); // Роут регистрации
+Route::get('/register', [RegistrationController::class, 'index'])->name('register.index'); // Роут страницы регистрации
+Route::post('/register', [RegistrationController::class, 'store'])->name('register.store'); // Роут регистрации
 
