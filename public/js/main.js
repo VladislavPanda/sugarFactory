@@ -1,11 +1,33 @@
-$(function() {
-    $(".button").click(function() {
-        $("#myform #valueFromMyButton").text($(this).val().trim());
-        $("#myform input[type=text]").val('');
-        $("#myform").show(500);
+$(document).ready(function() {
+    $('a.registerModal').click( function(event){
+      event.preventDefault();
+      $('#registerOverlay').fadeIn(297,	function(){
+        $('#registerModal') 
+        .css('display', 'block')
+        .animate({opacity: 1}, 198);
+      });
     });
-    $("#btnOK").click(function() {
-        $("#valueFromMyModal").val($("#myform input[type=text]").val().trim());
-        $("#myform").hide(400);
+  
+    $('#registerModal__close, #registerOverlay').click( function(){
+      $('#registerModal').animate({opacity: 0}, 198, function(){
+        $(this).css('display', 'none');
+        $('#registerOverlay').fadeOut(297);
+      });
     });
+
+    $('a.authModal').click( function(event){
+        event.preventDefault();
+        $('#authOverlay').fadeIn(297,	function(){
+          $('#authModal') 
+          .css('display', 'block')
+          .animate({opacity: 1}, 198);
+        });
+      });
+    
+      $('#authModal__close, #authOverlay').click( function(){
+        $('#authModal').animate({opacity: 0}, 198, function(){
+          $(this).css('display', 'none');
+          $('#authOverlay').fadeOut(297);
+        });
+      });
 });
