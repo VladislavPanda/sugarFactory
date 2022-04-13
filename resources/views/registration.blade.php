@@ -479,7 +479,18 @@
         </div>
         <div class="catalog__cols12">
            <div>
-                <form action="{{ route('register.store') }}">
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
+
+                <form action="{{ route('register.store') }}" method="post">
+                   @csrf
                    <label>Email</label>
                    <input type="email" name="email"> <br>
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\RegistrationRequest;
 use App\Models\User;
+use App\Models\Company;
 
 class RegistrationController extends Controller
 {
@@ -12,6 +13,12 @@ class RegistrationController extends Controller
     }
 
     public function store(RegistrationRequest $request){
-        dd($request->all());
+        $user = User::create(
+                                [
+                                 'name' => $request->input('client_name'), 
+                                 'email' => $request->input('email'), 
+                                 'password' => $request->input('password')
+                                ]
+                            );
     }   
 }

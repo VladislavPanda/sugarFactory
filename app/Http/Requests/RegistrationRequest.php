@@ -24,11 +24,22 @@ class RegistrationRequest extends FormRequest
     public function rules()
     {
         return [
-            'email' => 'required|exists:users,email',
+            'email' => 'required',
             'company_name' => 'required',
             'client_name' => 'required',
             'password' => 'required',
-            'password_confirm' => 'required'
+            'password_confirm' => 'required|same:password'
+        ];
+    }
+
+    public function messages(){
+        return [
+            'email.required' => 'Поле "Email" является обязательным"',
+            'company_name.required' => 'Поле "Название компании" является обязательным',
+            'client_name.required' => 'Поле "Имя клиента" является обязательным',
+            'password.required' => 'Поле пароля явлется обязательным',
+            'password_confirm.required' => 'Поле подтверждения пароля является обязательным',
+            'password_confirm.same' => 'Пароли не совпадают'
         ];
     }
 }
