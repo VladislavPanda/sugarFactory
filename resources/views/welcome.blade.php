@@ -104,37 +104,59 @@
     <div class="row">
         <div class="col-3 col-xl-3 header-logo-wrap">
             <div class="header-logo logo-fixed">
-                <a href="https://gsr.by/">
+                <a href="http://sugarfactory">
                     <img src="./sahar_files/logo.png" alt="">
                     <p>Городейский <br> сахарный <br> комбинат</p>
                 </a>
 
             </div>
         </div>
-        <div class="col-4 col-xl-6 d-none d-xl-block header-wrap-menu">
+        <div class="col-2 col-xl-6 d-none d-xl-block header-wrap-menu">
             <div class="row">
-                <!--<div class="col-12">
+                <div class="col-8"></div>
+                <div class="col-4">
                     <ul class="header__top-menu li-group li-style">
-                        <li><a href="https://gsr.by/partners">Партнерам</a></li>
+                        <!--<li><a href="https://gsr.by/partners">Партнерам</a></li>
                         <li><a href="https://gsr.by/stolbcovskij-filial">Столбцовский филиал</a></li>
                         <li><a href="https://gsr.by/entertainment/restoran-traktir-dlya-druzej">Ресторан</a></li>
-                        <li><a href="https://gsr.by/entertainment/rc-bumerang">Боулинг</a></li>
-                        <li><a href="http://hotel.gsr.by/" target="_blank">Гостиница<span><img src="./sahar_files/exit-target.svg" alt=""></span></a></li>
+                        <li><a href="https://gsr.by/entertainment/rc-bumerang">Регистрация</a></li>
+                        <li><a href="https://gsr.by/entertainment/rc-bumerang">Войти в личный кабинет</a></li>
+                        <li><a href="http://hotel.gsr.by/" target="_blank">Гостиница<span><img src="./sahar_files/exit-target.svg" alt=""></span></a></li>-->
                     </ul>
-                </div>-->
-            </div>
-            <div class="row">
-                <!--<div class="col-12">
-                    <ul class="header__main-menu li-group">
-                        <li><a href="https://gsr.by/about">Предприятие</a></li>
-
-                        <li><a href="https://gsr.by/products">Продукция</a></li>
-                        <li><a href="https://gsr.by/information/news">Новости</a></li>
-                        <li><a href="https://gsr.by/contacts">Контакты</a></li>
-                    </ul>
-                </div>-->
+                </div>
             </div>
         </div>
+        <div class="col-2 col-xl-2">
+            <ul class="header__top-menu li-group li-style">
+                <li><a href="https://gsr.by/partners">Партнерам</a></li>
+                <!--<li><a href="https://gsr.by/stolbcovskij-filial">Столбцовский филиал</a></li>--
+                <li><a href="https://gsr.by/entertainment/restoran-traktir-dlya-druzej">Ресторан</a></li>-->
+                <li><a href="https://gsr.by/entertainment/rc-bumerang">Регистрация</a></li>
+                <li><a href="https://gsr.by/entertainment/rc-bumerang">Войти</a></li>
+                <!--<li><a href="http://hotel.gsr.by/" target="_blank">Гостиница<span><img src="./sahar_files/exit-target.svg" alt=""></span></a></li>-->
+            </ul>
+        </div>
+
+        <!-- Верстка модального окна регистрации -->
+        <div id="panel">
+            <input type="button" class="button" value="1" id="btn1">
+            <input type="button" class="button" value="2" id="btn2">
+            <input type="button" class="button" value="3" id="btn3">
+            <br>
+            <input type="text" id="valueFromMyModal">
+            <!-- Dialog Box-->
+            <div class="dialog" id="myform">
+              <form>
+                <label id="valueFromMyButton">
+                </label>
+                <input type="text" id="name">
+                <div align="center">
+                  <input type="button" value="Ok" id="btnOK">
+                </div>
+              </form>
+            </div>
+          </div>
+
         <!--<div class="col-9 col-xl-3 header-wrap-btn">
             <div class="header__group-buttons">
                 <a href="https://gsr.by/products/sahar" id="search" class="searh-btn">
