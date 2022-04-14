@@ -134,7 +134,7 @@
                 <!--<li><a href="https://gsr.by/stolbcovskij-filial">Столбцовский филиал</a></li>--
                 <li><a href="https://gsr.by/entertainment/restoran-traktir-dlya-druzej">Ресторан</a></li>-->
                 <li><a href="{{ route('register.index') }}">Регистрация</a></li>
-                <li><a href="{{ route('signin.index') }}">Войти</a></li>
+                <li><a href="#">Войти</a></li>
                 <!--<li><a href="http://hotel.gsr.by/" target="_blank">Гостиница<span><img src="./sahar_files/exit-target.svg" alt=""></span></a></li>-->
             </ul>
         </div>
@@ -478,195 +478,30 @@
             </div>
         </div>
         <div class="catalog__cols12">
-            <h4>Каталог</h4>
-            <!--<ul class="catalog__tags list-inline aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
+           <div>
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
 
-                <li class="catalog-tag  active ">
-                    <a href="https://gsr.by/products/sahar">Все
-                    </a>
-                </li>
-                                
+                <form action="{{ route('signin.store') }}" method="post">
+                   @csrf
+                   <label>Email</label>
+                   <input type="email" name="email"> <br>
 
-                    <li class="catalog-tag ">
-                        <a href="https://gsr.by/products/sahar?tag_product=sakhar-belyy-kuskovoy">Сахар белый кусковой
-                        </a>
-                    </li>
-                
+                   <label>Пароль</label>
+                   <input type="password" name="password"> <br>
 
-                    <li class="catalog-tag ">
-                        <a href="https://gsr.by/products/sahar?tag_product=sakhar-pressovannyy">Сахар прессованный
-                        </a>
-                    </li>
-                
-
-                    <li class="catalog-tag ">
-                        <a href="https://gsr.by/products/sahar?tag_product=sakhar-belyy-kristallicheskiy">Сахар белый кристаллический
-                        </a>
-                    </li>
-                
-
-                    <li class="catalog-tag ">
-                        <a href="https://gsr.by/products/sahar?tag_product=pudra-sakharnaya">Пудра сахарная
-                        </a>
-                    </li>
-                
-
-                    <li class="catalog-tag ">
-                        <a href="https://gsr.by/products/sahar?tag_product=sakhar-ledentsovyy">Сахар леденцовый
-                        </a>
-                    </li>
-                
-
-                    <li class="catalog-tag ">
-                        <a href="https://gsr.by/products/sahar?tag_product=sakhar-trostnikovyy">Сахар тростниковый
-                        </a>
-                    </li>
-            </ul>-->
-            <div class="catalog__items">
-                @foreach($goods as $key => $value)            
-                <a href="{{ route('goods.show', $value['id']) }}" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                       
-                            <div class="catalog__card-img" style="background-image: url({{ $value['images'][0] }})"></div>
-                            <div class="catalog__card-txt">
-                                <h2>{{ $value['title'] }}</h2>
-                                <p>{{ $value['short_description'] }}</p><p><strong>{{ $value['forma'] }}</strong></p>
-                            </div>
-                    </a>  
-                @endforeach       
-                    <!--<a href="https://gsr.by/product/sahar/sahar-pressovannyj-s-koricej" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                       
-                            <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/168/a7ANaUY4J2oUbAMSWTwALJ5WOl9fm5WxSMwiYecQ.jpg&#39;)"></div>
-                            <div class="catalog__card-txt">
-                                <h2>Сахар</h2>
-                                <p>прессованный «Городейский» с корицей</p><p><strong>В ФОРМЕ «БРИДЖ»</strong></p>
-                                
-                            </div>
-                       
-                    </a>            
-                    <a href="https://gsr.by/product/sahar/sahar" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                       
-                            <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/150/WfiwuzyW0HmmMV4oKegWtGagjDYxNhpsZDYx0TwR.jpg&#39;)"></div>
-                            <div class="catalog__card-txt">
-                                <h2>Сахар</h2>
-                                <p>белый кусковой</p><p><strong>В ФОРМЕ КУБИКОВ</strong></p>
-                                
-                            </div>
-                       
-                    </a>           
-                    <a href="https://gsr.by/product/sahar/sahar-pressovannyj-limon" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                       
-                            <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/174/48TZqUXV2m6fnyB6f13wkLrmM7Vu9ZZACREyFbaP.jpg&#39;)"></div>
-                            <div class="catalog__card-txt">
-                                <h2>Сахар</h2>
-                                <p>прессованный «Элитный» с ароматом и вкусом лимона</p><p><strong>В ФОРМЕ «БРИДЖ»</strong></p>
-                                
-                            </div>
-                       
-                    </a>        
-                    <a href="https://gsr.by/product/sahar/sahar-pressovannyj-myata" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                       
-                            <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/180/jMPIscREgaReYEVTyQpI1nFIJETcYK6LoKoYPo42.jpg&#39;)"></div>
-                            <div class="catalog__card-txt">
-                                <h2>Сахар</h2>
-                                <p>прессованный «Элитный» с ароматом и вкусом мяты</p><p><strong>В ФОРМЕ «БРИДЖ»</strong></p>
-                                
-                            </div>
-                       
-                    </a>        
-                    <a href="https://gsr.by/product/sahar/sahar-pressovannyj-lesnye-yagody" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                       
-                            <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/186/4R1sacBapnivJ7peGJ4XNNPmpsuUA1WGuWAv0YPK.jpg&#39;)"></div>
-                            <div class="catalog__card-txt">
-                                <h2>Сахар</h2>
-                                <p>прессованный «Элитный» с ароматом и вкусом лесных ягод<br></p><p><strong>В ФОРМЕ «БРИДЖ»</strong></p>
-                                
-                            </div>
-                       
-                    </a>        
-                    <a href="https://gsr.by/product/sahar/sahar-belyj-kristallicheskij-porcionnyj" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                       
-                            <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/209/xuyZKH3T2PpfkpWcuMk3X0wNpYTsv3i1bvTJA9GK.jpg&#39;)"></div>
-                            <div class="catalog__card-txt">
-                                <h2>Сахар</h2>
-                                <p>белый кристаллический</p><p><strong>ПОРЦИОННЫЙ&nbsp;&nbsp;</strong></p>
-                                
-                            </div>
-                       
-                    </a>           
-                    <a href="https://gsr.by/product/sahar/sahar-belyj-kristallicheskij-fasovannyj" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                       
-                            <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/213/2uXGY3BtLNeW7rT4rVlFMHJsSZ1LbWSGrgUFhUt9.jpg&#39;)"></div>
-                            <div class="catalog__card-txt">
-                                <h2>Сахар</h2>
-                                <p>белый кристаллический</p><p><strong>ФАСОВАННЫЙ</strong></p>
-                                
-                            </div>
-                       
-                    </a>          
-                    <a href="https://gsr.by/product/sahar/pudra" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                       
-                            <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/220/SjzqR3c3eFyvVVLBBECk6ar5oKhTO2Y6s1UGfRw4.jpg&#39;)"></div>
-                            <div class="catalog__card-txt">
-                                <h2>Пудра</h2>
-                                <p>сахарная «Городейская»</p>
-                                
-                            </div>
-                       
-                    </a>
-                    <a href="https://gsr.by/product/sahar/pudra-s-koricej" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                        <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/223/4TvSNDzH7AZuEtZULnR5fSupwYoNN9e5u6KQf4gN.jpg&#39;)"></div>
-                        <div class="catalog__card-txt">
-                            <h2>Пудра</h2>
-                            <p>сахарная «Городейская» с корицей</p>
-                            
-                        </div>   
-                    </a>        
-                    <a href="https://gsr.by/product/sahar/pudra-s-vanilyu" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                    
-                            <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/226/prJYtp3D1tMMSwdVgI5BQdjCsvv4uGrQWrLz4Din.jpg&#39;)"></div>
-                            <div class="catalog__card-txt">
-                                <h2>Пудра</h2>
-                                <p>сахарная «Городейская» с ванилью<br></p>
-                                
-                            </div>
-                    
-                    </a>              
-                    <a href="https://gsr.by/product/sahar/sahar-ledencovyj-48-gramm" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                    
-                            <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/230/fuPPpIbAWF0YxJaxnTANdiDwNI6SYA1xtwEgoSZg.jpg&#39;)"></div>
-                            <div class="catalog__card-txt">
-                                <h2>Сахар</h2>
-                                <p>белый кристаллический «Леденцовый»</p><p><strong>НА ПАЛОЧКЕ</strong><br></p>
-                                
-                            </div>
-                    
-                    </a>          
-                    <a href="https://gsr.by/product/sahar/sahar-trostnikovyj" class="catalog__card aos-init aos-animate" data-aos="fade-up" data-aos-offset="150">
-                    
-                            <div class="catalog__card-img" style="background-image: url(&#39;https://gsr.by/media/237/Ye2TQY8NLr4XHDNiOt6hv7tL9imET5LD6HLdHtRr.jpg&#39;)"></div>
-                            <div class="catalog__card-txt">
-                                <h2>Сахар</h2>
-                                <p>тростниковый<br></p><p><strong>В ФОРМЕ КУБИКОВ</strong></p>
-                                
-                            </div>
-                    
-                    </a>-->
-            </div>
-
+                   <input type="submit" value="Войти">
+               </form>
+           </div>
+            
         </div>
-    </div>
-
-            <div class="catalog__pagination aos-init aos-animate" data-aos="fade-in" data-aos-offset="80">
-            <!--<div class="pagination">
-
-                <ul class="list-inline">
-                    <li><a href="https://gsr.by/products/sahar#" class="active">1</a></li>
-                    <li><a href="https://gsr.by/products/sahar?page=2">2</a></li>
-                    <li class="last"><a href="https://gsr.by/products/sahar?page=2"><i class="fal fa-angle-right"></i></a></li>
-                </ul>
-            </div>-->
-        </div>
-    
 </div>
 
 
@@ -833,22 +668,7 @@
   </div>
 </div>
 
-    <!--<div class="cookie-wrapper">
-    <div class="cookie">
-    <div class="cookie-close"><img src="https://gsr.by/assets/images/src/close.svg" alt=""></div>
-        <div class="cookie-wrap">
-            <div>
-                <p> </p><p>С целью улучшения работы сайта используются файлы «cookies» (файлы с данными о прошлых посещениях сайта). 
-Продолжая использовать данный сайт и нажимая на кнопку «Принять», я подтверждаю, что я ознакомлен(а) с <a href="https://gsr.by/privacy.pdf" target="_blank">Политикой обработки персональных данных</a>  и согласен(на) на обработку моих персональных данных на изложенных в <a href="https://gsr.by/file/%D0%A1%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%B8%D0%B5_%D0%BD%D0%B0_%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D1%83_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82_%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%BE%D0%B2_1647411725.pdf" target="_blank">Согласии на обработку персональных данных</a> условиях.</p><p></p>
-            </div>
-            <div class="cookie-wrap__accept">
-              Принять
-            </div>
-        </div>
-    </div>-->
 </div>
-
-    
 
 <div class="betternet-wrapper"></div><g-ext-in></g-ext-in>
 
