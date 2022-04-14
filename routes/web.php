@@ -23,3 +23,8 @@ Route::post('/register', [RegistrationController::class, 'store'])->name('regist
 Route::get('/signin', [AuthController::class, 'index'])->name('signin.index'); // Роут страницы авторизации
 Route::post('/signin', [AuthController::class, 'login'])->name('signin.store'); // Роут авторизации
 
+Route::middleware(['auth', 'prevent-back-history'])->prefix('admin')->group(function(){
+    Route::get('/orders', [AdminController::class, 'index'])->name('admin.index');
+    /*Route::get('/appointment/procedures/{id}', [AppointmentController::class, 'getProcedures'])->name('procedures_modal');
+    Route::get('/logout', [AuthController::class, 'logout'])->name('logout');*/
+});
