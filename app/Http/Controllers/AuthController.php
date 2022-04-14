@@ -28,6 +28,13 @@ class AuthController extends Controller
 
         Auth::attempt(['email' => $request->input('email'), 'password' => $request->input('password')]);
 
-        //return redirect()->route('admin.index');
+        return redirect()->route('cabinet.index');
+    }
+
+    public function logout(){
+        Auth::logout();
+        Session::flush();
+
+        return redirect()->route('signin.index');
     }
 }

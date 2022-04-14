@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GoodController;
 use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CabinetController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,8 +24,8 @@ Route::post('/register', [RegistrationController::class, 'store'])->name('regist
 Route::get('/signin', [AuthController::class, 'index'])->name('signin.index'); // Роут страницы авторизации
 Route::post('/signin', [AuthController::class, 'login'])->name('signin.store'); // Роут авторизации
 
-Route::middleware(['auth', 'prevent-back-history'])->prefix('admin')->group(function(){
-    Route::get('/orders', [AdminController::class, 'index'])->name('admin.index');
-    /*Route::get('/appointment/procedures/{id}', [AppointmentController::class, 'getProcedures'])->name('procedures_modal');
-    Route::get('/logout', [AuthController::class, 'logout'])->name('logout');*/
+Route::middleware('auth')->prefix('cabinet')->group(function(){
+    Route::get('/orders', [CabinetController::class, 'index'])->name('cabinet.index');
+    /*Route::get('/appointment/procedures/{id}', [AppointmentController::class, 'getProcedures'])->name('procedures_modal');*/
+    Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 });
