@@ -22,8 +22,8 @@
         <!-- 	<link rel="stylesheet" href="css/special.min.css"> -->
         <link rel="stylesheet" href="{{ asset('css/slabo.css') }}">
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
-
+        <script src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
+        <script src="{{ asset('js/main.js') }}"></script>
 
 	<script type="text/javascript" async="" src="./sahar-bridzh_files/recaptcha__ru.js.Без названия" crossorigin="anonymous" integrity="sha384-bhweElfCaT7QyBBjvUjgDsUNCuGhjvi7tYFewuZa4O+JW4YpMBHF70wUxglDM6rc"></script><style type="text/css" data-ymaps="css-modules">.ymaps-2-1-79-copyright{position:relative;z-index:1;display:block;height:20px;top:-25px;float:right;margin-right:3px;margin-left:10px}.ymaps-2-1-79-copyright_float_left{float:left}.ymaps-2-1-79-copyright_fog_yes{float:none}.ymaps-2-1-79-copyright__wrap{display:block;overflow:hidden}.ymaps-2-1-79-copyright__layout{position:relative;z-index:1;top:1px;display:table;float:right}.ymaps-2-1-79-copyright__content-cell,.ymaps-2-1-79-copyright__logo-cell{display:table-cell;vertical-align:top}.ymaps-2-1-79-copyright__logo-cell{padding-left:4px}.ymaps-2-1-79-copyright__content-cell{height:20px}.ymaps-2-1-79-copyright__content{display:inline-block;float:right;padding:0 4px 1px;white-space:nowrap;border-radius:3px;background-color:rgba(255,255,255,.75);font:11px/14px Verdana,Arial,sans-serif}.ymaps-2-1-79-copyright_fog_yes .ymaps-2-1-79-copyright__content{background-color:transparent}.ymaps-2-1-79-copyright_fog_yes .ymaps-2-1-79-copyright__wrap{margin-left:17px}.ymaps-2-1-79-copyright_fog_yes:after{position:absolute;z-index:-1;top:1px;right:50px;left:17px;height:15px;content:'';border-radius:0 3px 3px 0;background-color:rgba(255,255,255,.75)}.ymaps-2-1-79-copyright_logo_no.ymaps-2-1-79-copyright_fog_yes:after{right:0}.ymaps-2-1-79-copyright_logo_no .ymaps-2-1-79-copyright__logo-cell,.ymaps-2-1-79-copyright_providers_no .ymaps-2-1-79-copyright__text,.ymaps-2-1-79-copyright_ua_no .ymaps-2-1-79-copyright__agreement,.ymaps-2-1-79-copyright_ua_no.ymaps-2-1-79-copyright_providers_no .ymaps-2-1-79-copyright__content-cell{display:none}.ymaps-2-1-79-copyright__fog{position:absolute;z-index:2;top:1px;left:0;display:none;width:12px;height:15px;padding-left:5px;border-radius:3px 0 0 3px;background:rgba(255,255,255,.75);font:11px/14px Verdana,Arial,sans-serif}.ymaps-2-1-79-copyright_fog_yes .ymaps-2-1-79-copyright__fog{display:block}.ymaps-2-1-79-copyright__extend{margin-left:.4em}.ymaps-2-1-79-copyright__link{text-decoration:underline!important;color:#000!important}.ymaps-2-1-79-copyright__link:hover{color:#c00!important}
 /**/
@@ -468,7 +468,7 @@
                     <div style="display: flex">
                         @for($i = 0; $i < 2; $i++)
                             <div class="image_block">
-                                <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px">
+                                @if(isset($good['images'][$i])) <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px"> @endif
                             </div>
                         @endfor
                     </div>
@@ -476,7 +476,7 @@
                     <div style="display: flex">
                         @for($i = 2; $i < 4; $i++)
                             <div class="image_block">
-                                <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px">
+                                @if(isset($good['images'][$i])) <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px"> @endif
                             </div>
                         @endfor
                     </div>
@@ -485,7 +485,7 @@
                         @for($i = 4; $i < 6; $i++)
                             @if(isset($good['images'][$i]))
                                 <div class="image_block">
-                                    <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px">
+                                    @if(isset($good['images'][$i])) <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px"> @endif
                                 </div>
                             @endif
                         @endfor
@@ -547,7 +547,8 @@
                             <p><strong>{{ $good['forma'] }}</strong></p>
                         </div>
                         <div class="card-description">
-                            <p>{{ $good['description'] }}<br><strong>Пищевая ценность</strong> (в 100 г. продукта): 
+                            <p>{{ $good['description'] }}<br>
+                                <strong>ID блюда:</strong><p id="good_id"> {{ $good['id'] }}</p><strong>Пищевая ценность</strong> (в 100 г. продукта): 
                             {{ $good['nutritional_value'] }}
                             </p>
                             <p><strong></strong><strong>Энергетическая ценность</strong> (в 100 г. продукта): {{ $good['energy_value'] }}</p>
@@ -608,10 +609,16 @@
                                     </tr>
                                 </tbody>
                             </table>
+                            <p>
+                                @guest Для оформления заказа необходимо войти в аккаунт @endguest
+                            </p>
                             </div>
                         </div>
                     </div>
                 </div>
+                @auth 
+                    <button id="make_order_btn" type="button" class="btn btn-primary">Оформить заказ</button>
+                @endauth
             </div>
         </div>
      </div>

@@ -30,4 +30,8 @@ class GoodController extends Controller
         
         return view('good')->with('good', $good);
     }
+
+    public function goodForOrder(Request $request){
+        dd($request->all());
+    }
 }

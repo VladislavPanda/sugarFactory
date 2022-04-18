@@ -17,7 +17,7 @@ use App\Http\Controllers\CabinetController;
 |
 */
 
-Route::get('/', [GoodController::class, 'index']);
+Route::get('/', [GoodController::class, 'index'])->name('welcome');
 Route::get('/goods/{good}', [GoodController::class, 'show'])->name('goods.show'); // Роут страницы карточки товара
 Route::get('/register', [RegistrationController::class, 'index'])->name('register.index'); // Роут страницы регистрации
 Route::post('/register', [RegistrationController::class, 'store'])->name('register.store'); // Роут регистрации
