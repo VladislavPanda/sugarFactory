@@ -4,8 +4,8 @@
 		<!-- Required meta tags -->
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="csrf-token" content="W89ZIaMJDQCVTitioYvP0LSSFBqL9plZCj591n2d">
-	 <title></title>
+		<meta name="csrf-token" content="{{ csrf_token() }}">
+	    <title></title>
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 		<link rel="shortcut icon" href="https://gsr.by/assets/images/src/favicon-gsr.jpg" type="image/x-icon">
@@ -101,94 +101,44 @@
 </style></head>
 	<body data-aos-easing="ease" data-aos-duration="500" data-aos-delay="0"><div class="access"><dl class="a-fontsize"><dt>Размер шрифта:</dt><dd><a href="https://gsr.by/product/sahar/sahar-bridzh#" rel="fontsize-small" class="a-fontsize-small">А</a></dd><dd><a rel="fontsize-normal" href="https://gsr.by/product/sahar/sahar-bridzh#" class="a-fontsize-normal">А</a></dd><dd><a href="https://gsr.by/product/sahar/sahar-bridzh#" rel="fontsize-big" class="a-fontsize-big">А</a></dd></dl><dl class="a-colors"><dt>Цвет:</dt><dd><a href="https://gsr.by/product/sahar/sahar-bridzh#" rel="color1" class="a-color1"><i class="fa fa-eye" aria-hidden="true"></i></a></dd><dd><a href="https://gsr.by/product/sahar/sahar-bridzh#" rel="color2" class="a-color2"><i class="fa fa-eye" aria-hidden="true"></i></a></dd></dl><dl class="a-images"><dt>Изображения</dt><dd><a rel="imagesoff" href="https://gsr.by/product/sahar/sahar-bridzh#" class="a-imagesoff"><span class="icon-off">выкл</span><span class="icon-on">вкл</span><span class="image-bar"></span></a></dd></dl><div class="access-up"></div><div class="popped"><div class="h2">Настройки шрифта:</div><p class="choose-font-family">Выберите шрифт <a class="font-family" id="sans-serif" rel="sans-serif" href="https://gsr.by/product/sahar/sahar-bridzh#">Arial</a><a class="font-family" rel="serif" id="serif" href="https://gsr.by/product/sahar/sahar-bridzh#">Times New Roman</a></p><p class="choose-letter-spacing">Интервал между буквами <span>(Кернинг)</span>: <a class="letter-spacing" id="spacing-small" rel="spacing-small" href="https://gsr.by/product/sahar/sahar-bridzh#">Стандартный</a><a rel="spacing-normal" class="letter-spacing" id="spacing-normal" href="https://gsr.by/product/sahar/sahar-bridzh#">Средний</a><a rel="spacing-big" class="letter-spacing" id="spacing-big" href="https://gsr.by/product/sahar/sahar-bridzh#">Большой</a></p><div class="h2">Выбор цветовой схемы:</div><ul class="choose-colors"><li id="color1"><a rel="color1" href="https://gsr.by/product/sahar/sahar-bridzh#"><span>—</span>Черным по белому</a></li><li id="color2"><a rel="color2" href="https://gsr.by/product/sahar/sahar-bridzh#"><span>—</span>Белым по черному</a></li><li id="color3"><a rel="color3" href="https://gsr.by/product/sahar/sahar-bridzh#"><span>—</span>Темно-синим по голубому</a></li><li id="color4"><a rel="color4" href="https://gsr.by/product/sahar/sahar-bridzh#"><span>—</span>Коричневым по бежевому</a></li><li id="color5"><a rel="color5" href="https://gsr.by/product/sahar/sahar-bridzh#"><span>—</span>Зеленым по темно-коричневому</a></li></ul><p class="saveit"><a class="closepopped" href="https://gsr.by/product/sahar/sahar-bridzh#"><span>Закрыть панель</span></a><a class="default" href="https://gsr.by/product/sahar/sahar-bridzh#"><span>Вернуть стандартные настройки</span></a></p></div></div>
     		<header class="header header-hiden header-fixed">
-    <div class="row">
-        <div class="col-3 col-xl-3 header-logo-wrap">
-            <div class="header-logo logo-fixed">
-                <a href="https://gsr.by/">
-                    <img src="./sahar-bridzh_files/logo.png" alt="">
-                    <p>Городейский <br> сахарный <br> комбинат</p>
-                </a>
-
-            </div>
-        </div>
-        <!--<div class="col-4 col-xl-6 d-none d-xl-block header-wrap-menu">
-            <div class="row">
-                <div class="col-12">
-                    <ul class="header__top-menu li-group li-style">
-                        <li><a href="https://gsr.by/partners">Партнерам</a></li>
-                        <li><a href="https://gsr.by/stolbcovskij-filial">Столбцовский филиал</a></li>
-                        <li><a href="https://gsr.by/entertainment/restoran-traktir-dlya-druzej">Ресторан</a></li>
-                        <li><a href="https://gsr.by/entertainment/rc-bumerang">Боулинг</a></li>
-                        <li><a href="http://hotel.gsr.by/" target="_blank">Гостиница<span><img src="./sahar-bridzh_files/exit-target.svg" alt=""></span></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <ul class="header__main-menu li-group">
-                        <li><a href="https://gsr.by/about">Предприятие</a></li>
-
-                        <li><a href="https://gsr.by/products">Продукция</a></li>
-                        <li><a href="https://gsr.by/information/news">Новости</a></li>
-                        <li><a href="https://gsr.by/contacts">Контакты</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>-->
-        <!--<div class="col-9 col-xl-3 header-wrap-btn">
-            <div class="header__group-buttons">
-                <a href="https://gsr.by/product/sahar/sahar-bridzh" id="search" class="searh-btn">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="36" viewBox="0 0 35 36">
-                        <image id="search_3_" data-name="search (3)" width="35" height="36" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAkCAYAAAAD3IPhAAAABHNCSVQICAgIfAhkiAAAA5lJREFUWEftl0loVEEQhvPck2hwTUQJehEXRCQuFxWiJMRcPGgUXEDMQRJwAUHEg4joRb0oCAZcohFUUMT1oBhFBY0rQfCiggcFjShuccEtfn9SEybjvNc9MyEq2PDTM/O6/vq7XnV1TdDS0pL1t4zgnxcTBMFoopkPFNaXbOhhZ0TXOzII2ITDMjAFfAQ/TEB35hxwG1xA2MZ0hTnFIGIz5CtBN3P6gTnXxATMwifQz+avzLsRtSFVUaFiECHnJ0Ax6GVODzAfBo04k6gs1uUxTQSLQKWJ/MJcDxaw7qevqKRiTMhVSCYB7fQIqIY48uhhp1dWA+aD3uAGKPEVFCbmJCTKD41tqeaB5ddai+Y57Ct8ovObGIi2YLjCiHakKiTm1ASt5ruiucsnh5KJeYuxcqQOgiqfHYWtQdBeni0GzXANcXF1EGO7WYNRD5DjyhEneVsOKZk/gyr4lPyhI1HMTVYqafdgWO1y5vOcDe5h3TLQAOf0VMToGL4DczC85uPMtQYxM1mjEtEXzp5eYjAaw8JboA8YFKsjLmeu5/AOYM1zoBJRBO/jMJv214TRDBadBtkYSFCnDbi/QaYrpAxupULSES9mGivOAiWuClanDcR8h6wZlMKtO8wpZhQr7gId66EY6YhnPBAyGJKnQIImwPvEKUYLLJzaQQVGulsyHnCWQ6Ij7Xz9iUf7CkY6fgcRo0sv44GYQ5Co8NXDWRpFmChGd8g+oHYgF2MVq7QHQtTnKHFVLpbCd8pbjL2qZ8wq3ccwXpK2krbXrtt+HmiCq9DFlexuUke3ygxrIFnvIkn2HCFb+X25PSuHp8HFE9ZC1GE4F6giq2tb5yKKf25CdMmqQTuOva4D54jq9PR+ZwEdyYug0lWVreurNbv+zMqVnb5tSGQPDPl+i5B6Xo0z4Ci4B5rstwLmyWAhmG3RUNI+AuOB+pntPoJ8GnI5UiKqeGm374Ga8NiVoRZBDtULq1C+ADrKjeA8iN3UhQh6ZRtIOjnFxKyIUgmf1VYUA0VK942GKrZehxzX4vBSnI1yRrVrKtDnvKhy4S0mfisIU4QG2m+vcSAxyXcbBIrgZVBkwiWo9Z9F4khLTJjjCEHZPNNtPdbW5CPozR8RI6dEU1X9OhgH9KdPOdThMu6SyMTlkBqtO2AE0IkbGR+hLhVjEVK+3QfDga6JYe1i+ZJqCmS83lrRBxAV4F//IFpHl0cmaif/xYRF5xch0ZvIlDdPtwAAAABJRU5ErkJggg=="></image>
-                    </svg>
-
-                </a>
-                <a href="https://gsr.by/product/sahar/sahar-bridzh" id="sv_button" class="version-blind">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 472.615 472.615" xml:space="preserve">
-                                                <g>
-                                                    <g>
-                                                        <path d="M472.615,205.774h-25.344c-12.797-37.99-48.686-65.462-90.935-65.462c-43.224,0-79.837,28.73-91.823,68.087
-                                                            c-7.582-5.011-17.305-8.115-28.211-8.115c-10.903,0-20.624,3.103-28.207,8.114c-11.989-39.357-48.608-68.085-91.831-68.085
-                                                            c-42.249,0-78.135,27.472-90.93,65.462H0v19.692h20.925c-0.403,3.565-0.656,7.175-0.656,10.846
-                                                            c0,52.933,43.063,95.99,95.995,95.99s96-43.058,96-95.99c0-0.552-0.073-1.085-0.083-1.635h0.069
-                                                            c0-6.952,9.88-14.702,24.053-14.702c14.178,0,24.053,7.75,24.053,14.702h0.073c-0.01,0.549-0.083,1.083-0.083,1.635
-                                                            c0,52.933,43.058,95.99,95.99,95.99s96-43.058,96-95.99c0-3.671-0.253-7.281-0.656-10.846h20.935V205.774z M116.264,312.611
-                                                            c-42.072,0-76.303-34.231-76.303-76.298c0-42.077,34.231-76.308,76.303-76.308c42.077,0,76.308,34.231,76.308,76.308
-                                                            C192.572,278.38,158.341,312.611,116.264,312.611z M356.337,312.611c-42.067,0-76.298-34.231-76.298-76.298
-                                                            c0-42.077,34.231-76.308,76.298-76.308c42.077,0,76.308,34.231,76.308,76.308C432.644,278.38,398.413,312.611,356.337,312.611z"></path>
-                                                    </g>
-                                                </g>
-
-                    </svg>
-
-
-                </a>
-                <div class="lang" id="lang">
-                                            <a href="https://gsr.by/product/sahar/sahar-bridzh" class="lang-current">RU</a>
-                                        <div class="langs-dropdown">
-
-                                                <a href="https://gsr.by/setlocale/ru" style="display:none">RU</a>
-                                                                            <a href="https://gsr.by/setlocale/by">BY</a>
-                                                                            <a href="https://gsr.by/setlocale/en">EN</a>
-                                                                            <a href="https://gsr.by/setlocale/ar">AR</a>
-                                            </div>
-
-                </div>
-                <div class="toggle-menu toggle-fixed">
-                    <div class="toggle-menu-wrap">
-                        <div class="header__toggle-element">
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                <div class="row">
+                    <div class="col-3 col-xl-3 header-logo-wrap">
+                        <div class="header-logo logo-fixed">
+                            <a href="http://sugarfactory">
+                                <img src="./sahar_files/logo.png" alt="">
+                                <p>Городейский <br> сахарный <br> комбинат</p>
+                            </a>
+            
                         </div>
                     </div>
-
-                </div>
-
-
-            </div>
-        </div>-->
-    </div>
+                    <div class="col-2 col-xl-6 d-none d-xl-block header-wrap-menu">
+                        <div class="row">
+                            <div class="col-8"></div>
+                            <div class="col-4">
+                                <ul class="header__top-menu li-group li-style">
+                                    <!--<li><a href="https://gsr.by/partners">Партнерам</a></li>
+                                    <li><a href="https://gsr.by/stolbcovskij-filial">Столбцовский филиал</a></li>
+                                    <li><a href="https://gsr.by/entertainment/restoran-traktir-dlya-druzej">Ресторан</a></li>
+                                    <li><a href="https://gsr.by/entertainment/rc-bumerang">Регистрация</a></li>
+                                    <li><a href="https://gsr.by/entertainment/rc-bumerang">Войти в личный кабинет</a></li>
+                                    <li><a href="http://hotel.gsr.by/" target="_blank">Гостиница<span><img src="./sahar_files/exit-target.svg" alt=""></span></a></li>-->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 col-xl-2">
+                        <ul class="header__top-menu li-group li-style">
+                            <li><a href="https://gsr.by/partners">Партнерам</a></li>
+                            @auth 
+                                <li><a href="{{ route('cabinet.index') }}">Личный кабинет</a></li> 
+                            @endauth
+            
+                            @guest 
+                                <li><a href="{{ route('signin.index') }}">Войти</a></li>
+                                <li><a href="{{ route('register.index') }}">Регистрация</a></li>
+                            @endguest
+                        </ul>
+                    </div>
 </header>
 <div class="section-menu">
     <div class="section-menu-wrap">
@@ -215,61 +165,6 @@
                 </div>
             </div>
             <div class="col-9 col-xl-3 header-wrap-btn">
-                <!--<div class="header__group-buttons">
-                    <a href="https://gsr.by/product/sahar/sahar-bridzh" id="search" class="searh-btn">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="36" viewBox="0 0 35 36">
-                            <image id="search_3_" data-name="search (3)" width="35" height="36" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAkCAYAAAAD3IPhAAAABHNCSVQICAgIfAhkiAAAA5lJREFUWEftl0loVEEQhvPck2hwTUQJehEXRCQuFxWiJMRcPGgUXEDMQRJwAUHEg4joRb0oCAZcohFUUMT1oBhFBY0rQfCiggcFjShuccEtfn9SEybjvNc9MyEq2PDTM/O6/vq7XnV1TdDS0pL1t4zgnxcTBMFoopkPFNaXbOhhZ0TXOzII2ITDMjAFfAQ/TEB35hxwG1xA2MZ0hTnFIGIz5CtBN3P6gTnXxATMwifQz+avzLsRtSFVUaFiECHnJ0Ax6GVODzAfBo04k6gs1uUxTQSLQKWJ/MJcDxaw7qevqKRiTMhVSCYB7fQIqIY48uhhp1dWA+aD3uAGKPEVFCbmJCTKD41tqeaB5ddai+Y57Ct8ovObGIi2YLjCiHakKiTm1ASt5ruiucsnh5KJeYuxcqQOgiqfHYWtQdBeni0GzXANcXF1EGO7WYNRD5DjyhEneVsOKZk/gyr4lPyhI1HMTVYqafdgWO1y5vOcDe5h3TLQAOf0VMToGL4DczC85uPMtQYxM1mjEtEXzp5eYjAaw8JboA8YFKsjLmeu5/AOYM1zoBJRBO/jMJv214TRDBadBtkYSFCnDbi/QaYrpAxupULSES9mGivOAiWuClanDcR8h6wZlMKtO8wpZhQr7gId66EY6YhnPBAyGJKnQIImwPvEKUYLLJzaQQVGulsyHnCWQ6Ij7Xz9iUf7CkY6fgcRo0sv44GYQ5Co8NXDWRpFmChGd8g+oHYgF2MVq7QHQtTnKHFVLpbCd8pbjL2qZ8wq3ccwXpK2krbXrtt+HmiCq9DFlexuUke3ygxrIFnvIkn2HCFb+X25PSuHp8HFE9ZC1GE4F6giq2tb5yKKf25CdMmqQTuOva4D54jq9PR+ZwEdyYug0lWVreurNbv+zMqVnb5tSGQPDPl+i5B6Xo0z4Ci4B5rstwLmyWAhmG3RUNI+AuOB+pntPoJ8GnI5UiKqeGm374Ga8NiVoRZBDtULq1C+ADrKjeA8iN3UhQh6ZRtIOjnFxKyIUgmf1VYUA0VK942GKrZehxzX4vBSnI1yRrVrKtDnvKhy4S0mfisIU4QG2m+vcSAxyXcbBIrgZVBkwiWo9Z9F4khLTJjjCEHZPNNtPdbW5CPozR8RI6dEU1X9OhgH9KdPOdThMu6SyMTlkBqtO2AE0IkbGR+hLhVjEVK+3QfDga6JYe1i+ZJqCmS83lrRBxAV4F//IFpHl0cmaif/xYRF5xch0ZvIlDdPtwAAAABJRU5ErkJggg=="></image>
-                        </svg>
-
-                    </a>
-                    <a href="https://gsr.by/product/sahar/sahar-bridzh" id="sv_button" class="version-blind">
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 472.615 472.615" xml:space="preserve">
-                    <g>
-                    <g>
-                        <path d="M472.615,205.774h-25.344c-12.797-37.99-48.686-65.462-90.935-65.462c-43.224,0-79.837,28.73-91.823,68.087
-                            c-7.582-5.011-17.305-8.115-28.211-8.115c-10.903,0-20.624,3.103-28.207,8.114c-11.989-39.357-48.608-68.085-91.831-68.085
-                            c-42.249,0-78.135,27.472-90.93,65.462H0v19.692h20.925c-0.403,3.565-0.656,7.175-0.656,10.846
-                            c0,52.933,43.063,95.99,95.995,95.99s96-43.058,96-95.99c0-0.552-0.073-1.085-0.083-1.635h0.069
-                            c0-6.952,9.88-14.702,24.053-14.702c14.178,0,24.053,7.75,24.053,14.702h0.073c-0.01,0.549-0.083,1.083-0.083,1.635
-                            c0,52.933,43.058,95.99,95.99,95.99s96-43.058,96-95.99c0-3.671-0.253-7.281-0.656-10.846h20.935V205.774z M116.264,312.611
-                            c-42.072,0-76.303-34.231-76.303-76.298c0-42.077,34.231-76.308,76.303-76.308c42.077,0,76.308,34.231,76.308,76.308
-                            C192.572,278.38,158.341,312.611,116.264,312.611z M356.337,312.611c-42.067,0-76.298-34.231-76.298-76.298
-                            c0-42.077,34.231-76.308,76.298-76.308c42.077,0,76.308,34.231,76.308,76.308C432.644,278.38,398.413,312.611,356.337,312.611z"></path>
-                    </g>
-                    </g>
-
-                    </svg>
-
-
-                    </a>
-                                    <div class="lang" id="lang">
-                                            <a href="https://gsr.by/product/sahar/sahar-bridzh" class="lang-current">RU</a>
-                                        <div class="langs-dropdown">
-
-                                                <a href="https://gsr.by/setlocale/ru" style="display:none">RU</a>
-                                                                            <a href="https://gsr.by/setlocale/by">BY</a>
-                                                                            <a href="https://gsr.by/setlocale/en">EN</a>
-                                                                            <a href="https://gsr.by/setlocale/ar">AR</a>
-                                            </div>
-
-                    </div>
-                        <div class="toggle-menu toggle-closed">
-                            <div class="toggle-menu-wrap">
-                                 							<div class="header__toggle-element">
-                                                                <span></span>
-                                                                <span></span>
-                                                                <span></span>
-                                                            </div>
-                                <div class="header__toggle-element-open">
-                                    <span></span>
-                                    <span></span>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                </div>-->
             </div>
         </div>
         <div class="menu-wrap">
@@ -555,7 +450,7 @@
                             <p><strong>Срок годности:</strong> с даты упаковки {{ $good['shelf_life'] }}</p>
                         </div>
                         <hr>
-                        <div class="card-char">
+                        <!--<div class="card-char">
                             <table>
                             <tbody>
                                 <tr>
@@ -582,40 +477,43 @@
                                 </tr>
                             </tbody>
                             </table>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
                 <div class="card-variable">
                     <h3>Варианты упаковки</h3>
-                    <div class="card-variable-item">
-                        <div class="v-img">
-                            <img src="./sahar-bridzh_files/MdqJtSzUwr68NXd0tWjIwTvfgSqvkGzFAGVnPzRd.jpg" alt="">
-                        </div>
-                        <div class="v-properties">
-                            <div class="v-properties-wrap">
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td>Вес</td>
-                                        <td>0,5 кг.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Форма</td>
-                                        <td>Картонная коробка</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Групповая упаковка</td>
-                                        <td>по 12 коробок в гофроящик (6 кг.)</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <p>
-                                @guest Для оформления заказа необходимо войти в аккаунт @endguest
-                            </p>
+                    @foreach($good['packs'] as $key => $value)
+                        <div class="card-variable-item">
+                            <div class="v-img">
+                                <img src="{{ $value['photo'] }}" alt="">
                             </div>
-                        </div>
-                    </div>
+                            <div class="v-properties">
+                                <div class="v-properties-wrap">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>Вес</td>
+                                            <td>{{ $value['weight'] }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Форма</td>
+                                            <td>{{ $value['forma'] }}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Групповая упаковка</td>
+                                            <td>{{ $value['group'] }}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+                            </div>
+                        </div>  
+                    @endforeach
                 </div>
+                <p>
+                    @guest Для оформления заказа необходимо войти в аккаунт @endguest
+                </p>
+
                 @auth 
                     <button id="make_order_btn" type="button" class="btn btn-primary">Оформить заказ</button>
                 @endauth

@@ -23,6 +23,7 @@ Route::get('/register', [RegistrationController::class, 'index'])->name('registe
 Route::post('/register', [RegistrationController::class, 'store'])->name('register.store'); // Роут регистрации
 Route::get('/signin', [AuthController::class, 'index'])->name('signin.index'); // Роут страницы авторизации
 Route::post('/signin', [AuthController::class, 'login'])->name('signin.store'); // Роут авторизации
+Route::post('/goodForOrder', [GoodController::class, 'goodForOrder'])->name('goods.goodForOrder'); // Роут получения товара для заказа
 
 Route::middleware('auth')->prefix('cabinet')->group(function(){
     Route::get('/orders', [CabinetController::class, 'index'])->name('cabinet.index');

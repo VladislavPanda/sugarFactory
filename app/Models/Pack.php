@@ -12,4 +12,8 @@ class Pack extends Model
 
     protected $table = 'packs';
     protected $guarded = [];
+
+    public function good(){
+        return $this->belongsTo(Good::class, 'good_id', 'id');
+    }
 }

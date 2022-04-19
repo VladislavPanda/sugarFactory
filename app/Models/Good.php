@@ -12,4 +12,8 @@ class Good extends Model
 
     protected $table = 'goods';
     protected $guarded = [];
+
+    public function packs(){
+        return $this->hasMany(Pack::class, 'good_id', 'id');
+    }
 }

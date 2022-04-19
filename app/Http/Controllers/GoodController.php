@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\View;
 use App\Models\Good;
+use App\Models\Pack;
 use App\Services\GoodsService;
 
 class GoodController extends Controller
@@ -25,13 +26,21 @@ class GoodController extends Controller
     }
 
     public function show($id){
-        $good = Good::find($id)->toArray();
+        $goodObj = Good::find($id);
+        $good = $goodObj->toArray();
         $good['images'] = json_decode($good['images'], true);
+        $packs = $goodObj->packs->toArray();
+        $good['packs'] = $packs;
         
         return view('good')->with('good', $good);
     }
 
     public function goodForOrder(Request $request){
-        dd($request->all());
+        $goodId = $request->input('good_id');
+
+        //$good = Good::find($goodId);
+        $packs = Good::with('packs')->find($goodId)->packs;
+
+        return $packs;
     }
 }
