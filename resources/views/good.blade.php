@@ -526,6 +526,8 @@
       <div class="object">
         <form action="{{ route('order.store') }}" method="post">
           @csrf
+          <p>ID товара: </p>
+          <input type="number" name="good_id" id="good_id" value="{{ $good['id'] }}" readonly="readonly">
           <p>Количество: </p>
           <p><input type="number" name="quantity" min="1" id="quantity" required></p>
           <select name="pack" id="packs">

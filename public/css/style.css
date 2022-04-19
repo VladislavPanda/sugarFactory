@@ -6284,8 +6284,8 @@ textarea {
   /* Ещё немного стилей для popup окна */
   
   .object{
-    width: 500px;
-    height: 250px;
+    width: 560px;
+    height: 350px;
     background-color: #eee;
     padding: 50px 70px;
   }
