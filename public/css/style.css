@@ -6188,3 +6188,105 @@ button[disabled]{
     margin-bottom: 10px;
 }
 
+/**/
+
+
+textarea {
+    width: 100%;
+    resize: none;
+  }
+  
+  /* Ставим кнопку по центру */
+  
+  .content {
+    text-align: center;
+  }
+  
+  /* Стили для нашей кнопки */
+  
+  button {
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+  }
+  
+  button:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+  }
+  
+  button:focus {
+    outline: none !important
+  }
+  
+  /* Стили для содержимого popup окна */
+  
+  input, textarea {
+    color: #494949;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    background: #fff;
+    font-size: 14px;
+    margin: 0 0 10px;
+    padding: 5px;
+    width: 100%;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  input:focus {
+    border-color: #808080;
+    outline: none;
+  }
+  
+  textarea:focus {
+    border-color: #808080;
+    outline: none;
+  }
+  
+  /* Кнопка */
+  
+  .blue_btn {
+    background-color: #55acee;
+    box-shadow: 0px 5px 0px 0px #3C93D5;
+  }
+  
+  /* Окно */
+  
+  .overlay_popup {
+    display:none;
+    position:fixed;
+    z-index: 999;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    background:#000;
+    opacity:0.5;
+  }
+  
+  .popup {
+    display: none;
+    position: relative;
+    z-index: 1000;
+    margin:-40% 10% 20% 35%;
+    width: 50%;
+  }
+  
+  /* Ещё немного стилей для popup окна */
+  
+  .object{
+    width: 500px;
+    height: 250px;
+    background-color: #eee;
+    padding: 50px 70px;
+  }
+  

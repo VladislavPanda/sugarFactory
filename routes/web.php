@@ -5,6 +5,7 @@ use App\Http\Controllers\GoodController;
 use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CabinetController;
+use App\Http\Controllers\OrderController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,4 +30,7 @@ Route::middleware('auth')->prefix('cabinet')->group(function(){
     Route::get('/orders', [CabinetController::class, 'index'])->name('cabinet.index');
     /*Route::get('/appointment/procedures/{id}', [AppointmentController::class, 'getProcedures'])->name('procedures_modal');*/
     Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+
+    // Роуты заказа
+    Route::post('/store', [OrderController::class, 'store'])->name('order.store');
 });

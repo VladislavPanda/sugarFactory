@@ -493,15 +493,15 @@
                                     <tbody>
                                         <tr>
                                             <td>Вес</td>
-                                            <td>{{ $value['weight'] }}</td>
+                                            <td class="weight">{{ $value['weight'] }}</td>
                                         </tr>
                                         <tr>
                                             <td>Форма</td>
-                                            <td>{{ $value['forma'] }}</td>
+                                            <td class="forma">{{ $value['forma'] }}</td>
                                         </tr>
                                         <tr>
                                             <td>Групповая упаковка</td>
-                                            <td>{{ $value['group'] }}</td>
+                                            <td class="group">{{ $value['group'] }}</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -515,11 +515,26 @@
                 </p>
 
                 @auth 
-                    <button id="make_order_btn" type="button" class="btn btn-primary">Оформить заказ</button>
+                    <button id="make_order_btn" type="button" class="btn btn-primary" rel="popup1">Оформить заказ</button>
                 @endauth
             </div>
         </div>
      </div>
+
+    <div class="overlay_popup"></div>
+    <div class="popup" id="popup1">
+      <div class="object">
+        <form action="{{ route('order.store') }}" method="post">
+          @csrf
+          <p>Количество: </p>
+          <p><input type="number" name="quantity" min="1" id="quantity" required></p>
+          <select name="pack" id="packs">
+
+          </select> <br>
+          <input type="submit" value="Заказать">
+        </form>
+      </div>
+    </div>
 </div>
 
 
