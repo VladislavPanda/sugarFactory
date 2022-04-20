@@ -35,10 +35,10 @@ class PlatformScreen extends Screen
      *
      * @return string|null
      */
-    public function description(): ?string
+    /*public function description(): ?string
     {
         return 'Welcome to your Orchid application.';
-    }
+    }*/
 
     /**
      * Button commands.

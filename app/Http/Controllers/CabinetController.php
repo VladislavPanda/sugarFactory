@@ -18,10 +18,8 @@ class CabinetController extends Controller
 
     public function index(){
         $orders = [];
+        $orders = $this->ordersService->makeOrdersList('client');
 
-        $this->ordersService->makeOrdersList();
-
-
-        return view('cabinet.orders');
+        return view('cabinet.orders')->with('orders', $orders);
     }
 }

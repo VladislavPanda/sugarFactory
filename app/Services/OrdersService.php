@@ -23,27 +23,34 @@ class OrdersService{
     }
 
     // Сформировать список заказов
-    public function makeOrdersList(){
+    public function makeOrdersList($role){
         $ordersList = [];
         $userId = Auth::user()->id;
 
-        $orders = Order::where('user_id', $userId)->get()->toArray();
+        $orders = Order::where('user_id', $userId)->get()->toArray(); // Получение списка заказов
 
         foreach($orders as $key => $value){
             $ordersList[$key]['id'] = $value['id'];
 
+            // Получение данных о товаре
             $good = Good::select(['title', 'short_description'])->where('id', $value['good_id'])->get();
             $ordersList[$key]['good'] = $good[0]->title . ' ' . $good[0]->short_description;
             
+            // Получение данных об упаковке
             $pack = Pack::select(['weight', 'forma', 'group'])->where('id', $value['pack_id'])->get();
             $ordersList[$key]['pack'] = $pack[0]->weight . ' ' . $pack[0]->forma . ' ' . $pack[0]->group;
         
             $ordersList[$key]['quantity'] = $value['quantity'];
 
             // Обработка даты
-            $ordersList[$key]['date'] = $value['date'];
+            $date = explode('-', $value['date']);
+            $date = $date[2] . '-' . $date[1] . '-' . $date[0];
+
+            // Запись даты и статуса
+            $ordersList[$key]['date'] = $date;
             $ordersList[$key]['status'] = $value['status'];
         }
-        dd($ordersList);
+        
+        return $ordersList;
     }
 }

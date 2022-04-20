@@ -19,7 +19,16 @@
         </tr>
         </thead>
         <tbody>
-            
+          @foreach($orders as $key => $value)
+            <tr>
+              <td>{{ $value['id'] }}</td>
+              <td>{{ $value['good'] }}</td>
+              <td>{{ $value['pack'] }}</td>
+              <td>{{ $value['quantity'] }}</td>
+              <td>{{ $value['date'] }}</td>
+              <td>{{ $value['status'] }}</td>
+            </tr>
+          @endforeach
         </tbody>
         <tfoot>
         </tfoot>
