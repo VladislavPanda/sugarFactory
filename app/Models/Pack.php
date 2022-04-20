@@ -16,4 +16,8 @@ class Pack extends Model
     public function good(){
         return $this->belongsTo(Good::class, 'good_id', 'id');
     }
+
+    public function order(){
+        return $this->belongsTo(Order::class);
+    }
 }

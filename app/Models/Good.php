@@ -16,4 +16,8 @@ class Good extends Model
     public function packs(){
         return $this->hasMany(Pack::class, 'good_id', 'id');
     }
+
+    public function order(){
+        return $this->belongsTo(Order::class);
+    }
 }

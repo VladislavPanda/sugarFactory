@@ -19,6 +19,8 @@ return new class extends Migration
             $table->unsignedBigInteger('good_id')->nullable();
             $table->unsignedBigInteger('pack_id')->nullable();
             $table->integer('quantity')->nullable();
+            $table->date('date')->nullable();
+            $table->string('status')->nullable();
 
             $table->foreign('user_id')->on('users')->references('id');
             $table->foreign('good_id')->on('goods')->references('id');

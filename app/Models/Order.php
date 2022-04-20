@@ -12,4 +12,12 @@ class Order extends Model
 
     protected $table = 'orders';
     protected $guarded = [];
+
+    public function good(){
+        return $this->hasOne(Order::class, 'good_id');
+    }
+
+    public function pack(){
+        return $this->hasOne(Pack::class, 'pack_id');
+    }
 }

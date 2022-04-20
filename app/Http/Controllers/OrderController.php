@@ -23,16 +23,21 @@ class OrderController extends Controller
 
         $weight = $this->ordersService->parsePack($item);
 
-        $packId = Pack::select('id')->where([['good_id', $request->input('good_id')], ['weight', $weight]])->get()->toArray();
+        $packId = Pack::select('id')->where([
+                                                ['good_id', $request->input('good_id')], 
+                                                ['weight', $weight]
+                                            ])->get()->toArray();
         $packId = $packId[0]['id'];
 
         $order['user_id'] = Auth::user()->id;
         $order['good_id'] = $request->input('good_id');
         $order['pack_id'] = $packId;
         $order['quantity'] = $request->input('quantity');
+        $order['date'] = date('Y-m-d');
+        $order['status'] = 'Принят';
 
         Order::create($order);
 
-        return true;
+        return redirect()->route('cabinet.index');
     }
 }
