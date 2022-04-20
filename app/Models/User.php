@@ -71,4 +71,8 @@ class User extends Authenticatable
     {
         $this->attributes['password'] = bcrypt($password);
     }
+
+    public function company(){
+        return $this->hasOne(Company::class);
+    }
 }

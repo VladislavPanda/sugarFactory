@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\Good;
 use App\Models\Order;
 use App\Models\Pack;
+use App\Models\User;
 
 class OrdersService{
     // Парсинг строки упаковок к нужному формату
@@ -25,9 +26,15 @@ class OrdersService{
     // Сформировать список заказов
     public function makeOrdersList($role){
         $ordersList = [];
-        $userId = Auth::user()->id;
 
-        $orders = Order::where('user_id', $userId)->get()->toArray(); // Получение списка заказов
+        // Если сервис используется для клиента, то выводятся только его заказы, если для менеджера - то все заказы
+        if($role == 'client'){
+            $userId = Auth::user()->id;
+
+            $orders = Order::where('user_id', $userId)->get()->toArray(); // Получение списка заказов
+        }else if($role == 'admin'){
+            $orders = Order::all()->toArray();
+        }
 
         foreach($orders as $key => $value){
             $ordersList[$key]['id'] = $value['id'];
@@ -49,6 +56,13 @@ class OrdersService{
             // Запись даты и статуса
             $ordersList[$key]['date'] = $date;
             $ordersList[$key]['status'] = $value['status'];
+
+            // Если администратор, получаем данные о компании
+            if($role == 'admin'){
+                $user = User::find($value['user_id']);
+                $company = $user->company;
+                $ordersList[$key]['company_name'] = $company->name;
+            }
         }
         
         return $ordersList;
