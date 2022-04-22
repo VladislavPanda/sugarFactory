@@ -385,6 +385,36 @@
                             @endif
                         @endfor
                     </div>
+                    <div class="card-variable">
+                        <h3>Отзывы</h3>
+                        @foreach($reviews as $key => $value)
+                            <div class="card-variable-item">
+                                <!--<div class="v-img">
+                                    <img src="" alt="">
+                                </div>-->
+                                <div class="v-properties">
+                                    <div class="v-properties-wrap">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>Автор</td>
+                                                <td class="weight">{{ $value['company_name'] }}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Заголовок</td>
+                                                <td class="forma">{{ $value['title'] }}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Отзыв</td>
+                                                <td class="group">{{ $value['review'] }}</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                </div>
+                            </div>  
+                        @endforeach
+                    </div>
                 </div>
             </div>
 
@@ -517,25 +547,27 @@
                 @auth 
                     <button id="make_order_btn" type="button" class="btn btn-primary" rel="popup1">Оформить заказ</button>
                 @endauth
+
+                
             </div>
         </div>
      </div>
 
     <div class="overlay_popup"></div>
-    <div class="popup" id="popup1">
-      <div class="object">
-        <form action="{{ route('order.store') }}" method="post">
-          @csrf
-          <p>ID товара: </p>
-          <input type="number" name="good_id" id="good_id" value="{{ $good['id'] }}" readonly="readonly">
-          <p>Количество: </p>
-          <p><input type="number" name="quantity" min="1" id="quantity" required></p>
-          <select name="pack" id="packs">
+        <div class="popup" id="popup1">
+        <div class="object">
+            <form action="{{ route('order.store') }}" method="post">
+            @csrf
+            <p>ID товара: </p>
+            <input type="number" name="good_id" id="good_id" value="{{ $good['id'] }}" readonly="readonly">
+            <p>Количество: </p>
+            <p><input type="number" name="quantity" min="1" id="quantity" required></p>
+            <select name="pack" id="packs">
 
-          </select> <br>
-          <input type="submit" value="Заказать">
-        </form>
-      </div>
+            </select> <br>
+            <input type="submit" value="Заказать">
+            </form>
+        </div>
     </div>
 </div>
 
