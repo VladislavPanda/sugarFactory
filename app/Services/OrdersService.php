@@ -40,9 +40,10 @@ class OrdersService{
             $ordersList[$key]['id'] = $value['id'];
 
             // Получение данных о товаре
-            $good = Good::select(['title', 'short_description'])->where('id', $value['good_id'])->get();
+            $good = Good::select(['id', 'title', 'short_description'])->where('id', $value['good_id'])->get();
             $ordersList[$key]['good'] = $good[0]->title . ' ' . $good[0]->short_description;
-            
+            $ordersList[$key]['good_id'] = $good[0]->id;
+
             // Получение данных об упаковке
             $pack = Pack::select(['weight', 'forma', 'group'])->where('id', $value['pack_id'])->get();
             $ordersList[$key]['pack'] = $pack[0]->weight . ' ' . $pack[0]->forma . ' ' . $pack[0]->group;

@@ -6,6 +6,7 @@ use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CabinetController;
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\ReviewController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +27,9 @@ Route::get('/signin', [AuthController::class, 'index'])->name('signin.index'); /
 Route::post('/signin', [AuthController::class, 'login'])->name('signin.store'); // Роут авторизации
 Route::post('/goodForOrder', [GoodController::class, 'goodForOrder'])->name('goods.goodForOrder'); // Роут получения товара для заказа
 
+// Роуты заказа
+Route::post('/store', [OrderController::class, 'store'])->name('order.store');
+
 Route::middleware('auth')->prefix('cabinet')->group(function(){
     Route::get('/orders', [CabinetController::class, 'index'])->name('cabinet.index');
     /*Route::get('/appointment/procedures/{id}', [AppointmentController::class, 'getProcedures'])->name('procedures_modal');*/
@@ -33,4 +37,8 @@ Route::middleware('auth')->prefix('cabinet')->group(function(){
 
     // Роуты заказа
     Route::post('/store', [OrderController::class, 'store'])->name('order.store');
+
+    //Роуты отзывов
+    Route::get('review/create/{review}', [ReviewController::class, 'create'])->name('review.create');
+    Route::post('review/store', [ReviewController::class, 'store'])->name('review.store');
 });

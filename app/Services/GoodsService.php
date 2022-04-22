@@ -12,4 +12,12 @@ class GoodsService{
 
         return $goods;
     }
+
+    // Получение id товара из пришедшей строки
+    public function getId($value){
+        $value = explode('№', $value);
+        $goodId = $value[1];
+
+        return $goodId;
+    }
 }

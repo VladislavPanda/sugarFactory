@@ -23,5 +23,15 @@ $(document).ready(function() {
 
     $('.overlay_popup').click(function() { // Обрабатываем клик по заднему фону
         $('.overlay_popup, .popup').hide(); // Скрываем затемнённый задний фон и основное всплывающее окно
-    })
+    });
+
+    $('#my_modal').on('show.bs.modal', function(e) {
+
+        //get data-id attribute of the clicked element
+        var bookId = $(e.relatedTarget).data('book-id');
+    
+        //populate the textbox
+        alert($(e.currentTarget).find('input[name="bookId"]').val(bookId));
+
+    });
 });
