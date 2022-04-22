@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\View;
 use App\Models\Good;
 use App\Models\Pack;
+use App\Models\Review;
 use App\Services\GoodsService;
 
 class GoodController extends Controller
@@ -31,8 +32,10 @@ class GoodController extends Controller
         $good['images'] = json_decode($good['images'], true);
         $packs = $goodObj->packs->toArray();
         $good['packs'] = $packs;
+
+        $reviews = Review::where('good_id', $id)->get()->toArray();
         
-        return view('good')->with('good', $good);
+        return view('good')->with('good', $good)->with('reviews', $reviews);
     }
 
     public function goodForOrder(Request $request){

@@ -16,12 +16,12 @@ return new class extends Migration
         Schema::create('reviews', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('good_id')->nullable();
-            $table->unsignedBigInteger('company_id')->nullable();
+            $table->string('company_name')->nullable();
             $table->string('title')->nullable();
             $table->text('review')->nullable();
+            $table->date('date')->nullable();
 
             $table->foreign('good_id')->on('goods')->references('id');
-            $table->foreign('company_id')->on('companies')->references('id');
 
             $table->timestamps();
             $table->softDeletes();

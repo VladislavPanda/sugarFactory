@@ -21,6 +21,10 @@ class ReviewController extends Controller
     public function store(Request $request){
         $reviewData = $request->except(['_token']);
 
-        
+        $this->reviewsService->makeReviewObjectRecord($reviewData);
+
+        Review::create($reviewData);
+
+        return redirect()->route('cabinet.index');
     }
 }
