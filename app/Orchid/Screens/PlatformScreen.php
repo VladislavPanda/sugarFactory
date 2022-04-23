@@ -11,7 +11,11 @@ use Illuminate\Support\Str;
 use Orchid\Screen\Actions\Button;
 use Orchid\Screen\TD;
 use Orchid\Screen\Fields\Input;
+use Orchid\Screen\Fields\Select;
+use Orchid\Screen\Fields\DateTimer;
+use Orchid\Screen\Actions\ModalToggle;
 use Orchid\Screen\Repository;
+use Illuminate\Http\Request;
 use Orchid\Screen\Fields\Group;
 use Orchid\Support\Color;
 use App\Services\OrdersService;
@@ -27,7 +31,15 @@ class PlatformScreen extends Screen
     {
         $ordersList = [];
         $ordersService = new OrdersService();
-        $orders = $ordersService->makeOrdersList('admin');
+
+        // Проверка на сортировку/фильтрацию
+        // Если параметры отсутствуют, применяется вывод по умолчанию
+        if(empty($_GET)) $orders = $ordersService->makeOrdersList('admin');
+        // Если параметр присутствует, готовим вывод по нему  
+        else if(isset($_GET['filter'])){
+            $param = $_GET['filter'];
+            $orders = $ordersService->makeOrdersListWithFilter('admin', $param);
+        }
         
         for($i = 0; $i < sizeof($orders); $i++){
             $ordersList[] = new Repository(['company_name' => $orders[$i]['company_name'],
@@ -84,6 +96,24 @@ class PlatformScreen extends Screen
     public function layout(): iterable
     {
         return [
+            Layout::columns([
+                Layout::rows([
+                    Group::make([
+                        ModalToggle::make('Фильтрация по дате')
+                                    ->type(Color::PRIMARY())
+                                    ->modal('filter_date_modal')
+                                    //->canSee($this->checkProjectExistance($this->project))
+                                    ->method('filterDate'),
+
+                        ModalToggle::make('Фильтрация по названию компании')
+                                    ->type(Color::PRIMARY())
+                                    ->modal('filter_company_name_modal')
+                                    //->canSee($this->checkProjectExistance($this->project))
+                                    ->method('filterCompanyName')
+                    ])->autowidth()
+                ])
+            ]),
+            
             Layout::table('orders', [
                 TD::make('company_name', 'Компания')
                     ->width('70')
@@ -120,7 +150,27 @@ class PlatformScreen extends Screen
                     ->render(static function ($row){
                         return view('layouts.ordersText', ['data' => $row['status'], 'width' => 100]);
                     }),
-            ])
+            ]),
+
+            Layout::modal('filter_date_modal', Layout::rows([
+                DateTimer::make('date')
+            ]))->title('Выберите дату')->applyButton('Фильтровать')
+            ->closeButton('Закрыть'),
+
+            Layout::modal('filter_company_name_modal', Layout::rows([
+                Input::make('company_name')->type('text')
+            ]))->title('Введите название компании')->applyButton('Фильтровать')
+            ->closeButton('Закрыть'),
         ];
+    }
+
+    public function filterDate(Request $request){
+        dd($request->except(['_token']));
+    }
+
+    public function filterCompanyName(Request $request){
+        //dd($request->except(['_token']));
+        $companyName = $request->input('company_name');
+        return redirect()->route('platform.main', ['filter' => $companyName]);
     }
 }

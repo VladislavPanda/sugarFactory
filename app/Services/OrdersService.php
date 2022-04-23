@@ -68,4 +68,8 @@ class OrdersService{
         
         return $ordersList;
     }
+
+    public function makeOrdersListWithFilter($role, $param){
+        echo $role . '   ' . $param;
+    }
 }
