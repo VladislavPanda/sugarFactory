@@ -34,10 +34,15 @@ class OrderController extends Controller
         $order['pack_id'] = $packId;
         $order['quantity'] = $request->input('quantity');
         $order['date'] = date('Y-m-d');
-        $order['status'] = 'Принят';
+        $order['status'] = 'Новый заказ';
 
         Order::create($order);
 
         return redirect()->route('cabinet.index');
+    }
+
+    public function updateStatus($statusData){
+        $item = Order::find($statusData['id']);
+        $item->update(['status' => $statusData['status']]);
     }
 }

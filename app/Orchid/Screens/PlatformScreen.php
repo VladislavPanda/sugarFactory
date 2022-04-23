@@ -20,6 +20,7 @@ use Illuminate\Http\Request;
 use Orchid\Screen\Fields\Group;
 use Orchid\Support\Color;
 use App\Services\OrdersService;
+use App\Http\Controllers\OrderController;
 
 class PlatformScreen extends Screen
 {
@@ -51,7 +52,8 @@ class PlatformScreen extends Screen
         $orders = $ordersService->makeOrdersList('admin', $param);
         
         for($i = 0; $i < sizeof($orders); $i++){
-            $ordersList[] = new Repository(['company_name' => $orders[$i]['company_name'],
+            $ordersList[] = new Repository(['id' => $orders[$i]['id'],
+                                            'company_name' => $orders[$i]['company_name'],
                                             'good' => $orders[$i]['good'],
                                             'pack' => $orders[$i]['pack'],
                                             'quantity' => $orders[$i]['quantity'],
@@ -151,19 +153,19 @@ class PlatformScreen extends Screen
                     }),
 
                 TD::make('good', 'Товар')
-                    ->width('220')
+                    ->width('200')
                     ->render(static function ($row){
                         return view('layouts.ordersText', ['data' => $row['good'], 'width' => 250]);
                     }),
 
                 TD::make('pack', 'Упаковка')
-                    ->width('300')
+                    ->width('250')
                     ->render(static function ($row){
                         return view('layouts.ordersText', ['data' => $row['pack'], 'width' => 300]);
                     }),
 
                 TD::make('quantity', 'Кол-во')
-                    ->width('30')
+                    ->width('10')
                     ->render(static function ($row){
                         return view('layouts.ordersText', ['data' => $row['quantity'], 'width' => 70]);
                     }),
@@ -191,6 +193,7 @@ class PlatformScreen extends Screen
                                     ->method('setStatus')
                                     ->icon('clock')
                                     ->parameters([
+                                        'id' => $repo->get('id'),
                                         'status' => 'Новый заказ'
                                     ]),
 
@@ -198,6 +201,7 @@ class PlatformScreen extends Screen
                                     ->method('setStatus')
                                     ->icon('clock')
                                     ->parameters([
+                                        'id' => $repo->get('id'),
                                         'status' => 'Ожидает подтверждения'
                                     ]),
 
@@ -205,7 +209,80 @@ class PlatformScreen extends Screen
                                     ->method('setStatus')
                                     ->icon('clock')
                                     ->parameters([
+                                        'id' => $repo->get('id'),
                                         'status' => 'Подтверждён'
+                                    ]),
+
+                                Button::make('Собирается')
+                                    ->method('setStatus')
+                                    ->icon('clock')
+                                    ->parameters([
+                                        'id' => $repo->get('id'),
+                                        'status' => 'Собирается'
+                                    ]),
+
+                                Button::make('Собран')
+                                    ->method('setStatus')
+                                    ->icon('clock')
+                                    ->parameters([
+                                        'id' => $repo->get('id'),
+                                        'status' => 'Собран'
+                                    ]),
+
+                                Button::make('Готов к отгрузке')
+                                    ->method('setStatus')
+                                    ->icon('clock')
+                                    ->parameters([
+                                        'id' => $repo->get('id'),
+                                        'status' => 'Готов к отгрузке'
+                                    ]),
+
+                                Button::make('Отгружен')
+                                    ->method('setStatus')
+                                    ->icon('clock')
+                                    ->parameters([
+                                        'id' => $repo->get('id'),
+                                        'status' => 'Отгружен'
+                                    ]),
+
+                                Button::make('Доставлен')
+                                    ->method('setStatus')
+                                    ->icon('clock')
+                                    ->parameters([
+                                        'id' => $repo->get('id'),
+                                        'status' => 'Доставлен'
+                                    ]),
+
+                                Button::make('Возврат')
+                                    ->method('setStatus')
+                                    ->icon('clock')
+                                    ->parameters([
+                                        'id' => $repo->get('id'),
+                                        'status' => 'Возврат'
+                                    ]),
+
+                                Button::make('Отменен')
+                                    ->method('setStatus')
+                                    ->icon('clock')
+                                    ->parameters([
+                                        'id' => $repo->get('id'),
+                                        'status' => 'Отменен'
+                                    ]),
+
+                                Button::make('Оплачен')
+                                    ->method('setStatus')
+                                    ->icon('clock')
+                                    ->parameters([
+                                        'id' => $repo->get('id'),
+                                        'status' => 'Оплачен'
+                                    ]),
+
+                                Button::make('Не оплачен')
+                                    ->method('setStatus')
+                                    ->icon('clock')
+                                    ->parameters([
+                                        'id' => $repo->get('id'),
+                                        'status' => 'Не оплачен'
                                     ]),
                             ]),
                         ]);
@@ -244,6 +321,10 @@ class PlatformScreen extends Screen
     }*/
 
     public function setStatus(Request $request){
+        $statusData = $request->except(['_token']);
 
+        $ordersService = new OrdersService();
+        $controller = new OrderController($ordersService);
+        $controller->updateStatus($statusData);
     }
 }
