@@ -32,14 +32,14 @@ class PlatformScreen extends Screen
         $ordersList = [];
         $ordersService = new OrdersService();
 
-        // Проверка на сортировку/фильтрацию
-        // Если параметры отсутствуют, применяется вывод по умолчанию
-        if(empty($_GET)) $orders = $ordersService->makeOrdersList('admin');
-        // Если параметр присутствует, готовим вывод по нему  
-        else if(isset($_GET['filter'])){
-            $param = $_GET['filter'];
-            $orders = $ordersService->makeOrdersListWithFilter('admin', $param);
-        }
+        /*Проверка на сортировку/фильтрацию
+        Если параметры отсутствуют, применяется вывод по умолчанию
+        Если параметр присутствует, готовим вывод по нему */
+
+        if(empty($_GET)) $param = null;
+        else if(isset($_GET['company_name'])) $param = $_GET;
+
+        $orders = $ordersService->makeOrdersList('admin', $param);
         
         for($i = 0; $i < sizeof($orders); $i++){
             $ordersList[] = new Repository(['company_name' => $orders[$i]['company_name'],
@@ -171,6 +171,6 @@ class PlatformScreen extends Screen
     public function filterCompanyName(Request $request){
         //dd($request->except(['_token']));
         $companyName = $request->input('company_name');
-        return redirect()->route('platform.main', ['filter' => $companyName]);
+        return redirect()->route('platform.main', ['company_name' => $companyName]);
     }
 }

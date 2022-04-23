@@ -7,6 +7,7 @@ use App\Models\Good;
 use App\Models\Order;
 use App\Models\Pack;
 use App\Models\User;
+use App\Models\Company;
 
 class OrdersService{
     // Парсинг строки упаковок к нужному формату
@@ -24,7 +25,7 @@ class OrdersService{
     }
 
     // Сформировать список заказов
-    public function makeOrdersList($role){
+    public function makeOrdersList($role, $param){
         $ordersList = [];
 
         // Если сервис используется для клиента, то выводятся только его заказы, если для менеджера - то все заказы
@@ -33,9 +34,13 @@ class OrdersService{
 
             $orders = Order::where('user_id', $userId)->get()->toArray(); // Получение списка заказов
         }else if($role == 'admin'){
-            $orders = Order::all()->toArray();
+            if($param == null) $orders = Order::all()->toArray();
+            else if(isset($param['company_name'])){
+                $foreignUserId = Company::select('user_id')->where('name', $param['company_name'])->get()->toArray();
+                $orders = Order::where('user_id', $foreignUserId[0]['user_id'])->get()->toArray();
+            }
         }
-
+    
         foreach($orders as $key => $value){
             $ordersList[$key]['id'] = $value['id'];
 
@@ -67,9 +72,5 @@ class OrdersService{
         }
         
         return $ordersList;
-    }
-
-    public function makeOrdersListWithFilter($role, $param){
-        echo $role . '   ' . $param;
     }
 }
