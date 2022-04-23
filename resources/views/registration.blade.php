@@ -503,7 +503,7 @@
                    <label>Пароль</label>
                    <input type="password" name="password"> <br>
 
-                   <label>Потвердите пароль</label>
+                   <label>Подтвердите пароль</label>
                    <input type="password" name="password_confirm"> <br>
 
                    <input type="submit" value="Зарегистрироваться">

@@ -128,15 +128,25 @@
                     </div>
                     <div class="col-2 col-xl-2">
                         <ul class="header__top-menu li-group li-style">
-                            <li><a href="https://gsr.by/partners">Партнерам</a></li>
-                            @auth 
-                                <li><a href="{{ route('cabinet.index') }}">Личный кабинет</a></li> 
+                            @auth
+                                @if(Auth::user()->name != 'admin')
+                                    <li><a href="https://gsr.by/partners">Партнерам</a></li>
+                                    @auth 
+                                        <li><a href="{{ route('cabinet.index') }}">Личный кабинет</a></li> 
+                                    @endauth
+
+                                    @guest 
+                                        <li><a href="{{ route('signin.index') }}">Войти</a></li>
+                                        <li><a href="{{ route('register.index') }}">Регистрация</a></li>
+                                    @endguest
+                                @endif
                             @endauth
-            
+
                             @guest 
+                                <li><a href="https://gsr.by/partners">Партнерам</a></li>
                                 <li><a href="{{ route('signin.index') }}">Войти</a></li>
                                 <li><a href="{{ route('register.index') }}">Регистрация</a></li>
-                            @endguest
+                            @endguest                            
                         </ul>
                     </div>
 </header>
@@ -172,71 +182,6 @@
                 <div class="menu-wrapper">
                     <div class="row w-100">
                         <div class="col-md-8">
-                            <!--<div class="row">
-                                <div class="col-md-6 mb-5">
-                                    <div class="header__top-menu-title">
-                                        <a href="https://gsr.by/about">Предприятие</a>
-                                    </div>
-                                    <ul class="menu__group">
-                                        <li><span><a href="https://gsr.by/about/obrashhenie-generalnogo-direktora">Обращение генерального директора</a></span></li>
-                                        <li><span><a href="https://gsr.by/about/harakteristika-predpriyatiya">О предприятии </a></span></li>
-
-                                        <li><span><a href="https://gsr.by/about/history-development">История развития</a></span></li>
-
-                                        <li><span><a href="https://gsr.by/about/dostizheniya-i-nagrady">Достижения и награды</a></span></li>
-
-
-
-                                        <li><span><a href="https://gsr.by/about/teams">Коллектив</a></span></li>
-                                        <li><span><a href="https://gsr.by/about/profsoyuznaya-organizaciya">Профсоюзная организация</a></span></li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6 mb-5">
-                                    <div class="header__top-menu-title">
-                                        <a href="https://gsr.by/products">Продукция</a>
-                                    </div>
-                                    <ul class="menu__group">
-                                        
-                                            <li><span><a href="https://gsr.by/products/sahar">Сахар</a></span></li>
-                                        
-                                            <li><span><a href="https://gsr.by/products/fruktovaya-produkciya">Фруктовая продукция</a></span></li>
-                                        
-                                            <li><span><a href="https://gsr.by/products/sokovaya-produkciya">Соковая продукция</a></span></li>
-                                        
-                                            <li><span><a href="https://gsr.by/products/ovoshnaya-produkciya">Овощная продукция</a></span></li>
-                                        
-                                            <li><span><a href="https://gsr.by/products/pobochnaya-produkciya">Побочная продукция</a></span></li>
-                                                                            </ul>
-                                </div>
-                                <div class="col-md-6 mb-5">
-                                    <div class="header__top-menu-title">
-                                        <a href="https://gsr.by/stolbcovskij-filial">Столбцовский филиал</a>
-                                    </div>
-                                    <div class="header__top-menu-title">
-                                        <a href="http://hotel.gsr.by/">Гостиница «Гарадзейскi Фальварак»</a>
-                                    </div>
-                                                                            <div class="header__top-menu-title">
-                                            <a href="https://gsr.by/entertainment/restoran-traktir-dlya-druzej">Ресторан «Трактиръ для друзей»</a>
-                                        </div>
-                                                                            <div class="header__top-menu-title">
-                                            <a href="https://gsr.by/entertainment/rc-bumerang">Развлекательный центр «Бумеранг»</a>
-                                        </div>
-                                    
-
-                                </div>
-                                <div class="col-md-6 mb-5">
-                                    <div class="header__top-menu-title">
-                                        <a href="https://gsr.by/partners">Партнерам</a>
-                                    </div>
-                                    <div class="header__top-menu-title">
-                                        <a href="https://gsr.by/contacts">Контакты</a>
-                                    </div>
-                                    <div class="header__top-menu-title">
-                                        <a href="https://gsr.by/site-map">Карта сайта</a>
-                                    </div>
-
-                                </div>
-                            </div>-->
                         </div>
                         <div class="col-md-4 mb-5">
                             <!--<div class="header__top-menu-title">
@@ -540,15 +485,17 @@
                         </div>  
                     @endforeach
                 </div>
-                <p>
-                    @guest Для оформления заказа необходимо войти в аккаунт @endguest
-                </p>
-
-                @auth 
-                    <button id="make_order_btn" type="button" class="btn btn-primary" rel="popup1">Оформить заказ</button>
+                @auth
+                    @if(Auth::user()->name != 'admin')
+                        @auth 
+                            <button id="make_order_btn" type="button" class="btn btn-primary" rel="popup1">Оформить заказ</button>
+                        @endauth
+                    @endif
                 @endauth
 
-                
+                <h4>
+                    @guest Для оформления заказа необходимо войти в аккаунт @endguest
+                </h4>
             </div>
         </div>
      </div>
@@ -626,7 +573,7 @@
         </div>
         </div>
     </div>
-<div class="back-top" style="opacity: 1; pointer-events: auto;"><i class="arrow-top"></i></div>
+<!--<div class="back-top" style="opacity: 1; pointer-events: auto;"><i class="arrow-top"></i></div>-->
 
 
 <!-- Modal -->

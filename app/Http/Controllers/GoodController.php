@@ -33,6 +33,7 @@ class GoodController extends Controller
         $packs = $goodObj->packs->toArray();
         $good['packs'] = $packs;
 
+        $reviews = [];
         $reviews = Review::where('good_id', $id)->get()->toArray();
         
         return view('good')->with('good', $good)->with('reviews', $reviews);

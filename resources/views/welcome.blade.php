@@ -129,12 +129,15 @@
         </div>
         <div class="col-2 col-xl-2">
             <ul class="header__top-menu li-group li-style">
-                <li><a href="https://gsr.by/partners">Партнерам</a></li>
-                @auth 
-                    <li><a href="{{ route('cabinet.index') }}">Личный кабинет</a></li> 
+                @auth
+                    @if(Auth::user()->name != 'admin')
+                        <li><a href="https://gsr.by/partners">Партнерам</a></li>
+                        <li><a href="{{ route('cabinet.index') }}">Личный кабинет</a></li> 
+                    @endif
                 @endauth
 
                 @guest 
+                    <li><a href="https://gsr.by/partners">Партнерам</a></li>
                     <li><a href="{{ route('signin.index') }}">Войти</a></li>
                     <li><a href="{{ route('register.index') }}">Регистрация</a></li>
                 @endguest
@@ -419,7 +422,7 @@
     </div>
 
 </div>
-<div class="back-top" style="opacity: 0; pointer-events: none;"><i class="arrow-top"></i></div>
+<!--<div class="back-top" style="opacity: 0; pointer-events: none;"><i class="arrow-top"></i></div>-->
 
 
 <!-- Modal -->
