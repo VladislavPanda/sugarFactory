@@ -12,6 +12,7 @@ use Orchid\Screen\Actions\Button;
 use Orchid\Screen\TD;
 use Orchid\Screen\Fields\Input;
 use Orchid\Screen\Fields\Select;
+use Orchid\Screen\Actions\DropDown;
 use Orchid\Screen\Fields\DateTimer;
 use Orchid\Screen\Actions\ModalToggle;
 use Orchid\Screen\Repository;
@@ -22,6 +23,8 @@ use App\Services\OrdersService;
 
 class PlatformScreen extends Screen
 {
+    private $param;
+
     /**
      * Query data.
      *
@@ -34,11 +37,17 @@ class PlatformScreen extends Screen
 
         /*Проверка на сортировку/фильтрацию
         Если параметры отсутствуют, применяется вывод по умолчанию
-        Если параметр присутствует, готовим вывод по нему */
+        Если параметр присутствует (дата или название компании), готовим вывод по нему */
 
-        if(empty($_GET)) $param = null;
-        else if(isset($_GET['company_name'])) $param = $_GET;
+        if(empty($_GET)){ 
+            $param = null;
+            $this->param = null;
+        }else if(isset($_GET['company_name']) || isset($_GET['date'])){
+            $param = $_GET;
+            $this->param = $param;
+        }
 
+        //dd($_GET);
         $orders = $ordersService->makeOrdersList('admin', $param);
         
         for($i = 0; $i < sizeof($orders); $i++){
@@ -109,7 +118,27 @@ class PlatformScreen extends Screen
                                     ->type(Color::PRIMARY())
                                     ->modal('filter_company_name_modal')
                                     //->canSee($this->checkProjectExistance($this->project))
-                                    ->method('filterCompanyName')
+                                    ->method('filterCompanyName'),
+
+                        DropDown::make('Сортировка')
+                            ->icon('folder-alt')
+                            ->list([
+                                Button::make('Дата')
+                                    ->method('sort')
+                                    ->icon('clock')
+                                    ->parameters([
+                                        'current_param' => $this->param,
+                                        'sortParam' => 'date'
+                                    ]),
+
+                                Button::make('Название компании')
+                                    ->method('sort')
+                                    ->icon('building')
+                                    ->parameters([
+                                        'current_param' => $this->param,
+                                        'sortParam' => 'company_name'
+                                    ]),
+                            ]),
                     ])->autowidth()
                 ])
             ]),
@@ -150,27 +179,71 @@ class PlatformScreen extends Screen
                     ->render(static function ($row){
                         return view('layouts.ordersText', ['data' => $row['status'], 'width' => 100]);
                     }),
+
+                TD::make('', '')
+                    //->width('200')
+                    ->render(function (Repository $repo) {
+                        return Group::make([
+                            DropDown::make('Изменить статус')
+                            ->icon('folder-alt')
+                            ->list([
+                                Button::make('Новый заказ')
+                                    ->method('setStatus')
+                                    ->icon('clock')
+                                    ->parameters([
+                                        'status' => 'Новый заказ'
+                                    ]),
+
+                                Button::make('Ожидает подтверждения')
+                                    ->method('setStatus')
+                                    ->icon('clock')
+                                    ->parameters([
+                                        'status' => 'Ожидает подтверждения'
+                                    ]),
+
+                                Button::make('Подтверждён')
+                                    ->method('setStatus')
+                                    ->icon('clock')
+                                    ->parameters([
+                                        'status' => 'Подтверждён'
+                                    ]),
+                            ]),
+                        ]);
+                    }
+                )
             ]),
 
             Layout::modal('filter_date_modal', Layout::rows([
                 DateTimer::make('date')
-            ]))->title('Выберите дату')->applyButton('Фильтровать')
-            ->closeButton('Закрыть'),
+            ]))->title('Выберите дату')->applyButton('Фильтровать')->closeButton('Закрыть'),
 
             Layout::modal('filter_company_name_modal', Layout::rows([
                 Input::make('company_name')->type('text')
-            ]))->title('Введите название компании')->applyButton('Фильтровать')
-            ->closeButton('Закрыть'),
+            ]))->title('Введите название компании')->applyButton('Фильтровать')->closeButton('Закрыть'),
         ];
     }
 
     public function filterDate(Request $request){
-        dd($request->except(['_token']));
+        $date = $request->input('date');
+        return redirect()->route('platform.main', ['date' => $date]);
     }
 
     public function filterCompanyName(Request $request){
-        //dd($request->except(['_token']));
         $companyName = $request->input('company_name');
         return redirect()->route('platform.main', ['company_name' => $companyName]);
+    }
+
+    /*public function sort(Request $request){
+        $sortData = $request->except(['_token']);
+
+        if(!isset($sortData['current_param'])){
+            return redirect()->route('platform.main', ['sort' => $sortData['sortParam']]);
+        }else{
+            return redirect()->route('platform.main', ['sort' => $sortData['sortParam']]);
+        }
+    }*/
+
+    public function setStatus(Request $request){
+
     }
 }

@@ -34,13 +34,20 @@ class OrdersService{
 
             $orders = Order::where('user_id', $userId)->get()->toArray(); // Получение списка заказов
         }else if($role == 'admin'){
-            
             if($param == null) $orders = Order::all()->toArray(); // Проверяем наличие параметра фильтрации. Если его нет, выводим все записи. 
             // Если параметр есть, определяем поле фильтрации и делаем выборку только нужных записей
-            else if(isset($param['company_name'])){
+            else if(isset($param['company_name'])){ // Если параметр - название компании
                 try{
+                    // Определяем id пользователя, связанного с компанией
                     $foreignUserId = Company::select('user_id')->where('name', $param['company_name'])->get()->toArray();
                     $orders = Order::where('user_id', $foreignUserId[0]['user_id'])->get()->toArray();
+                }catch(\Exception $e){
+                    return [];
+                }
+            }
+            else if(isset($param['date'])){ // Если параметр - дата
+                try{
+                    $orders = Order::where('date', $param['date'])->get()->toArray();
                 }catch(\Exception $e){
                     return [];
                 }
