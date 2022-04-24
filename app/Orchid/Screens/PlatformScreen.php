@@ -36,20 +36,38 @@ class PlatformScreen extends Screen
         $ordersList = [];
         $ordersService = new OrdersService();
 
-        /*Проверка на сортировку/фильтрацию
+        /*
+        Проверка на сортировку/фильтрацию
         Если параметры отсутствуют, применяется вывод по умолчанию
-        Если параметр присутствует (дата или название компании), готовим вывод по нему */
+        Если параметр присутствует (дата или название компании), готовим вывод по нему 
+        */
 
         if(empty($_GET)){ 
             $param = null;
             $this->param = null;
+
+            $orders = $ordersService->makeOrdersList('admin', $param);
         }else if(isset($_GET['company_name']) || isset($_GET['date'])){
             $param = $_GET;
             $this->param = $param;
+
+            if(isset($_GET['sort'])){
+                $sortParam = $_GET['sort'];
+                $orders = $ordersService->makeOrdersList('admin', $param);
+
+                $ordersService->sort($orders, $sortParam);
+            }else{
+                $orders = $ordersService->makeOrdersList('admin', $param);
+            } 
+        }else if(isset($_GET['sort'])){
+            $param = null;
+            $sortParam = $_GET['sort'];
+            $orders = $ordersService->makeOrdersList('admin', $param);
+
+            $ordersService->sort($orders, $sortParam);
         }
 
-        //dd($_GET);
-        $orders = $ordersService->makeOrdersList('admin', $param);
+        //$orders = $ordersService->makeOrdersList('admin', $param);
         
         for($i = 0; $i < sizeof($orders); $i++){
             $ordersList[] = new Repository(['id' => $orders[$i]['id'],
@@ -59,7 +77,7 @@ class PlatformScreen extends Screen
                                             'quantity' => $orders[$i]['quantity'],
                                             'date' => $orders[$i]['date'],
                                             'status' => $orders[$i]['status'],
-                                       ]);                           
+                                        ]);                           
         }
 
         return [
@@ -310,15 +328,20 @@ class PlatformScreen extends Screen
         return redirect()->route('platform.main', ['company_name' => $companyName]);
     }
 
-    /*public function sort(Request $request){
+    public function sort(Request $request){
         $sortData = $request->except(['_token']);
+
+        if(isset($sortData['current_param'])){ 
+            $filterParam = key($sortData['current_param']);
+            $filterValue = $sortData['current_param'][$filterParam];
+        }
 
         if(!isset($sortData['current_param'])){
             return redirect()->route('platform.main', ['sort' => $sortData['sortParam']]);
         }else{
-            return redirect()->route('platform.main', ['sort' => $sortData['sortParam']]);
+            return redirect()->route('platform.main', [$filterParam => $filterValue, 'sort' => $sortData['sortParam']]);
         }
-    }*/
+    }
 
     public function setStatus(Request $request){
         $statusData = $request->except(['_token']);

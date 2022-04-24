@@ -86,4 +86,18 @@ class OrdersService{
         
         return $ordersList;
     }
+
+    public function sort(&$orders, $param){
+        if($param == 'date'){
+            usort($orders, function($x, $y) {
+                return $x['date'] <=> $y['date'];
+            });
+        }
+
+        if($param == 'company_name'){
+            usort($orders, function($x, $y) {
+                return $x['company_name'] <=> $y['company_name'];
+            });
+        }
+    }
 }
