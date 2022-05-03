@@ -47,11 +47,11 @@ class PlatformScreen extends Screen
             $this->param = null;
 
             $orders = $ordersService->makeOrdersList('admin', $param);
-        }else if(isset($_GET['company_name']) || isset($_GET['date'])){
+        }else if(isset($_GET['company_name']) || isset($_GET['date'])){ // Если есть параметр фильтрации
             $param = $_GET;
             $this->param = $param;
 
-            if(isset($_GET['sort'])){
+            if(isset($_GET['sort'])){ // Если есть также параметр сортировки
                 $sortParam = $_GET['sort'];
                 $orders = $ordersService->makeOrdersList('admin', $param);
 
@@ -59,7 +59,7 @@ class PlatformScreen extends Screen
             }else{
                 $orders = $ordersService->makeOrdersList('admin', $param);
             } 
-        }else if(isset($_GET['sort'])){
+        }else if(isset($_GET['sort'])){ // Если есть только парамтр сортировки 
             $param = null;
             $sortParam = $_GET['sort'];
             $orders = $ordersService->makeOrdersList('admin', $param);

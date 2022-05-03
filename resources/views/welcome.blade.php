@@ -106,7 +106,7 @@
         <div class="col-3 col-xl-3 header-logo-wrap">
             <div class="header-logo logo-fixed">
                 <a href="http://sugarfactory">
-                    <img src="./sahar_files/logo.png" alt="">
+                    <img src="{{ asset('/images/logo.png') }}" alt="">
                     <p>Городейский <br> сахарный <br> комбинат</p>
                 </a>
 
@@ -285,7 +285,6 @@
             </div>
         </div>
     </div>
-
 </div>
 <div class="section-search">
     <div class="search-wrap">
@@ -345,7 +344,7 @@
             </div>
         </div>
         <div class="catalog__cols12">
-            <h4>Каталог</h4>
+            <h3 style="text-align: center">Каталог</h3>
             <div class="catalog__items">
                 @foreach($goods as $key => $value)  
                     <a href="{{ route('goods.show', $value['id']) }}" class="catalog__card aos-init   aos-animate" data-aos="fade-up" data-aos-offset="150">
@@ -380,7 +379,7 @@
             <div class="contact-info-row contact-info-mail">
                 <p><a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a></p>
                 <br>
-                <a href="https://gsr.by/media/1009/zkzdeRQJ0vszcPVukzc0r0ORBSGbTj12yHijFYhC.pdf" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
+                <a href="https://gsr.by/media/1009/zkzdeRQJ0vszcPVukzc0r0ORBSGbTj12yHijFYhC.pdf" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
             </div>
             <div class="block-social">
 
