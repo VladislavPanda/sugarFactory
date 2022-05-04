@@ -329,18 +329,6 @@
     <div class="catalog__cols">
         <div class="catalog__cols1">
             <div class="catalog__menu">
-                <!--<ul>
-                    
-                        <li class="active aos-init aos-animate" data-aos="fade-right" data-aos-offset="150"><a href="https://gsr.by/products/sahar">Сахар</a></li>
-                    
-                        <li class="aos-init aos-animate" data-aos="fade-right" data-aos-offset="150"><a href="https://gsr.by/products/fruktovaya-produkciya">Фруктовая продукция</a></li>
-                    
-                        <li class="aos-init aos-animate" data-aos="fade-right" data-aos-offset="150"><a href="https://gsr.by/products/sokovaya-produkciya">Соковая продукция</a></li>
-                    
-                        <li class="aos-init aos-animate" data-aos="fade-right" data-aos-offset="150"><a href="https://gsr.by/products/ovoshnaya-produkciya">Овощная продукция</a></li>
-                    
-                        <li class="aos-init aos-animate" data-aos="fade-right" data-aos-offset="150"><a href="https://gsr.by/products/pobochnaya-produkciya">Побочная продукция</a></li>
-                </ul>-->
             </div>
         </div>
         <div class="catalog__cols12">

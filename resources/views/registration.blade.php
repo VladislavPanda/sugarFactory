@@ -118,12 +118,6 @@
                 <div class="col-8"></div>
                 <div class="col-4">
                     <ul class="header__top-menu li-group li-style">
-                        <!--<li><a href="https://gsr.by/partners">Партнерам</a></li>
-                        <li><a href="https://gsr.by/stolbcovskij-filial">Столбцовский филиал</a></li>
-                        <li><a href="https://gsr.by/entertainment/restoran-traktir-dlya-druzej">Ресторан</a></li>
-                        <li><a href="https://gsr.by/entertainment/rc-bumerang">Регистрация</a></li>
-                        <li><a href="https://gsr.by/entertainment/rc-bumerang">Войти в личный кабинет</a></li>
-                        <li><a href="http://hotel.gsr.by/" target="_blank">Гостиница<span><img src="./sahar_files/exit-target.svg" alt=""></span></a></li>-->
                     </ul>
                 </div>
             </div>
@@ -134,7 +128,7 @@
                 <!--<li><a href="https://gsr.by/stolbcovskij-filial">Столбцовский филиал</a></li>--
                 <li><a href="https://gsr.by/entertainment/restoran-traktir-dlya-druzej">Ресторан</a></li>-->
                 <li><a href="{{ route('register.index') }}">Регистрация</a></li>
-                <li><a href="#">Войти</a></li>
+                <li><a href="{{ route('signin.index') }}">Войти</a></li>
                 <!--<li><a href="http://hotel.gsr.by/" target="_blank">Гостиница<span><img src="./sahar_files/exit-target.svg" alt=""></span></a></li>-->
             </ul>
         </div>
@@ -458,27 +452,15 @@
 
 </div>
 
-<div class="catalog">
+<div class="catalog" style="background-color: #f7f7f7;">
 
     <div class="catalog__cols">
         <div class="catalog__cols1">
             <div class="catalog__menu">
-                <!--<ul>
-                    
-                        <li class="active aos-init aos-animate" data-aos="fade-right" data-aos-offset="150"><a href="https://gsr.by/products/sahar">Сахар</a></li>
-                    
-                        <li class="aos-init aos-animate" data-aos="fade-right" data-aos-offset="150"><a href="https://gsr.by/products/fruktovaya-produkciya">Фруктовая продукция</a></li>
-                    
-                        <li class="aos-init aos-animate" data-aos="fade-right" data-aos-offset="150"><a href="https://gsr.by/products/sokovaya-produkciya">Соковая продукция</a></li>
-                    
-                        <li class="aos-init aos-animate" data-aos="fade-right" data-aos-offset="150"><a href="https://gsr.by/products/ovoshnaya-produkciya">Овощная продукция</a></li>
-                    
-                        <li class="aos-init aos-animate" data-aos="fade-right" data-aos-offset="150"><a href="https://gsr.by/products/pobochnaya-produkciya">Побочная продукция</a></li>
-                </ul>-->
             </div>
         </div>
         <div class="catalog__cols12">
-           <div>
+           <div id="reg_form_wrapper">
                 @if ($errors->any())
                     <div class="alert alert-danger">
                         <ul>
@@ -489,7 +471,7 @@
                     </div>
                 @endif
 
-                <form action="{{ route('register.store') }}" method="post">
+                <form action="{{ route('register.store') }}" method="post" id="reg_form">
                    @csrf
                    <label>Email</label>
                    <input type="email" name="email"> <br>
@@ -506,7 +488,7 @@
                    <label>Подтвердите пароль</label>
                    <input type="password" name="password_confirm"> <br>
 
-                   <input type="submit" value="Зарегистрироваться">
+                   <input type="submit" id="form_btn" value="Зарегистрироваться">
                </form>
            </div>
             
@@ -562,7 +544,8 @@
             </div>
         </div>
         <div class="footer-inner-bottom">
-            <div class="copy">© 2021  Городейский сахарный комбинат</div>
+            <div class="copy"></div>
+                <span style="text-align:left">© 2021  Городейский сахарный комбинат</span>
             <!--<div class="site-develop"><a href="https://scroll.by/" target="_blank">Сайт изготовлен<span></span></a>
             </div>-->
         </div>

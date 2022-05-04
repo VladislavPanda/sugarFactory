@@ -211,7 +211,7 @@
                     <p>E-mail: <strong>info@gsr.by, marketing@gsr.by</strong></p>
                 </div>
                 <div class="col-md-6">
-                                            <!--<a href="https://gsr.by/media/1002/Y3vxMV41bqBCOndFd5ZKCnIvyzOk0mAY9LqNIL7W.pdf" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>-->
+                                            <a href="https://gsr.by/media/1002/Y3vxMV41bqBCOndFd5ZKCnIvyzOk0mAY9LqNIL7W.pdf" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
                                     </div>
                 <div class="col-md-12">
                     <div class="block-social">
@@ -302,6 +302,9 @@
               <a href="https://gsr.by/products"><i class="fal fa-chevron-left"></i> В каталог</a>
            </div>-->
         </div>
+                <h4 style="text-align: center">
+                    @guest Для оформления заказа необходимо войти в аккаунт @endguest
+                </h4>
         <div class="row">
             <div class="col-md-5">
                 <div style="margin-left: 10px">
@@ -364,6 +367,31 @@
             </div>
 
             <div class="card__description">
+                <div class="overlay_popup"></div>
+                    <div class="popup" id="popup1">
+                        <div class="object">
+                            <form action="{{ route('order.store') }}" method="post">
+                            @csrf
+                            <p>ID товара: </p>
+                            <input type="number" name="good_id" id="good_id" value="{{ $good['id'] }}" readonly="readonly">
+                            <p>Количество: </p>
+                            <p><input type="number" name="quantity" min="1" id="quantity" required></p>
+                            <select name="pack" id="packs">
+
+                            </select> <br>
+                            <input type="submit" value="Заказать">
+                            </form>
+                        </div>
+                    </div>
+
+                @auth
+                    @if(Auth::user()->name != 'admin')
+                        @auth 
+                            <button id="make_order_btn" type="button" class="btn btn-primary" rel="popup1" style="margin-left:0px;" >Оформить заказ</button>
+                        @endauth
+                    @endif
+                @endauth
+                    
                 <div class="card__description-top">
                     <div class="card__description-wrap">
                         <div class="dropdown-social-wrap">
@@ -485,37 +513,9 @@
                         </div>  
                     @endforeach
                 </div>
-                @auth
-                    @if(Auth::user()->name != 'admin')
-                        @auth 
-                            <button id="make_order_btn" type="button" class="btn btn-primary" rel="popup1">Оформить заказ</button>
-                        @endauth
-                    @endif
-                @endauth
-
-                <h4>
-                    @guest Для оформления заказа необходимо войти в аккаунт @endguest
-                </h4>
             </div>
         </div>
      </div>
-
-    <div class="overlay_popup"></div>
-        <div class="popup" id="popup1">
-        <div class="object">
-            <form action="{{ route('order.store') }}" method="post">
-            @csrf
-            <p>ID товара: </p>
-            <input type="number" name="good_id" id="good_id" value="{{ $good['id'] }}" readonly="readonly">
-            <p>Количество: </p>
-            <p><input type="number" name="quantity" min="1" id="quantity" required></p>
-            <select name="pack" id="packs">
-
-            </select> <br>
-            <input type="submit" value="Заказать">
-            </form>
-        </div>
-    </div>
 </div>
 
 
