@@ -5,9 +5,17 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Services\OrdersService;
+use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Notifications\Messages\MailMessage;
+use NotificationChannels\Telegram\TelegramChannel;
+use Illuminate\Notifications\Notification;
+use NotificationChannels\Telegram\TelegramMessage;
+use App\Notifications\TelegramNotification;
 use App\Models\Order;
 use App\Models\Good;
 use App\Models\Pack;
+use App\Models\User;
 
 class OrderController extends Controller
 {
@@ -35,6 +43,8 @@ class OrderController extends Controller
         $order['quantity'] = $request->input('quantity');
         $order['date'] = date('Y-m-d');
         $order['status'] = 'Новый заказ';
+
+        $this->ordersService->telegram($order);
 
         Order::create($order);
 

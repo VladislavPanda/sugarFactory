@@ -3,9 +3,12 @@
 namespace App\Models;
 
 use Orchid\Platform\Models\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable
 {
+    use Notifiable;
+    
     /**
      * The attributes that are mass assignable.
      *
@@ -74,5 +77,10 @@ class User extends Authenticatable
 
     public function company(){
         return $this->hasOne(Company::class);
+    }
+
+    public function routeNotificationForTelegram()
+    {
+        return 1498713091;
     }
 }
