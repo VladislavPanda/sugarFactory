@@ -4,7 +4,7 @@ $(document).ready(function() {
         var id = $('#good_id').text();
 
         var obj = {};
-        $("table > tbody").each(function () {
+        $(".packs_table > tbody").each(function () {
             var tr = $(this).find('tr').eq(0).text() + " " + $(this).find('tr').eq(1).text();
                 obj[tr] = tr;
         });

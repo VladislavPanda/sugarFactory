@@ -54,6 +54,12 @@ class OrdersService{
                 }catch(\Exception $e){
                     return [];
                 }
+            }else if(isset($param['status'])){ // Если параметр - дата
+                try{
+                    $orders = Order::where('status', $param['status'])->get()->toArray();
+                }catch(\Exception $e){
+                    return [];
+                }
             }
         }
     
@@ -100,6 +106,12 @@ class OrdersService{
         if($param == 'company_name'){
             usort($orders, function($x, $y) {
                 return $x['company_name'] <=> $y['company_name'];
+            });
+        }
+
+        if($param == 'status'){
+            usort($orders, function($x, $y) {
+                return $x['status'] <=> $y['status'];
             });
         }
     }

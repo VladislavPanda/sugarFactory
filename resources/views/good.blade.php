@@ -496,7 +496,7 @@
                             </div>
                             <div class="v-properties">
                                 <div class="v-properties-wrap">
-                                <table>
+                                <table class="packs_table">
                                     <tbody>
                                         <tr>
                                             <td>Вес</td>
@@ -646,9 +646,9 @@
             });
             
             $('body').on('click', '#close-popup, #overlay', function(event) {
-                event.preventDefault();
-                $('#overlay, #magnify').fadeOut('fast', function() {
-                $('#close-popup, #magnify, #overlay').remove();
+                    event.preventDefault();
+                    $('#overlay, #magnify').fadeOut('fast', function() {
+                    $('#close-popup, #magnify, #overlay').remove();
                 });
             });
         });

@@ -25,6 +25,20 @@ use App\Http\Controllers\OrderController;
 class PlatformScreen extends Screen
 {
     private $param;
+    private const STATUSES = [
+        'Новый заказ' => 'Новый заказ',
+        'Ожидает подтверждения' => 'Ожидает подтверждения',
+        'Подтверждён' => 'Подтверждён',
+        'Собирается' => 'Собирается',
+        'Собран' => 'Собран',
+        'Готов к отгрузке' => 'Готов к отгрузке',
+        'Отгружен' => 'Отгружен',
+        'Доставлен' => 'Доставлен',
+        'Возврат' => 'Возврат',
+        'Отменен' => 'Отменен',
+        'Оплачен' => 'Оплачен',
+        'Не оплачен' => 'Не оплачен'
+    ];
 
     /**
      * Query data.
@@ -47,7 +61,7 @@ class PlatformScreen extends Screen
             $this->param = null;
 
             $orders = $ordersService->makeOrdersList('admin', $param);
-        }else if(isset($_GET['company_name']) || isset($_GET['date'])){ // Если есть параметр фильтрации
+        }else if(isset($_GET['company_name']) || isset($_GET['date']) || isset($_GET['status'])){ // Если есть параметр фильтрации
             $param = $_GET;
             $this->param = $param;
 
@@ -59,7 +73,7 @@ class PlatformScreen extends Screen
             }else{
                 $orders = $ordersService->makeOrdersList('admin', $param);
             } 
-        }else if(isset($_GET['sort'])){ // Если есть только парамтр сортировки 
+        }else if(isset($_GET['sort'])){ // Если есть только парамeтр сортировки 
             $param = null;
             $sortParam = $_GET['sort'];
             $orders = $ordersService->makeOrdersList('admin', $param);
@@ -140,6 +154,12 @@ class PlatformScreen extends Screen
                                     //->canSee($this->checkProjectExistance($this->project))
                                     ->method('filterCompanyName'),
 
+                        ModalToggle::make('Фильтрация по статусу')
+                                    ->type(Color::PRIMARY())
+                                    ->modal('filter_status_modal')
+                                    //->canSee($this->checkProjectExistance($this->project))
+                                    ->method('filterStatus'),
+
                         DropDown::make('Сортировка')
                             ->icon('folder-alt')
                             ->list([
@@ -157,6 +177,14 @@ class PlatformScreen extends Screen
                                     ->parameters([
                                         'current_param' => $this->param,
                                         'sortParam' => 'company_name'
+                                    ]),
+
+                                Button::make('Статус')
+                                    ->method('sort')
+                                    ->icon('badge')
+                                    ->parameters([
+                                        'current_param' => $this->param,
+                                        'sortParam' => 'status'
                                     ]),
                             ]),
                     ])->autowidth()
@@ -315,6 +343,12 @@ class PlatformScreen extends Screen
             Layout::modal('filter_company_name_modal', Layout::rows([
                 Input::make('company_name')->type('text')
             ]))->title('Введите название компании')->applyButton('Фильтровать')->closeButton('Закрыть'),
+
+            Layout::modal('filter_status_modal', Layout::rows([
+                Select::make('status')
+                        ->title('Статус')
+                        ->options(PlatformScreen::STATUSES),
+            ]))->title('Введите статус')->applyButton('Фильтровать')->closeButton('Закрыть'),
         ];
     }
 
@@ -326,6 +360,11 @@ class PlatformScreen extends Screen
     public function filterCompanyName(Request $request){
         $companyName = $request->input('company_name');
         return redirect()->route('platform.main', ['company_name' => $companyName]);
+    }
+
+    public function filterStatus(Request $request){
+        $status = $request->input('status');
+        return redirect()->route('platform.main', ['status' => $status]);
     }
 
     public function sort(Request $request){
