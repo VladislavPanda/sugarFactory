@@ -344,7 +344,7 @@
                     </a>  
                 @endforeach       
             </div>
-
+            
         </div>
     </div>
 
@@ -475,6 +475,10 @@
 
         $(window).on("scroll", function() {
             localStorage.setItem("my_app_scroll", $(window).scrollTop());
+        });
+
+        $('#make_order_btn').on("click", function(){
+            alert(123);
         });
 
     });

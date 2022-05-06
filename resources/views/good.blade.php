@@ -311,7 +311,7 @@
                     <div style="display: flex">
                         @for($i = 0; $i < 2; $i++)
                             <div class="image_block">
-                                @if(isset($good['images'][$i])) <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px"> @endif
+                                @if(isset($good['images'][$i])) <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px" class="minimized"> @endif
                             </div>
                         @endfor
                     </div>
@@ -319,7 +319,7 @@
                     <div style="display: flex">
                         @for($i = 2; $i < 4; $i++)
                             <div class="image_block">
-                                @if(isset($good['images'][$i])) <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px"> @endif
+                                @if(isset($good['images'][$i])) <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px" class="minimized"> @endif
                             </div>
                         @endfor
                     </div>
@@ -328,7 +328,7 @@
                         @for($i = 4; $i < 6; $i++)
                             @if(isset($good['images'][$i]))
                                 <div class="image_block">
-                                    @if(isset($good['images'][$i])) <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px"> @endif
+                                    @if(isset($good['images'][$i])) <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px" class="minimized"> @endif
                                 </div>
                             @endif
                         @endfor
@@ -355,6 +355,10 @@
                                             <tr>
                                                 <td>Отзыв</td>
                                                 <td class="group">{{ $value['review'] }}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Дата</td>
+                                                <td class="group">{{ $value['date'] }}</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -628,6 +632,26 @@
 <script type="text/javascript">
     $(document).ready(function() {
         $(".fancybox").fancybox();
+
+        $(function(){
+            $('.minimized').click(function(event) {
+                var i_path = $(this).attr('src');
+                $('body').append('<div id="overlay"></div><div id="magnify"><img src="'+i_path+'"><div id="close-popup"><i></i></div></div>');
+                $('#magnify').css({
+                left: ($(document).width() - $('#magnify').outerWidth())/2,
+                // top: ($(document).height() - $('#magnify').outerHeight())/2 upd: 24.10.2016
+                        top: ($(window).height() - $('#magnify').outerHeight())/2
+            });
+                $('#overlay, #magnify').fadeIn('fast');
+            });
+            
+            $('body').on('click', '#close-popup, #overlay', function(event) {
+                event.preventDefault();
+                $('#overlay, #magnify').fadeOut('fast', function() {
+                $('#close-popup, #magnify, #overlay').remove();
+                });
+            });
+        });
     });
 </script>
 <script src="{{ asset('js/app.js') }}"></script>

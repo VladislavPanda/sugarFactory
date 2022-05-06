@@ -458,7 +458,7 @@
 
 </div>
 
-<div class="catalog">
+<div class="catalog" style="background-color: #f7f7f7;">
 
     <div class="catalog__cols">
         <div class="catalog__cols1">
@@ -478,7 +478,7 @@
             </div>
         </div>
         <div class="catalog__cols12">
-           <div>
+           <div id="reg_form_wrapper">
                 @if ($errors->any())
                     <div class="alert alert-danger">
                         <ul>
@@ -489,7 +489,7 @@
                     </div>
                 @endif
 
-                <form action="{{ route('signin.store') }}" method="post">
+                <form action="{{ route('signin.store') }}" method="post" id="reg_form">
                    @csrf
                    <label>Email</label>
                    <input type="email" name="email"> <br>
@@ -497,7 +497,7 @@
                    <label>Пароль</label>
                    <input type="password" name="password"> <br>
 
-                   <input type="submit" value="Войти">
+                   <input type="submit" id="form_btn" value="Войти">
                </form>
            </div>
             
