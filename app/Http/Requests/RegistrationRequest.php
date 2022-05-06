@@ -26,7 +26,7 @@ class RegistrationRequest extends FormRequest
         return [
             'email' => 'required',
             'company_name' => 'required',
-            'client_name' => 'required',
+            'client_name' => 'required|alpha',
             'password' => 'required',
             'password_confirm' => 'required|same:password'
         ];
@@ -39,7 +39,8 @@ class RegistrationRequest extends FormRequest
             'client_name.required' => 'Поле "Имя клиента" является обязательным',
             'password.required' => 'Поле пароля явлется обязательным',
             'password_confirm.required' => 'Поле подтверждения пароля является обязательным',
-            'password_confirm.same' => 'Пароли не совпадают'
+            'password_confirm.same' => 'Пароли не совпадают',
+            'client_name.alpha' => 'Имя клиента не может содержать цифры'
         ];
     }
 }
