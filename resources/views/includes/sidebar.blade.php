@@ -9,7 +9,7 @@
         <div style="margin-left: 7px;">
               <a href="{{ route('welcome') }}" class="nav-link">
                 <!--<i class="nav-icon fas fa-table"></i>-->
-                <i class="fas fa-sign-out-alt"></i>
+                <i class="fa fa-reply" aria-hidden="true"></i>
                 
                 <p style="margin-left: 6px;">
                   На сайт
@@ -20,7 +20,7 @@
         <div style="margin-left: 7px;">
           <a href="https://gsr.by/partners" class="nav-link">
             <!--<i class="nav-icon fas fa-table"></i>-->
-            <i class="fas fa-sign-out-alt"></i>
+            <i class="fa fa-user" aria-hidden="true"></i>
             
             <p style="margin-left: 6px;">
               Партнёрам

@@ -30,7 +30,7 @@ Route::post('/goodForOrder', [GoodController::class, 'goodForOrder'])->name('goo
 // Роуты заказа
 Route::post('/store', [OrderController::class, 'store'])->name('order.store');
 
-Route::middleware('auth')->prefix('cabinet')->group(function(){
+Route::middleware(['auth', 'prevent-back-history'])->prefix('cabinet')->group(function(){
     Route::get('/orders', [CabinetController::class, 'index'])->name('cabinet.index');
     /*Route::get('/appointment/procedures/{id}', [AppointmentController::class, 'getProcedures'])->name('procedures_modal');*/
     Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
