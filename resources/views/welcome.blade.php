@@ -367,7 +367,7 @@
             <div class="contact-info-row contact-info-mail">
                 <p><a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a></p>
                 <br>
-                <a href="https://gsr.by/media/1009/zkzdeRQJ0vszcPVukzc0r0ORBSGbTj12yHijFYhC.pdf" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
+                <a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
             </div>
             <div class="block-social">
 

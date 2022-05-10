@@ -518,7 +518,7 @@
             <div class="contact-info-row contact-info-mail">
                 <p><a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a></p>
                 <br>
-                <a href="https://gsr.by/media/1002/Y3vxMV41bqBCOndFd5ZKCnIvyzOk0mAY9LqNIL7W.pdf" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>-
+                <a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
             </div>
             <div class="block-social">
 

@@ -310,25 +310,29 @@
                 <div style="margin-left: 10px">
                     <div style="display: flex">
                         @for($i = 0; $i < 2; $i++)
-                            <div class="image_block">
-                                @if(isset($good['images'][$i])) <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px" class="minimized"> @endif
-                            </div>
+                            @if(isset($good['images'][$i]) && File::exists(str_replace('http://sugarfactory/', '', $good['images'][$i])))
+                                <div class="image_block">
+                                    <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px" class="minimized"> 
+                                </div>
+                            @endif
                         @endfor
                     </div>
 
                     <div style="display: flex">
                         @for($i = 2; $i < 4; $i++)
-                            <div class="image_block">
-                                @if(isset($good['images'][$i])) <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px" class="minimized"> @endif
-                            </div>
+                            @if(isset($good['images'][$i]) && File::exists(str_replace('http://sugarfactory/', '', $good['images'][$i])))
+                                <div class="image_block">
+                                    <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px" class="minimized"> 
+                                </div>
+                            @endif
                         @endfor
                     </div>
 
                     <div style="display: flex">
                         @for($i = 4; $i < 6; $i++)
-                            @if(isset($good['images'][$i]))
+                            @if(isset($good['images'][$i]) && File::exists(str_replace('http://sugarfactory/', '', $good['images'][$i])))
                                 <div class="image_block">
-                                    @if(isset($good['images'][$i])) <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px" class="minimized"> @endif
+                                    <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px" class="minimized"> 
                                 </div>
                             @endif
                         @endfor
@@ -536,7 +540,7 @@
             <div class="contact-info-row contact-info-mail">
                 <p><a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a></p>
                 <br>
-                    <a href="https://gsr.by/media/1009/zkzdeRQJ0vszcPVukzc0r0ORBSGbTj12yHijFYhC.pdf" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
+                <a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
                             </div>
             <div class="block-social">
 

@@ -22,7 +22,13 @@ class RegistrationController extends Controller
                             );
 
         // Записываем данные в таблицу компаний-клиентов
-        $company = Company::create(['user_id' => $user->id, 'name' => $request->input('company_name')]);
+        $company = Company::create(
+                                    [
+                                        'user_id' => $user->id, 
+                                        'name' => $request->input('company_name'),
+                                        'phone' => $request->input('phone')
+                                    ]
+                                  );
     
         return redirect()->route('cabinet.index');
     }   

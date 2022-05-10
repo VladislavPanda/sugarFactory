@@ -25,6 +25,8 @@ $(document).ready(function() {
         $('.overlay_popup, .popup').hide(); // Скрываем затемнённый задний фон и основное всплывающее окно
     });
 
+    $("#phone").mask("+375(99) 999-99-99");
+
     $('#my_modal').on('show.bs.modal', function(e) {
 
         //get data-id attribute of the clicked element

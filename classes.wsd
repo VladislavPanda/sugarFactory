@@ -1,0 +1,110 @@
+@startuml SUGARFACTORY
+class AuthController{
+
+    index()
+    login(AuthRequest $request)
+    logout()
+}
+
+class CabinetController{
+
+    private $ordersService
+
+    __construct(OrdersService $ordersService)
+    index()
+}
+
+class GoodController{
+
+    private $goodsService
+
+    __construct(GoodsService $goodsService)
+    index()
+    show($id)
+    goodForOrder(Request $request)
+}
+
+class OrderController{
+    private $ordersService
+
+    __construct(OrdersService $ordersService)
+    store(Request $request)
+    updateStatus($statusData)
+}
+
+class RegistrationController{
+    
+    index()
+    store(RegistrationRequest $request)
+}
+
+class ReviewController{
+    private $reviewsService
+
+    __construct(ReviewsService $reviewsService)
+    create($goodId)
+    store(Request $request)
+}
+
+class User{
+    protected $fillable = []
+    protected $hidden = []
+    protected $casts = []
+
+    setPasswordAttribute($password)
+    company()
+    routeNotificationForTelegram()
+}
+
+class Company{
+    protected $table
+    protected $guarded
+}
+
+class Order{
+    protected $table
+    protected $guarded
+
+    good()
+    pack()
+}
+
+class Pack{
+    protected $table
+    protected $guarded
+
+    good()
+    order()
+}
+
+class Review{
+    protected $table
+    protected $guarded
+
+    good()
+    company()
+}
+
+class GoodsService{
+
+    encodeImages(&$goods)
+    getId($value)
+}
+
+class OrdersService{
+    private const CHAT_ID
+    private const TOKEN
+
+    parsePack($item)
+    makeOrdersList($role, $param)
+    sort(&$orders, $param)
+    telegram($order)
+    sendMessage($messaggio)
+    createMessage($order)
+}
+
+class ReviewsService{
+    makeReviewObjectRecord(&$reviewData)
+}
+
+@enduml
