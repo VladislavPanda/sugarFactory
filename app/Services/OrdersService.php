@@ -10,7 +10,7 @@ use App\Models\User;
 use App\Models\Company;
 
 class OrdersService{
-    private const CHAT_ID = '491966622'; //'1498713091';
+    private const CHAT_ID = '491966622'; //'1498713091';  
     private const TOKEN = '5363947644:AAFRqufLBfamyhEq65CW2cqJPtjvKrax2jE';
 
     // Парсинг строки упаковок к нужному формату
@@ -90,6 +90,7 @@ class OrdersService{
                 $user = User::find($value['user_id']);
                 $company = $user->company;
                 $ordersList[$key]['company_name'] = $company->name;
+                $ordersList[$key]['phone'] = $company->phone;
             }
         }
         
@@ -139,12 +140,15 @@ class OrdersService{
 
     // Сформировать текст сообщения:
     public function createMessage($order){
+        //dd($order);
         $telegramMessage = 'Новый заказ: ' . "\n";
         $telegramMessage .= '-------------------------------------------------------------' . "\n";
         
-        $userData = User::select(['name', 'email'])->where('id', $order['user_id'])->get();
-        $telegramMessage .= 'Имя клиента: ' . $userData[0]->name . "\n";
+        $userData = User::select(['id', 'name', 'email'])->where('id', $order['user_id'])->get();
+        $companyObj = Company::select(['phone', 'name'])->where('user_id', $userData[0]->id)->get();   
+        $telegramMessage .= 'Название компании: ' . $companyObj[0]->name . "\n";
         $telegramMessage .= 'Email: ' . $userData[0]->email . "\n";
+        $telegramMessage .= 'Телефон: ' . $companyObj[0]->phone . "\n";
         $telegramMessage .= '-------------------------------------------------------------' . "\n"; 
         
         $goodData = Good::find($order['good_id'])->get();

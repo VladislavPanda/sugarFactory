@@ -1,7 +1,7 @@
 @extends('layouts.cabinet')
 
-@section('content')
-<div class="card">
+@section('content') 
+    <div class="card">
     <!--<div class="card-header">
       <h3 class="card-title">DataTable with minimal features & hover style</h3>
     </div>-->
@@ -19,6 +19,7 @@
         </tr>
         </thead>
         <tbody>
+        @if(isset($orders) && $orders != [])
           @foreach($orders as $key => $value)
             <tr>
               <td>{{ $value['good_id'] }}</td>
@@ -30,6 +31,17 @@
               <td><a href="{{ route('review.create', $value['good_id']) }}">Оставить отзыв</button></td>
             </tr>
           @endforeach
+        @else
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        @endif
         </tbody>
         <tfoot>
         </tfoot>
@@ -38,29 +50,4 @@
     <!-- /.card-body -->
   </div>
   <!-- /.card -->
-
-  <!--<div class="modal fade" id="review">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title">Напечатайте Ваш отзыв</h4>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body" id="modal-body">
-          <form action="{{ route('review.store') }}" method="post">
-              @csrf
-              <input type="text" name="good_id" value="Товар №{{ $value['good_id'] }}" readonly="readonly"> <br>
-              <textarea name="review" id="review" cols="50" rows="10" style="resize:none" required></textarea> <br>
-              <div class="modal-footer justify-content-between">
-                <button type="submit" class="btn btn-default">Отправить</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-              </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>-->
-  <!-- /.modal -->
 @endsection

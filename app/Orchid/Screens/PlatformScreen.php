@@ -86,6 +86,7 @@ class PlatformScreen extends Screen
         for($i = 0; $i < sizeof($orders); $i++){
             $ordersList[] = new Repository(['id' => $orders[$i]['id'],
                                             'company_name' => $orders[$i]['company_name'],
+                                            'phone' => $orders[$i]['phone'],
                                             'good' => $orders[$i]['good'],
                                             'pack' => $orders[$i]['pack'],
                                             'quantity' => $orders[$i]['quantity'],
@@ -196,6 +197,12 @@ class PlatformScreen extends Screen
                     ->width('70')
                     ->render(static function ($row){
                         return view('layouts.ordersText', ['data' => $row['company_name'], 'width' => 100]);
+                    }),
+
+                TD::make('phone', 'Номер телефона')
+                    ->width('70')
+                    ->render(static function ($row){
+                        return view('layouts.ordersText', ['data' => $row['phone'], 'width' => 100]);
                     }),
 
                 TD::make('good', 'Товар')
