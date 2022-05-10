@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: localhost
--- Время создания: Май 09 2022 г., 18:36
+-- Время создания: Май 10 2022 г., 13:09
 -- Версия сервера: 8.0.24
 -- Версия PHP: 8.1.1
 
@@ -69,6 +69,7 @@ CREATE TABLE `companies` (
   `id` bigint UNSIGNED NOT NULL,
   `user_id` bigint UNSIGNED DEFAULT NULL,
   `name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `phone` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL
@@ -78,9 +79,10 @@ CREATE TABLE `companies` (
 -- Дамп данных таблицы `companies`
 --
 
-INSERT INTO `companies` (`id`, `user_id`, `name`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(1, 4, 'Коммунарка', '2022-04-13 19:57:43', '2022-04-13 19:57:43', NULL),
-(2, 5, 'Спартак', '2022-04-20 11:43:48', '2022-04-20 11:43:48', NULL);
+INSERT INTO `companies` (`id`, `user_id`, `name`, `phone`, `created_at`, `updated_at`, `deleted_at`) VALUES
+(1, 4, 'Коммунарка', '+375(29) 171-97-65', '2022-04-13 19:57:43', '2022-04-13 19:57:43', NULL),
+(2, 5, 'Спартак', '+375(44) 142-93-91', '2022-04-20 11:43:48', '2022-04-20 11:43:48', NULL),
+(3, 6, 'Доброном', '+375(44) 586-51-80', '2022-05-10 04:30:19', '2022-05-10 04:30:19', NULL);
 
 -- --------------------------------------------------------
 
@@ -219,7 +221,12 @@ INSERT INTO `orders` (`id`, `user_id`, `good_id`, `pack_id`, `quantity`, `date`,
 (6, 4, 8, 18, 20, '2022-04-27', 'Новый заказ', '2022-04-27 14:03:59', '2022-04-27 14:03:59', NULL),
 (7, 4, 1, 1, 10, '2022-05-05', 'Новый заказ', '2022-05-05 06:32:23', '2022-05-05 06:32:23', NULL),
 (8, 4, 3, 3, 5, '2022-05-05', 'Новый заказ', '2022-05-05 06:33:44', '2022-05-05 06:33:44', NULL),
-(9, 4, 2, 2, 40, '2022-05-05', 'Новый заказ', '2022-05-05 07:17:41', '2022-05-05 07:17:41', NULL);
+(9, 4, 2, 2, 40, '2022-05-05', 'Новый заказ', '2022-05-05 07:17:41', '2022-05-05 07:17:41', NULL),
+(10, 6, 8, 16, 3, '2022-05-10', 'Новый заказ', '2022-05-10 05:37:34', '2022-05-10 05:37:34', NULL),
+(11, 6, 13, 28, 8, '2022-05-10', 'Новый заказ', '2022-05-10 05:44:36', '2022-05-10 05:44:36', NULL),
+(12, 6, 11, 23, 5, '2022-05-10', 'Новый заказ', '2022-05-10 05:45:24', '2022-05-10 05:45:24', NULL),
+(13, 6, 7, 11, 3, '2022-05-10', 'Новый заказ', '2022-05-10 05:49:36', '2022-05-10 05:49:36', NULL),
+(14, 6, 6, 8, 3, '2022-05-10', 'Новый заказ', '2022-05-10 05:50:18', '2022-05-10 05:50:18', NULL);
 
 -- --------------------------------------------------------
 
@@ -380,9 +387,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`, `permissions`) VALUES
-(1, 'admin', 'mbedulya@gmail.com', NULL, '$2y$10$qnztCuq4se2E9n/V64BKJ.WJ9nlx2nx5Q72VmEpoYUCsBCQUMa4b6', 'uITdaOUEoLw65XHEwYuUWZOGpv54KLajUSa7aNSIui45k67uM2RGT0PUBNtd', '2022-04-12 16:13:35', '2022-04-12 16:13:35', '{\"platform.index\": true, \"platform.systems.roles\": true, \"platform.systems.users\": true, \"platform.systems.attachment\": true}'),
+(1, 'admin', 'mbedulya@gmail.com', NULL, '$2y$10$qnztCuq4se2E9n/V64BKJ.WJ9nlx2nx5Q72VmEpoYUCsBCQUMa4b6', 'zYF4ea7XucN72vvtzV3WjPhe2kFPDGJcnpcbMWQDrb4ks6uCmWo0parEVL67', '2022-04-12 16:13:35', '2022-04-12 16:13:35', '{\"platform.index\": true, \"platform.systems.roles\": true, \"platform.systems.users\": true, \"platform.systems.attachment\": true}'),
 (4, 'Олег', 'company@gmail.com', NULL, '$2y$10$1jDnGXRgbC5QnZI3SHa0bejO4yROEp3pcumUPKRu.TH6F8qFcTQz6', NULL, '2022-04-13 19:57:42', '2022-04-13 19:57:42', NULL),
-(5, 'Иван', 'comp1@gmail.com', NULL, '$2y$10$OYmMxy114zpdkyh9A53CbeQ3T9lDG7mpTL4016eRwrAxCQjTtv5uS', NULL, '2022-04-20 11:43:47', '2022-04-20 11:43:47', NULL);
+(5, 'Иван', 'comp1@gmail.com', NULL, '$2y$10$OYmMxy114zpdkyh9A53CbeQ3T9lDG7mpTL4016eRwrAxCQjTtv5uS', NULL, '2022-04-20 11:43:47', '2022-04-20 11:43:47', NULL),
+(6, 'Юрий', 'dobronom@gmail.com', NULL, '$2y$10$dvS/YnPMNJmWWLZg3ar.WeuTu0UCG2rerMPA8N0bhgzxkENwr9rsK', NULL, '2022-05-10 04:30:19', '2022-05-10 04:30:19', NULL);
 
 --
 -- Индексы сохранённых таблиц
@@ -513,7 +521,7 @@ ALTER TABLE `attachments`
 -- AUTO_INCREMENT для таблицы `companies`
 --
 ALTER TABLE `companies`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT для таблицы `failed_jobs`
@@ -537,7 +545,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT для таблицы `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT для таблицы `packs`
@@ -567,7 +575,7 @@ ALTER TABLE `roles`
 -- AUTO_INCREMENT для таблицы `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- Ограничения внешнего ключа сохраненных таблиц

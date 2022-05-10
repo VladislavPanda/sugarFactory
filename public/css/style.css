@@ -377,6 +377,15 @@ transition: .4s;
     pointer-events: auto;
 }
 
+.header-wrap-menu p{
+    float: left;
+    padding-right: 20px;
+}
+
+.header-wrap-menu a{
+    padding-right: 20px;
+}
+
 /*.header.header-hiden{
     position: absolute;
     transform: translateY(-100%);
@@ -2348,7 +2357,7 @@ textarea.form-control.form-control-textarea:focus{
     margin-bottom:30px
 }
 .contact-info-addres{
-    max-width: 420px;
+    max-width: 450px;
     width: 100%;
 }
 .contact-info-row{
@@ -2535,7 +2544,8 @@ textarea.form-control.form-control-textarea:focus{
 }
 .footer-inner{
     background:rgba(0,0,0,.03);
-    width:100%
+    width:100%;
+    padding: 0 20px;
 }
 .footer-inner p{
     font-weight:700;

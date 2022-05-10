@@ -103,7 +103,7 @@
         <div class="access"><dl class="a-fontsize"><dt>Размер шрифта:</dt><dd><a href="https://gsr.by/products/sahar#" rel="fontsize-small" class="a-fontsize-small">А</a></dd><dd><a rel="fontsize-normal" href="https://gsr.by/products/sahar#" class="a-fontsize-normal">А</a></dd><dd><a href="https://gsr.by/products/sahar#" rel="fontsize-big" class="a-fontsize-big">А</a></dd></dl><dl class="a-colors"><dt>Цвет:</dt><dd><a href="https://gsr.by/products/sahar#" rel="color1" class="a-color1"><i class="fa fa-eye" aria-hidden="true"></i></a></dd><dd><a href="https://gsr.by/products/sahar#" rel="color2" class="a-color2"><i class="fa fa-eye" aria-hidden="true"></i></a></dd></dl><dl class="a-images"><dt>Изображения</dt><dd><a rel="imagesoff" href="https://gsr.by/products/sahar#" class="a-imagesoff"><span class="icon-off">выкл</span><span class="icon-on">вкл</span><span class="image-bar"></span></a></dd></dl><div class="access-up"></div><div class="popped"><div class="h2">Настройки шрифта:</div><p class="choose-font-family">Выберите шрифт <a class="font-family" id="sans-serif" rel="sans-serif" href="https://gsr.by/products/sahar#">Arial</a><a class="font-family" rel="serif" id="serif" href="https://gsr.by/products/sahar#">Times New Roman</a></p><p class="choose-letter-spacing">Интервал между буквами <span>(Кернинг)</span>: <a class="letter-spacing" id="spacing-small" rel="spacing-small" href="https://gsr.by/products/sahar#">Стандартный</a><a rel="spacing-normal" class="letter-spacing" id="spacing-normal" href="https://gsr.by/products/sahar#">Средний</a><a rel="spacing-big" class="letter-spacing" id="spacing-big" href="https://gsr.by/products/sahar#">Большой</a></p><div class="h2">Выбор цветовой схемы:</div><ul class="choose-colors"><li id="color1"><a rel="color1" href="https://gsr.by/products/sahar#"><span>—</span>Черным по белому</a></li><li id="color2"><a rel="color2" href="https://gsr.by/products/sahar#"><span>—</span>Белым по черному</a></li><li id="color3"><a rel="color3" href="https://gsr.by/products/sahar#"><span>—</span>Темно-синим по голубому</a></li><li id="color4"><a rel="color4" href="https://gsr.by/products/sahar#"><span>—</span>Коричневым по бежевому</a></li><li id="color5"><a rel="color5" href="https://gsr.by/products/sahar#"><span>—</span>Зеленым по темно-коричневому</a></li></ul><p class="saveit"><a class="closepopped" href="https://gsr.by/products/sahar#"><span>Закрыть панель</span></a><a class="default" href="https://gsr.by/products/sahar#"><span>Вернуть стандартные настройки</span></a></p></div></div>
     		<header class="header header-hiden header-fixed">
     <div class="row">
-        <div class="col-3 col-xl-3 header-logo-wrap">
+        <div class="col-3 col-xl-2 header-logo-wrap">
             <div class="header-logo logo-fixed">
                 <a href="http://sugarfactory">
                     <img src="{{ asset('/images/logo.png') }}" alt="">
@@ -112,22 +112,19 @@
 
             </div>
         </div>
-        <div class="col-2 col-xl-6 d-none d-xl-block header-wrap-menu">
-            <div class="row">
-                <div class="col-8"></div>
-                <div class="col-4">
-                    <ul class="header__top-menu li-group li-style">
-                        <!--<li><a href="https://gsr.by/partners">Партнерам</a></li>
-                        <li><a href="https://gsr.by/stolbcovskij-filial">Столбцовский филиал</a></li>
-                        <li><a href="https://gsr.by/entertainment/restoran-traktir-dlya-druzej">Ресторан</a></li>
-                        <li><a href="https://gsr.by/entertainment/rc-bumerang">Регистрация</a></li>
-                        <li><a href="https://gsr.by/entertainment/rc-bumerang">Войти в личный кабинет</a></li>
-                        <li><a href="http://hotel.gsr.by/" target="_blank">Гостиница<span><img src="./sahar_files/exit-target.svg" alt=""></span></a></li>-->
-                    </ul>
-                </div>
-            </div>
+        <div class="col-2 col-xl-7 d-none d-xl-block header-wrap-menu" style="margin-left: 90px; margin-top: 20px;">
+                <p>
+                    <strong>
+                        ул. Заводская 2, 222611, г.п. Городея, <br> Несвижский р-н, Минская область
+                    </strong>
+                </p>
+                <p>
+                    <a href="tel:+375 1770 62 524">+375 1770 62 524</a>
+                    <a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a>
+                </p>
+                <a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
         </div>
-        <div class="col-2 col-xl-2">
+        <div class="col-2 col-xl-2" style="margin-left: 20px;">
             <ul class="header__top-menu li-group li-style">
                 @auth
                     @if(Auth::user()->name != 'admin')
@@ -157,16 +154,7 @@
                 </div>
             </div>
             <div class="col-4 col-xl-6 d-none d-xl-block header-wrap-menu">
-                <div class="row">
-                    <div class="col-12">
-
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-
-                    </div>
-                </div>
+                
             </div>
             <div class="col-9 col-xl-3 header-wrap-btn">
                 <div class="header__group-buttons">
@@ -335,13 +323,15 @@
             <h3 style="text-align: center">Каталог</h3>
             <div class="catalog__items">
                 @foreach($goods as $key => $value)  
-                    <a href="{{ route('goods.show', $value['id']) }}" class="catalog__card aos-init   aos-animate" data-aos="fade-up" data-aos-offset="150">
-                            <div class="catalog__card-img" style="background-image: url({{ $value['images'][0] }})"></div>
+                    <div href="{{ route('goods.show', $value['id']) }}" class="catalog__card aos-init   aos-animate" data-aos="fade-up" data-aos-offset="150">
+                            <div onClick="window.open('http://example.com');" class="catalog__card-img" style="background-image: url({{ $value['images'][0] }})"></div>
                             <div class="catalog__card-txt">
                                 <h2>{{ $value['title'] }}</h2>
                                 <p>{{ $value['short_description'] }}</p><p><strong>{{ $value['forma'] }}</strong></p>
+                                <a href="" target="_blank" onClick="alert(123);" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
+                                {{-- <p style="border: 1px solid #991426; padding: 10px; cursor: pointer;" onClick="alert(123);">Заказть в один клик</p> --}}
                             </div>
-                    </a>  
+                        </div>  
                 @endforeach       
             </div>
             
