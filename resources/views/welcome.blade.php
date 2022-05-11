@@ -334,6 +334,10 @@
                                     @endif
                                 @endauth
 
+                                @guest
+                                    <p>Авторизуйтесь для оформления заказа</p>   
+                                @endguest
+
                                 {{-- <p style="border: 1px solid #991426; padding: 10px; cursor: pointer;" onClick="alert(123);">Заказть в один клик</p> --}}
                             </div>
                         </div>  
@@ -396,8 +400,9 @@
 
             </div>
         </div>
-        <div class="footer-inner-bottom">
-            <div class="copy">© 2021  Городейский сахарный комбинат</div>
+        <div class="footer-inner-bottom" style="text-align: right">
+            <div class="copy"></div>
+            <span style="text-align:left">© 2021  Городейский сахарный комбинат</span>
             <!--<div class="site-develop"><a href="https://scroll.by/" target="_blank">Сайт изготовлен<span></span></a>
             </div>-->
         </div>
