@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Services\OrdersService;
+use App\Services\GoodsService;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
@@ -20,9 +21,11 @@ use App\Models\User;
 class OrderController extends Controller
 {
     private $ordersService;
+    private $goodsService;
 
-    public function __construct(OrdersService $ordersService){
+    public function __construct(OrdersService $ordersService, GoodsService $goodsService){
         $this->ordersService = $ordersService;
+        $this->goodsService = $goodsService;
     }
 
     public function store(Request $request){
@@ -57,6 +60,7 @@ class OrderController extends Controller
     }
 
     public function oneClick($id){
-        return view('oneClick')->with('goodId', $id);
+        $packs = $this->goodsService->getPacks($id);
+        return view('oneClick')->with('goodId', $id)->with('packs', $packs);
     }
 }

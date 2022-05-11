@@ -135,61 +135,6 @@
                 <!--<li><a href="http://hotel.gsr.by/" target="_blank">Гостиница<span><img src="./sahar_files/exit-target.svg" alt=""></span></a></li>-->
             </ul>
         </div>
-
-        <!--<div class="col-9 col-xl-3 header-wrap-btn">
-            <div class="header__group-buttons">
-                <a href="https://gsr.by/products/sahar" id="search" class="searh-btn">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="36" viewBox="0 0 35 36">
-                        <image id="search_3_" data-name="search (3)" width="35" height="36" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAkCAYAAAAD3IPhAAAABHNCSVQICAgIfAhkiAAAA5lJREFUWEftl0loVEEQhvPck2hwTUQJehEXRCQuFxWiJMRcPGgUXEDMQRJwAUHEg4joRb0oCAZcohFUUMT1oBhFBY0rQfCiggcFjShuccEtfn9SEybjvNc9MyEq2PDTM/O6/vq7XnV1TdDS0pL1t4zgnxcTBMFoopkPFNaXbOhhZ0TXOzII2ITDMjAFfAQ/TEB35hxwG1xA2MZ0hTnFIGIz5CtBN3P6gTnXxATMwifQz+avzLsRtSFVUaFiECHnJ0Ax6GVODzAfBo04k6gs1uUxTQSLQKWJ/MJcDxaw7qevqKRiTMhVSCYB7fQIqIY48uhhp1dWA+aD3uAGKPEVFCbmJCTKD41tqeaB5ddai+Y57Ct8ovObGIi2YLjCiHakKiTm1ASt5ruiucsnh5KJeYuxcqQOgiqfHYWtQdBeni0GzXANcXF1EGO7WYNRD5DjyhEneVsOKZk/gyr4lPyhI1HMTVYqafdgWO1y5vOcDe5h3TLQAOf0VMToGL4DczC85uPMtQYxM1mjEtEXzp5eYjAaw8JboA8YFKsjLmeu5/AOYM1zoBJRBO/jMJv214TRDBadBtkYSFCnDbi/QaYrpAxupULSES9mGivOAiWuClanDcR8h6wZlMKtO8wpZhQr7gId66EY6YhnPBAyGJKnQIImwPvEKUYLLJzaQQVGulsyHnCWQ6Ij7Xz9iUf7CkY6fgcRo0sv44GYQ5Co8NXDWRpFmChGd8g+oHYgF2MVq7QHQtTnKHFVLpbCd8pbjL2qZ8wq3ccwXpK2krbXrtt+HmiCq9DFlexuUke3ygxrIFnvIkn2HCFb+X25PSuHp8HFE9ZC1GE4F6giq2tb5yKKf25CdMmqQTuOva4D54jq9PR+ZwEdyYug0lWVreurNbv+zMqVnb5tSGQPDPl+i5B6Xo0z4Ci4B5rstwLmyWAhmG3RUNI+AuOB+pntPoJ8GnI5UiKqeGm374Ga8NiVoRZBDtULq1C+ADrKjeA8iN3UhQh6ZRtIOjnFxKyIUgmf1VYUA0VK942GKrZehxzX4vBSnI1yRrVrKtDnvKhy4S0mfisIU4QG2m+vcSAxyXcbBIrgZVBkwiWo9Z9F4khLTJjjCEHZPNNtPdbW5CPozR8RI6dEU1X9OhgH9KdPOdThMu6SyMTlkBqtO2AE0IkbGR+hLhVjEVK+3QfDga6JYe1i+ZJqCmS83lrRBxAV4F//IFpHl0cmaif/xYRF5xch0ZvIlDdPtwAAAABJRU5ErkJggg=="></image>
-                    </svg>
-
-                </a>
-                <a href="https://gsr.by/products/sahar" id="sv_button" class="version-blind">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 472.615 472.615" xml:space="preserve">
-<g>
-    <g>
-        <path d="M472.615,205.774h-25.344c-12.797-37.99-48.686-65.462-90.935-65.462c-43.224,0-79.837,28.73-91.823,68.087
-			c-7.582-5.011-17.305-8.115-28.211-8.115c-10.903,0-20.624,3.103-28.207,8.114c-11.989-39.357-48.608-68.085-91.831-68.085
-			c-42.249,0-78.135,27.472-90.93,65.462H0v19.692h20.925c-0.403,3.565-0.656,7.175-0.656,10.846
-			c0,52.933,43.063,95.99,95.995,95.99s96-43.058,96-95.99c0-0.552-0.073-1.085-0.083-1.635h0.069
-			c0-6.952,9.88-14.702,24.053-14.702c14.178,0,24.053,7.75,24.053,14.702h0.073c-0.01,0.549-0.083,1.083-0.083,1.635
-			c0,52.933,43.058,95.99,95.99,95.99s96-43.058,96-95.99c0-3.671-0.253-7.281-0.656-10.846h20.935V205.774z M116.264,312.611
-			c-42.072,0-76.303-34.231-76.303-76.298c0-42.077,34.231-76.308,76.303-76.308c42.077,0,76.308,34.231,76.308,76.308
-			C192.572,278.38,158.341,312.611,116.264,312.611z M356.337,312.611c-42.067,0-76.298-34.231-76.298-76.298
-			c0-42.077,34.231-76.308,76.298-76.308c42.077,0,76.308,34.231,76.308,76.308C432.644,278.38,398.413,312.611,356.337,312.611z"></path>
-    </g>
-</g>
-
-</svg>
-
-
-                </a>
-                <div class="lang" id="lang">
-                                            <a href="https://gsr.by/products/sahar" class="lang-current">RU</a>
-                                        <div class="langs-dropdown">
-
-                                                <a href="https://gsr.by/setlocale/ru" style="display:none">RU</a>
-                                                                            <a href="https://gsr.by/setlocale/by">BY</a>
-                                                                            <a href="https://gsr.by/setlocale/en">EN</a>
-                                                                            <a href="https://gsr.by/setlocale/ar">AR</a>
-                                            </div>
-
-                </div>
-                <div class="toggle-menu toggle-fixed">
-                    <div class="toggle-menu-wrap">
-                        <div class="header__toggle-element">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </div>
-        </div>
-    </div>-->
 </header>
     <div class="section-menu">
     <div class="section-menu-wrap">
@@ -277,89 +222,6 @@
             <div class="container">
                 <div class="menu-wrapper">
                     <div class="row w-100">
-                        <!--<div class="col-md-8">
-                            <div class="row">
-                                <div class="col-md-6 mb-5">
-                                    <div class="header__top-menu-title">
-                                        <a href="https://gsr.by/about">Предприятие</a>
-                                    </div>
-                                    <ul class="menu__group">
-                                        <li><span><a href="https://gsr.by/about/obrashhenie-generalnogo-direktora">Обращение генерального директора</a></span></li>
-                                        <li><span><a href="https://gsr.by/about/harakteristika-predpriyatiya">О предприятии </a></span></li>
-
-                                        <li><span><a href="https://gsr.by/about/history-development">История развития</a></span></li>
-
-                                        <li><span><a href="https://gsr.by/about/dostizheniya-i-nagrady">Достижения и награды</a></span></li>
-
-
-
-                                        <li><span><a href="https://gsr.by/about/teams">Коллектив</a></span></li>
-                                        <li><span><a href="https://gsr.by/about/profsoyuznaya-organizaciya">Профсоюзная организация</a></span></li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6 mb-5">
-                                    <div class="header__top-menu-title">
-                                        <a href="https://gsr.by/products">Продукция</a>
-                                    </div>
-                                    <ul class="menu__group">
-                                        
-                                            <li><span><a href="https://gsr.by/products/sahar">Сахар</a></span></li>
-                                        
-                                            <li><span><a href="https://gsr.by/products/fruktovaya-produkciya">Фруктовая продукция</a></span></li>
-                                        
-                                            <li><span><a href="https://gsr.by/products/sokovaya-produkciya">Соковая продукция</a></span></li>
-                                        
-                                            <li><span><a href="https://gsr.by/products/ovoshnaya-produkciya">Овощная продукция</a></span></li>
-                                        
-                                            <li><span><a href="https://gsr.by/products/pobochnaya-produkciya">Побочная продукция</a></span></li>
-                                                                            </ul>
-                                </div>
-                                <div class="col-md-6 mb-5">
-                                    <div class="header__top-menu-title">
-                                        <a href="https://gsr.by/stolbcovskij-filial">Столбцовский филиал</a>
-                                    </div>
-                                    <div class="header__top-menu-title">
-                                        <a href="http://hotel.gsr.by/">Гостиница «Гарадзейскi Фальварак»</a>
-                                    </div>
-                                                                            <div class="header__top-menu-title">
-                                            <a href="https://gsr.by/entertainment/restoran-traktir-dlya-druzej">Ресторан «Трактиръ для друзей»</a>
-                                        </div>
-                                                                            <div class="header__top-menu-title">
-                                            <a href="https://gsr.by/entertainment/rc-bumerang">Развлекательный центр «Бумеранг»</a>
-                                        </div>
-                                    
-
-                                </div>
-                                <div class="col-md-6 mb-5">
-                                    <div class="header__top-menu-title">
-                                        <a href="https://gsr.by/partners">Партнерам</a>
-                                    </div>
-                                    <div class="header__top-menu-title">
-                                        <a href="https://gsr.by/contacts">Контакты</a>
-                                    </div>
-                                    <div class="header__top-menu-title">
-                                        <a href="https://gsr.by/site-map">Карта сайта</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-5">
-                            <div class="header__top-menu-title">
-                                <a href="https://gsr.by/information">Информация</a>
-                            </div>
-                            <ul class="menu__group">
-                                <li><span><a href="https://gsr.by/information/news">Новости</a></span></li>
-                                <li><span><a href="https://gsr.by/information/representations">Наши представительства в других странах</a></span></li>
-                                <li><span><a href="https://gsr.by/information/dlya-akcionera">Для акционера</a></span></li>
-                                <li><span><a href="https://gsr.by/information/borba-s-korrupcziej">Борьба с коррупцией</a></span></li>
-                                <li><span><a href="https://gsr.by/information/priem-grazhdan">График приема граждан</a></span></li>
-                                <li><span><a href="https://gsr.by/information/vakansii">Вакансии</a></span></li>
-                                <li><span><a href="https://gsr.by/information/certificates">Сертификаты, Декларации и Свидетельства</a></span></li>
-                                <li><span><a href="https://gsr.by/information/elektronnoe-obrashenie">Электронное обращение</a></span></li>
-
-                            </ul>
-                        </div>-->
                     </div>
                 </div>
             </div>
@@ -605,7 +467,7 @@
                 <div class="contact-info-row contact-info-mail">
                     <p><a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a></p>
                     <br>
-                    <<a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
+                    <a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
                 </div>
                 <div class="block-social">
 

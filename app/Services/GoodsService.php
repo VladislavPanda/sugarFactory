@@ -2,6 +2,8 @@
 
 namespace App\Services;
 
+use App\Models\Good;
+
 class GoodsService{
     // Преобразование json из базы к массиву
     public function encodeImages(&$goods){
@@ -19,5 +21,16 @@ class GoodsService{
         $goodId = $value[1];
 
         return $goodId;
+    }
+
+    public function getPacks($id){
+        $packs = [];
+        $good = Good::find($id);
+        
+        foreach($good->packs as $key => $value){
+            $packs[] = 'Вес ' . $value->weight . ' Форма ' . $value->forma;
+        }
+        
+        return $packs;
     }
 }

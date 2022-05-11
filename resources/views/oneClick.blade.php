@@ -429,13 +429,15 @@
                     <form action="{{ route('order.store') }}" method="post">
                         @csrf
                         <p>ID товара: </p>
-                        <input type="number" name="good_id" id="good_id" value="{{ $goodId }}" style="width: 300px;" readonly="readonly">
+                        <input type="number" name="good_id" id="good_id" value="{{ $goodId }}" style="width: 400px;" readonly="readonly">
                         <p>Количество: </p>
-                        <p><input type="number" name="quantity" min="1" id="quantity" required></p>
-                        <select name="pack" id="packs" style="width: 100%">
-
+                        <p><input type="number" name="quantity" min="1" id="quantity" style="width: 400px;" required></p>
+                        <select name="pack" id="packs" style="width: 400px; margin-bottom: 20px;">
+                            @foreach($packs as $key => $value)
+                                <option value="{{ $value }}">{{ $value }}</option>
+                            @endforeach
                         </select> <br>
-                        <input type="submit" value="Заказать">
+                        <input type="submit" id="form_btn" value="Заказать">
                     </form>
             </div>
                 
@@ -546,7 +548,7 @@
                 <div class="contact-info-row contact-info-mail">
                     <p><a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a></p>
                     <br>
-                    <<a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
+                    <a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
                 </div>
                 <div class="block-social">
 
