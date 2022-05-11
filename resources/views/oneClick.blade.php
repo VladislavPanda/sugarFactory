@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- saved from url=(0041)https://gsr.by/product/sahar/sahar-bridzh -->
+<!-- saved from url=(0029)https://gsr.by/products/sahar -->
 <html lang="ru" class="fontsize-normal color1 sans-serif spacing-small imagesoff"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<!-- Required meta tags -->
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="csrf-token" content="{{ csrf_token() }}">
+		<meta name="csrf-token" content="sfApwztA2s2f2YyAcPPiEhoHED6309MOExDFK0KU">
 	    <title></title>
 		<meta name="description" content="">
 		<meta name="keywords" content="">
@@ -22,10 +22,11 @@
         <!-- 	<link rel="stylesheet" href="css/special.min.css"> -->
         <link rel="stylesheet" href="{{ asset('css/slabo.css') }}">
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
+
         <script src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
         <script src="{{ asset('js/main.js') }}"></script>
-
-	<script type="text/javascript" async="" src="./sahar-bridzh_files/recaptcha__ru.js.Без названия" crossorigin="anonymous" integrity="sha384-bhweElfCaT7QyBBjvUjgDsUNCuGhjvi7tYFewuZa4O+JW4YpMBHF70wUxglDM6rc"></script><style type="text/css" data-ymaps="css-modules">.ymaps-2-1-79-copyright{position:relative;z-index:1;display:block;height:20px;top:-25px;float:right;margin-right:3px;margin-left:10px}.ymaps-2-1-79-copyright_float_left{float:left}.ymaps-2-1-79-copyright_fog_yes{float:none}.ymaps-2-1-79-copyright__wrap{display:block;overflow:hidden}.ymaps-2-1-79-copyright__layout{position:relative;z-index:1;top:1px;display:table;float:right}.ymaps-2-1-79-copyright__content-cell,.ymaps-2-1-79-copyright__logo-cell{display:table-cell;vertical-align:top}.ymaps-2-1-79-copyright__logo-cell{padding-left:4px}.ymaps-2-1-79-copyright__content-cell{height:20px}.ymaps-2-1-79-copyright__content{display:inline-block;float:right;padding:0 4px 1px;white-space:nowrap;border-radius:3px;background-color:rgba(255,255,255,.75);font:11px/14px Verdana,Arial,sans-serif}.ymaps-2-1-79-copyright_fog_yes .ymaps-2-1-79-copyright__content{background-color:transparent}.ymaps-2-1-79-copyright_fog_yes .ymaps-2-1-79-copyright__wrap{margin-left:17px}.ymaps-2-1-79-copyright_fog_yes:after{position:absolute;z-index:-1;top:1px;right:50px;left:17px;height:15px;content:'';border-radius:0 3px 3px 0;background-color:rgba(255,255,255,.75)}.ymaps-2-1-79-copyright_logo_no.ymaps-2-1-79-copyright_fog_yes:after{right:0}.ymaps-2-1-79-copyright_logo_no .ymaps-2-1-79-copyright__logo-cell,.ymaps-2-1-79-copyright_providers_no .ymaps-2-1-79-copyright__text,.ymaps-2-1-79-copyright_ua_no .ymaps-2-1-79-copyright__agreement,.ymaps-2-1-79-copyright_ua_no.ymaps-2-1-79-copyright_providers_no .ymaps-2-1-79-copyright__content-cell{display:none}.ymaps-2-1-79-copyright__fog{position:absolute;z-index:2;top:1px;left:0;display:none;width:12px;height:15px;padding-left:5px;border-radius:3px 0 0 3px;background:rgba(255,255,255,.75);font:11px/14px Verdana,Arial,sans-serif}.ymaps-2-1-79-copyright_fog_yes .ymaps-2-1-79-copyright__fog{display:block}.ymaps-2-1-79-copyright__extend{margin-left:.4em}.ymaps-2-1-79-copyright__link{text-decoration:underline!important;color:#000!important}.ymaps-2-1-79-copyright__link:hover{color:#c00!important}
+	    <script type="text/javascript" async="" src="./sahar_files/recaptcha__ru.js.Без названия" crossorigin="anonymous" integrity="sha384-t1CSrsnow6PFoZe3agBpnd3lqs5EWxEsebPUqE0pQyJMRoJgk4wd4qFQa7Twfxgl"></script><style type="text/css" data-ymaps="css-modules">.ymaps-2-1-79-copyright{position:relative;z-index:1;display:block;height:20px;top:-25px;float:right;margin-right:3px;margin-left:10px}.ymaps-2-1-79-copyright_float_left{float:left}.ymaps-2-1-79-copyright_fog_yes{float:none}.ymaps-2-1-79-copyright__wrap{display:block;overflow:hidden}.ymaps-2-1-79-copyright__layout{position:relative;z-index:1;top:1px;display:table;float:right}.ymaps-2-1-79-copyright__content-cell,.ymaps-2-1-79-copyright__logo-cell{display:table-cell;vertical-align:top}.ymaps-2-1-79-copyright__logo-cell{padding-left:4px}.ymaps-2-1-79-copyright__content-cell{height:20px}.ymaps-2-1-79-copyright__content{display:inline-block;float:right;padding:0 4px 1px;white-space:nowrap;border-radius:3px;background-color:rgba(255,255,255,.75);font:11px/14px Verdana,Arial,sans-serif}.ymaps-2-1-79-copyright_fog_yes .ymaps-2-1-79-copyright__content{background-color:transparent}.ymaps-2-1-79-copyright_fog_yes .ymaps-2-1-79-copyright__wrap{margin-left:17px}.ymaps-2-1-79-copyright_fog_yes:after{position:absolute;z-index:-1;top:1px;right:50px;left:17px;height:15px;content:'';border-radius:0 3px 3px 0;background-color:rgba(255,255,255,.75)}.ymaps-2-1-79-copyright_logo_no.ymaps-2-1-79-copyright_fog_yes:after{right:0}.ymaps-2-1-79-copyright_logo_no .ymaps-2-1-79-copyright__logo-cell,.ymaps-2-1-79-copyright_providers_no .ymaps-2-1-79-copyright__text,.ymaps-2-1-79-copyright_ua_no .ymaps-2-1-79-copyright__agreement,.ymaps-2-1-79-copyright_ua_no.ymaps-2-1-79-copyright_providers_no .ymaps-2-1-79-copyright__content-cell{display:none}.ymaps-2-1-79-copyright__fog{position:absolute;z-index:2;top:1px;left:0;display:none;width:12px;height:15px;padding-left:5px;border-radius:3px 0 0 3px;background:rgba(255,255,255,.75);font:11px/14px Verdana,Arial,sans-serif}.ymaps-2-1-79-copyright_fog_yes .ymaps-2-1-79-copyright__fog{display:block}.ymaps-2-1-79-copyright__extend{margin-left:.4em}.ymaps-2-1-79-copyright__link{text-decoration:underline!important;color:#000!important}.ymaps-2-1-79-copyright__link:hover{color:#c00!important}
 /**/
 .ymaps-2-1-79-copyright__logo{display:block;width:46px;height:20px;position:relative;top:-2px;opacity:.7;background-position:0 100%;background-repeat:no-repeat;background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSIyMCIgZmlsbD0ibm9uZSI+PGNsaXBQYXRoIGlkPSJhIj48cGF0aCBkPSJNMCAwaDQ2djIwSDB6Ii8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjYSkiPjxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjgiIGQ9Ik05LjQyIDE1LjM4Yy0uMjIuMTMtLjQ4LjItLjc2LjJINi44Yy0uNzggMC0xLjQyLS41Ni0xLjUyLTEuM2wtLjQzLjYzYy0uMjguNDItLjc2LjY4LTEuMjcuNjhIMS41N2MtLjU3IDAtMS4xLS4zMS0xLjM2LS44YTEuNSAxLjUgMCAwIDEgLjA4LTEuNTdsMS42NS0yLjQyQTUuMDUgNS4wNSAwIDAgMSAuMjggNi45NGMwLTEuNC41LTIuNyAxLjU4LTMuNjJBNi4xNiA2LjE2IDAgMCAxIDUuOTYgMmgyLjdjLjg0IDAgMS41My42OCAxLjUzIDEuNTJ2MS40aDEuODNjLjUgMCAuOTQuMjMgMS4yMi42LjI4LS4zNy43Mi0uNiAxLjIyLS42aDEuODJjLjQxIDAgLjc4LjE1IDEuMDYuNC4yNy0uMjUuNjQtLjQgMS4wNS0uNGg1LjMyYy42NSAwIDEuMi4zOSAxLjQzLjk1YTQuNjEgNC42MSAwIDAgMSAzLjEyLTEuMWMxIDAgMi4wNS4yMyAyLjkuOTIuMjYtLjQ2Ljc2LS43OCAxLjMzLS43OGgxLjgzYy41NCAwIDEuMDEuMjggMS4yOS43bC4wNS0uMDdjLjI4LS40Ljc1LS42MyAxLjI0LS42M2gxLjg0Yy40NSAwIC44Ni4yIDEuMTUuNTJhNS4yIDUuMiAwIDAgMSAyLjY0LS42N2MxLjAzIDAgMiAuMTcgMi43Mi41Ni40OC4yNy43OC43OC43OCAxLjMzdjEuNTNjMCAuNTUtLjMgMS4wNi0uNzkgMS4zMy0uNDkuMjYtMS4wOC4yNS0xLjU2LS4wNGEyLjEyIDIuMTIgMCAwIDAtLjk1LS4yNC41LjUgMCAwIDAtLjE0LjAxYy0uMDQuMDYtLjE4LjMtLjE4Ljk3IDAgLjY3LjEyLjk2LjE4IDEuMDVhMS40NCAxLjQ0IDAgMCAwIDEuMDMtLjIzIDEuNTMgMS41MyAwIDEgMSAyLjQyIDEuMjR2MS40OGMwIC40OS0uMjUuOTQtLjY0IDEuMjMtLjgxLjU4LTEuNzguNzYtMi44Ljc2YTUuOCA1LjggMCAwIDEtMi41LS41MmMtLjI4LjIzLS42My4zNy0xIC4zN2gtMi4wOGMtLjUgMC0uOTYtLjI0LTEuMjUtLjY0bC0uMS0uMTVjLS4yNy40Ny0uNzcuNzktMS4zNS43OWgtMS44M2ExLjUgMS41IDAgMCAxLTEuMDYtLjQzYy0uNzYuMzYtMS43LjU4LTIuOC41OC0uOTEgMC0xLjgtLjE2LTIuNTctLjU0di42MmMwIC44My0uNjkgMS41MS0xLjUzIDEuNTFoLTEuN2MtLjg0IDAtMS41My0uNjgtMS41My0xLjUxdi0uMjNoLTEuMDJ2LjIzYzAgLjgzLS43IDEuNTEtMS41NCAxLjUxaC0xLjY5Yy0uODUgMC0xLjUzLS42OC0xLjUzLTEuNTF2LS4yM2gtMS4wNmMtLjUgMC0uOTQtLjI0LTEuMjItLjYtLjI4LjM2LS43Mi42LTEuMjIuNmgtMS44M2MtLjI4IDAtLjU0LS4wOC0uNzctLjJ6Ii8+PGcgZmlsbD0iIzAwMCI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMzEuMTYgMTIuMTV2MS40OWMtLjU0LjM3LTEuNC42Ny0yLjU2LjY3LTIuMzMgMC0zLjY1LTEuMy0zLjY1LTMuOTggMC0yLjMzIDEuMDYtNC4wNCAzLjI4LTQuMDQgMS44MiAwIDMgMS4wMiAzIDMuN3YuOTZoLTQuNGMuMDggMS4zLjU5IDEuOTIgMS45MiAxLjkyLjg5IDAgMS44NC0uMzQgMi40LS43MnptLTEuNzgtMi43YzAtLjk2LS4yOC0xLjcyLTEuMTgtMS43Mi0uODggMC0xLjMyLjY1LTEuMzcgMS44OGgyLjU1eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PHBhdGggZD0iTTQ0LjQ1IDEzLjg0YTMuMSAzLjEgMCAwIDEtMS44OC40N2MtMi40NCAwLTMuNjItMS40Mi0zLjYyLTQgMC0yLjM1IDEuMi00LjAyIDMuNTQtNC4wMi45IDAgMS41OC4xNiAxLjk2LjM3djEuNTVhMy42IDMuNiAwIDAgMC0xLjc2LS40OGMtMS4yIDAtMS44Ni44Ni0xLjg2IDIuNTMgMCAxLjYuNTQgMi42MSAxLjg0IDIuNjEuNzcgMCAxLjMyLS4yIDEuNzgtLjUyek0xNC40NCA5LjVWNi40NWgxLjgzdjcuN2gtMS44M3YtMy4yMWgtMi40M3YzLjIyaC0xLjgzVjYuNDVoMS44M1Y5LjV6Ii8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMjMuNjkgMTIuNzJoLjgxdjMuMmgtMS42OHYtMS43NmgtNC4xdjEuNzZoLTEuNjh2LTMuMmguNTZjLjY1LTEuMjkuNzctMy43My43Ny01LjYxdi0uNjZoNS4zMnptLTQuNCAwaDIuNThWNy44OWgtMS45NHYuMjNjMCAxLjMzLS4xMyAzLjQzLS42NCA0LjZ6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48cGF0aCBkPSJNMzkuMDUgMTQuMTZoLTIuMDdsLTIuNy0zLjc5djMuNzloLTEuODJWNi40NWgxLjgzVjEwbDIuNTctMy41NWgxLjg0TDM2LjEzIDEweiIvPjwvZz48cGF0aCBmaWxsPSJyZWQiIGQ9Ik02LjggMTQuMTZoMS44NVYzLjVoLTIuN0MzLjI0IDMuNSAxLjggNC45IDEuOCA2Ljk1YzAgMS42NC43OCAyLjYgMi4xOCAzLjZsLTIuNDMgMy42aDIuMDFsMi43LTQuMDItLjkzLS42M2MtMS4xNC0uNzctMS43LTEuMzctMS43LTIuNjUgMC0xLjE0LjgtMS45IDIuMzItMS45aC44M3oiLz48L2c+PC9zdmc+)}.ymaps-2-1-79-copyright_color_white .ymaps-2-1-79-copyright__logo{opacity:.95;background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSIyMCIgZmlsbD0ibm9uZSI+PGNsaXBQYXRoIGlkPSJhIj48cGF0aCBkPSJNMCAwaDQ2djIwSDB6Ii8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjYSkiPjxwYXRoIGZpbGw9IiMwMDAiIGZpbGwtb3BhY2l0eT0iLjQiIGQ9Ik05LjQyIDE1LjM4Yy0uMjIuMTMtLjQ4LjItLjc2LjJINi44Yy0uNzggMC0xLjQyLS41Ni0xLjUyLTEuM2wtLjQzLjYzYy0uMjguNDItLjc2LjY4LTEuMjcuNjhIMS41N2MtLjU3IDAtMS4xLS4zMS0xLjM2LS44YTEuNSAxLjUgMCAwIDEgLjA4LTEuNTdsMS42NS0yLjQyQTUuMDUgNS4wNSAwIDAgMSAuMjggNi45NGMwLTEuNC41LTIuNyAxLjU4LTMuNjJBNi4xNiA2LjE2IDAgMCAxIDUuOTYgMmgyLjdjLjg0IDAgMS41My42OCAxLjUzIDEuNTJ2MS40aDEuODNjLjUgMCAuOTQuMjMgMS4yMi42LjI4LS4zNy43Mi0uNiAxLjIyLS42aDEuODJjLjQxIDAgLjc4LjE1IDEuMDYuNC4yNy0uMjUuNjQtLjQgMS4wNS0uNGg1LjMyYy42NSAwIDEuMi4zOSAxLjQzLjk1YTQuNjEgNC42MSAwIDAgMSAzLjEyLTEuMWMxIDAgMi4wNS4yMyAyLjkuOTIuMjYtLjQ2Ljc2LS43OCAxLjMzLS43OGgxLjgzYy41NCAwIDEuMDEuMjggMS4yOS43bC4wNS0uMDdjLjI4LS40Ljc1LS42MyAxLjI0LS42M2gxLjg0Yy40NSAwIC44Ni4yIDEuMTUuNTJhNS4yIDUuMiAwIDAgMSAyLjY0LS42N2MxLjAzIDAgMiAuMTcgMi43Mi41Ni40OC4yNy43OC43OC43OCAxLjMzdjEuNTNjMCAuNTUtLjMgMS4wNi0uNzkgMS4zMy0uNDkuMjYtMS4wOC4yNS0xLjU2LS4wNGEyLjEyIDIuMTIgMCAwIDAtLjk1LS4yNC41LjUgMCAwIDAtLjE0LjAxYy0uMDQuMDYtLjE4LjMtLjE4Ljk3IDAgLjY3LjEyLjk2LjE4IDEuMDVhMS40NCAxLjQ0IDAgMCAwIDEuMDMtLjIzIDEuNTMgMS41MyAwIDEgMSAyLjQyIDEuMjR2MS40OGMwIC40OS0uMjUuOTQtLjY0IDEuMjMtLjgxLjU4LTEuNzguNzYtMi44Ljc2YTUuOCA1LjggMCAwIDEtMi41LS41MmMtLjI4LjIzLS42My4zNy0xIC4zN2gtMi4wOGMtLjUgMC0uOTYtLjI0LTEuMjUtLjY0bC0uMS0uMTVjLS4yNy40Ny0uNzcuNzktMS4zNS43OWgtMS44M2ExLjUgMS41IDAgMCAxLTEuMDYtLjQzYy0uNzYuMzYtMS43LjU4LTIuOC41OC0uOTEgMC0xLjgtLjE2LTIuNTctLjU0di42MmMwIC44My0uNjkgMS41MS0xLjUzIDEuNTFoLTEuN2MtLjg0IDAtMS41My0uNjgtMS41My0xLjUxdi0uMjNoLTEuMDJ2LjIzYzAgLjgzLS43IDEuNTEtMS41NCAxLjUxaC0xLjY5Yy0uODUgMC0xLjUzLS42OC0xLjUzLTEuNTF2LS4yM2gtMS4wNmMtLjUgMC0uOTQtLjI0LTEuMjItLjYtLjI4LjM2LS43Mi42LTEuMjIuNmgtMS44M2MtLjI4IDAtLjU0LS4wOC0uNzctLjJ6Ii8+PGcgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTguNjUgMTQuMTZINi43OVY0Ljk0aC0uODNjLTEuNTEgMC0yLjMxLjc3LTIuMzEgMS45IDAgMS4zLjU1IDEuOSAxLjY5IDIuNjZsLjkzLjYzLTIuNyA0LjAzaC0ybDIuNDItMy42Yy0xLjQtMS0yLjE4LTEuOTctMi4xOC0zLjZDMS44IDQuOSAzLjI0IDMuNSA1Ljk1IDMuNWgyLjd6Ii8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMzEuMTYgMTIuMTV2MS40OWMtLjU0LjM3LTEuNC42Ny0yLjU2LjY3LTIuMzMgMC0zLjY1LTEuMy0zLjY1LTMuOTggMC0yLjMzIDEuMDYtNC4wNCAzLjI4LTQuMDQgMS44MiAwIDMgMS4wMiAzIDMuN3YuOTZoLTQuNGMuMDggMS4zLjU5IDEuOTIgMS45MiAxLjkyLjg5IDAgMS44NC0uMzQgMi40LS43MnptLTEuNzgtMi43YzAtLjk2LS4yOC0xLjcyLTEuMTgtMS43Mi0uODggMC0xLjMyLjY1LTEuMzcgMS44OGgyLjU1eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PHBhdGggZD0iTTQ0LjQ1IDEzLjg0YTMuMSAzLjEgMCAwIDEtMS44OC40N2MtMi40NCAwLTMuNjItMS40Mi0zLjYyLTQgMC0yLjM1IDEuMi00LjAyIDMuNTQtNC4wMi45IDAgMS41OC4xNiAxLjk2LjM3djEuNTVhMy42IDMuNiAwIDAgMC0xLjc2LS40OGMtMS4yIDAtMS44Ni44Ni0xLjg2IDIuNTMgMCAxLjYuNTQgMi42MSAxLjg0IDIuNjEuNzcgMCAxLjMyLS4yIDEuNzgtLjUyek0xNC40NCA2LjQ1VjkuNWgtMi40M1Y2LjQ1aC0xLjgzdjcuN2gxLjgzdi0zLjIxaDIuNDN2My4yMmgxLjgzVjYuNDV6Ii8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMjMuNjkgMTIuNzJoLjgxdjMuMmgtMS42OHYtMS43NmgtNC4xdjEuNzZoLTEuNjh2LTMuMmguNTZjLjY1LTEuMjkuNzctMy43My43Ny01LjYxdi0uNjZoNS4zMnptLTQuNCAwaDIuNThWNy44OWgtMS45NHYuMjNjMCAxLjMzLS4xMyAzLjQzLS42NCA0LjZ6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48cGF0aCBkPSJNMzYuOTggMTQuMTZoMi4wN0wzNi4xMyAxMGwyLjU3LTMuNTVoLTEuODRMMzQuMyAxMFY2LjQ1aC0xLjgzdjcuN2gxLjgzdi0zLjc4eiIvPjwvZz48L2c+PC9zdmc+)}.ymaps-2-1-79-copyright .ymaps-2-1-79-copyright__logo:hover{opacity:1}.ymaps-2-1-79-copyright__logo_lang_en{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSIyMCIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIuOCIgZD0iTTM0LjM1IDUuNjhjLjgxIDAgMS42NS4xNiAyLjM3LjYxLjI4LS4zLjY2LS40NiAxLjA4LS40NmgxLjk3Yy41IDAgLjk3LjI2IDEuMjQuNjhsLjEuMTYuMDYtLjFjLjI2LS40Ni43NS0uNzQgMS4yOC0uNzRoMS43NWExLjQ3IDEuNDcgMCAwIDEgMS4yOCAyLjIxbC0xLjY1IDIuODIgMS45NCAzLjA2YTEuNDcgMS40NyAwIDAgMS0xLjI0IDIuMjZoLTEuOThjLS41IDAtLjk3LS4yNi0xLjI0LS42OWwtLjMtLjQ2LS4yNS40M2MtLjI3LjQ1LS43NS43Mi0xLjI3LjcyaC0xLjc4YTEuNSAxLjUgMCAwIDEtLjc4LS4yMiA2LjUgNi41IDAgMCAxLTIuMjMuMzcgNS4xIDUuMSAwIDAgMS0zLjI3LTEuMDRjLS4yMi41Mi0uNzQuOS0xLjM1LjloLTEuNjJhMS42IDEuNiAwIDAgMS0uNjItLjE0IDMuOTQgMy45NCAwIDAgMS00LjEtLjdjLS4yMy41LS43NC44My0xLjMyLjgzaC0xLjc1Yy0uNSAwLS45Mi0uMjMtMS4xOS0uNi0uMjcuMzctLjcuNi0xLjE5LjZoLTEuNzVhMS41IDEuNSAwIDAgMS0uNjctLjE2Yy0uMi4xLS40My4xNi0uNjcuMTZoLTEuN2MtLjIgMC0uNC0uMDQtLjU4LS4xMS0uNDMuMTQtLjkuMjEtMS40NS4yMS0uOTcgMC0xLjkzLS4zLTIuNjYtMS0uMzEtLjMtLjU1LS42NC0uNzItMS4wMnYuNDVjMCAuODEtLjY2IDEuNDctMS40OCAxLjQ3SDQuODNjLS44MSAwLTEuNDctLjY2LTEuNDctMS40N1YxMi4xTC4xMyA1LjA5QTEuNDcgMS40NyAwIDAgMSAxLjQ3IDNoMS44NmMuNTcgMCAxLjEuMzQgMS4zNC44NmwxLjA5IDIuMzhMNi44IDMuODhjLjIzLS41NC43Ni0uODggMS4zNS0uODhoMS44YTEuNDcgMS40NyAwIDAgMSAxLjM2IDIuMDdsLS4zNy44MmMuNDMtLjExLjktLjE4IDEuNC0uMTggMS4wMSAwIDIuMS4xNyAyLjk0LjgzLjI2LS40My43Mi0uNzEgMS4yNi0uNzFoMS43MWMuMjEgMCAuNDEuMDQuNi4xMmE0LjggNC44IDAgMCAxIDEuNTUtLjI0Yy45IDAgMS45LjIgMi42Mi45Ny4xMy4xNC4yNC4yOS4zNC40NGEzLjk4IDMuOTggMCAwIDEgMy41LTEuNDJWNC40N2MwLS44MS42NS0xLjQ3IDEuNDYtMS40N2gxLjc2Yy44MSAwIDEuNDcuNjYgMS40NyAxLjQ3VjYuNmMuNzYtLjYgMS43MS0uOTEgMi44LS45MXoiLz48ZyBmaWxsPSIjMDAwIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yOC40IDEzLjc2YTIuMjggMi4yOCAwIDAgMS0xLjk4IDEuMWMtMS42NSAwLTIuOC0xLjM1LTIuOC0zLjggMC0yLjQ3IDEuMTgtMy45IDIuODctMy45Ljc3IDAgMS40Mi4zNSAxLjg2IDEuMDJ2LTMuN2gxLjc2djEwLjI0aC0xLjYzem0tLjA1LTIuNzVjMC0xLjcxLS40Ny0yLjQ3LTEuNDEtMi40Ny0xIDAtMS41Ljc3LTEuNSAyLjUyIDAgMS42OS40NiAyLjQyIDEuNDIgMi40MiAxIDAgMS41LS43NSAxLjUtMi40N3pNMzcuMiAxMi43OXYxLjQzYTQuNCA0LjQgMCAwIDEtMi40Ni42NWMtMi4yNSAwLTMuNTEtMS4yNS0zLjUxLTMuODMgMC0yLjI1IDEuMDEtMy44OCAzLjE1LTMuODggMS43NiAwIDIuOS45NyAyLjkgMy41NXYuOTNoLTQuMjRjLjA3IDEuMjQuNTYgMS44NCAxLjg0IDEuODQuODYgMCAxLjc3LS4zMiAyLjMyLS42OXptLTEuNzEtMi42YzAtLjkyLS4yNy0xLjY1LTEuMTQtMS42NS0uODQgMC0xLjI3LjYyLTEuMyAxLjhoMi40NHpNMTIuMzYgNy4xOWMxLjg1IDAgMi43Ny42OCAyLjc3IDIuNDd2My4yNWMwIC42LjAzIDEuMi4wOSAxLjgxSDEzLjVjLS4wNi0uMTUtLjEyLS40LS4xNC0uNTloLS4wN2MtLjM0LjM2LS43OC43LTEuODEuNy0xLjM2IDAtMi4yOC0uODMtMi4yOC0yLjI2IDAtMS41NSAxLjItMi40MiAzLjg4LTIuNDJoLjI4di0uNDdjMC0uOC0uMzgtMS4xLTEuMjItMS4xLS45OSAwLTEuODQuNTQtMi40IDFWOC4wNmE0LjU0IDQuNTQgMCAwIDEgMi42LS44N3ptLS4yNCA2LjM1Yy42MiAwIDEuMDMtLjI2IDEuMjUtLjU5di0xLjYzaC0uMjVjLTEuNSAwLTIuMS4yOS0yLjEgMS4xNSAwIC42NC4zNiAxLjA3IDEuMSAxLjA3eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PHBhdGggZD0iTTE5Ljc5IDguNjZjLS42NCAwLTEuMTUuMzQtMS40OC43NHY1LjMyaC0xLjc1VjcuMzFoMS43bC4wNS42MWguMDljLjM1LS4zNS45Ny0uNzMgMi4wMi0uNzMgMS40MyAwIDIuMDIuNjUgMi4wMiAyLjEydjUuNDFoLTEuNzVWOS41YzAtLjU2LS4yOC0uODMtLjktLjgzek00NC41NyAxNC43MmgtMS45OGwtMS41Ny0yLjUtMS41IDIuNWgtMS43OGwyLjMzLTMuODYtMi4yNC0zLjU1aDEuOThsMS40MSAyLjI0TDQyLjUgNy4zaDEuNzZsLTIuMSAzLjZ6Ii8+PC9nPjxwYXRoIGZpbGw9InJlZCIgZD0iTTYuNjIgMTQuNzJ2LTEuNzRhNS4yIDUuMiAwIDAgMC0uNjYtMi43OUwzLjMzIDQuNDdIMS40N2wzLjM3IDcuMzJ2Mi45M3pNNy43OCA5LjQzbDIuMTktNC45Nkg4LjE1TDUuOTcgOS40M3oiLz48L3N2Zz4=)}.ymaps-2-1-79-copyright_color_white .ymaps-2-1-79-copyright__logo_lang_en{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSIyMCIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iIzAwMCIgZmlsbC1vcGFjaXR5PSIuNCIgZD0iTTM0LjM1IDUuNjhjLjgxIDAgMS42NS4xNiAyLjM3LjYxLjI4LS4zLjY2LS40NiAxLjA4LS40NmgxLjk3Yy41IDAgLjk3LjI2IDEuMjQuNjhsLjEuMTYuMDYtLjFjLjI2LS40Ni43NS0uNzQgMS4yOC0uNzRoMS43NWExLjQ3IDEuNDcgMCAwIDEgMS4yOCAyLjIxbC0xLjY1IDIuODIgMS45NCAzLjA2YTEuNDcgMS40NyAwIDAgMS0xLjI0IDIuMjZoLTEuOThjLS41IDAtLjk3LS4yNi0xLjI0LS42OWwtLjMtLjQ2LS4yNS40M2MtLjI3LjQ1LS43NS43Mi0xLjI3LjcyaC0xLjc4YTEuNSAxLjUgMCAwIDEtLjc4LS4yMiA2LjUgNi41IDAgMCAxLTIuMjMuMzcgNS4xIDUuMSAwIDAgMS0zLjI3LTEuMDRjLS4yMi41Mi0uNzQuOS0xLjM1LjloLTEuNjJhMS42IDEuNiAwIDAgMS0uNjItLjE0IDMuOTQgMy45NCAwIDAgMS00LjEtLjdjLS4yMy41LS43NC44My0xLjMyLjgzaC0xLjc1Yy0uNSAwLS45Mi0uMjMtMS4xOS0uNi0uMjcuMzctLjcuNi0xLjE5LjZoLTEuNzVhMS41IDEuNSAwIDAgMS0uNjctLjE2Yy0uMi4xLS40My4xNi0uNjcuMTZoLTEuN2MtLjIgMC0uNC0uMDQtLjU4LS4xMS0uNDMuMTQtLjkuMjEtMS40NS4yMS0uOTcgMC0xLjkzLS4zLTIuNjYtMS0uMzEtLjMtLjU1LS42NC0uNzItMS4wMnYuNDVjMCAuODEtLjY2IDEuNDctMS40OCAxLjQ3SDQuODNjLS44MSAwLTEuNDctLjY2LTEuNDctMS40N1YxMi4xTC4xMyA1LjA5QTEuNDcgMS40NyAwIDAgMSAxLjQ3IDNoMS44NmMuNTcgMCAxLjEuMzQgMS4zNC44NmwxLjA5IDIuMzhMNi44IDMuODhjLjIzLS41NC43Ni0uODggMS4zNS0uODhoMS44YTEuNDcgMS40NyAwIDAgMSAxLjM2IDIuMDdsLS4zNy44MmMuNDMtLjExLjktLjE4IDEuNC0uMTggMS4wMSAwIDIuMS4xNyAyLjk0LjgzLjI2LS40My43Mi0uNzEgMS4yNi0uNzFoMS43MWMuMjEgMCAuNDEuMDQuNi4xMmE0LjggNC44IDAgMCAxIDEuNTUtLjI0Yy45IDAgMS45LjIgMi42Mi45Ny4xMy4xNC4yNC4yOS4zNC40NGEzLjk4IDMuOTggMCAwIDEgMy41LTEuNDJWNC40N2MwLS44MS42NS0xLjQ3IDEuNDYtMS40N2gxLjc2Yy44MSAwIDEuNDcuNjYgMS40NyAxLjQ3VjYuNmMuNzYtLjYgMS43MS0uOTEgMi44LS45MXoiLz48ZyBmaWxsPSIjZmZmIj48cGF0aCBkPSJNNi42MiAxMi45OHYxLjc0SDQuODRWMTEuOEwxLjQ3IDQuNDdoMS44NmwyLjYzIDUuNzJjLjUgMS4xLjY2IDEuNDguNjYgMi44ek05Ljk3IDQuNDdMNy43OCA5LjQzaC0xLjhsMi4xNy00Ljk2eiIvPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTI4LjQgMTMuNzZhMi4yOCAyLjI4IDAgMCAxLTEuOTggMS4xYy0xLjY1IDAtMi44LTEuMzUtMi44LTMuOCAwLTIuNDcgMS4xOC0zLjkgMi44Ny0zLjkuNzcgMCAxLjQyLjM1IDEuODYgMS4wMnYtMy43aDEuNzZ2MTAuMjRoLTEuNjN6bS0uMDUtMi43NWMwLTEuNzEtLjQ3LTIuNDctMS40MS0yLjQ3LTEgMC0xLjUuNzctMS41IDIuNTIgMCAxLjY5LjQ2IDIuNDIgMS40MiAyLjQyIDEgMCAxLjUtLjc1IDEuNS0yLjQ3ek0zNy4yIDEyLjc5djEuNDNhNC40IDQuNCAwIDAgMS0yLjQ2LjY1Yy0yLjI1IDAtMy41MS0xLjI1LTMuNTEtMy44MyAwLTIuMjUgMS4wMS0zLjg4IDMuMTUtMy44OCAxLjc2IDAgMi45Ljk3IDIuOSAzLjU1di45M2gtNC4yNGMuMDcgMS4yNC41NiAxLjg0IDEuODQgMS44NC44NiAwIDEuNzctLjMyIDIuMzItLjY5em0tMS43MS0yLjZjMC0uOTItLjI3LTEuNjUtMS4xNC0xLjY1LS44NCAwLTEuMjcuNjItMS4zIDEuOGgyLjQ0ek0xNS4xMyA5LjY2YzAtMS44LS45Mi0yLjQ3LTIuNzctMi40N2E0LjUgNC41IDAgMCAwLTIuNjEuODd2MS41MmEzLjk0IDMuOTQgMCAwIDEgMi40LTFjLjg0IDAgMS4yMi4zIDEuMjIgMS4xdi40N2gtLjI4Yy0yLjY4IDAtMy44OC44Ny0zLjg4IDIuNDIgMCAxLjQzLjkyIDIuMjUgMi4yOCAyLjI1IDEuMDMgMCAxLjQ3LS4zMyAxLjgtLjY5aC4wOGMuMDIuMi4wOC40NC4xNC42aDEuN2MtLjA1LS42MS0uMDgtMS4yMi0uMDgtMS44MnptLTEuNzYgMy4zYy0uMjIuMzItLjYzLjU4LTEuMjUuNTgtLjc0IDAtMS4xLS40My0xLjEtMS4wNyAwLS44Ni42LTEuMTUgMi4xLTEuMTVoLjI1eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PHBhdGggZD0iTTE5Ljc5IDguNjZjLS42NCAwLTEuMTUuMzQtMS40OC43NHY1LjMyaC0xLjc1VjcuMzFoMS43bC4wNS42MWguMDljLjM1LS4zNS45Ny0uNzMgMi4wMi0uNzMgMS40MyAwIDIuMDIuNjUgMi4wMiAyLjEydjUuNDFoLTEuNzVWOS41YzAtLjU2LS4yOC0uODMtLjktLjgzek00Mi42IDE0LjcyaDEuOTdsLTIuNDItMy44MiAyLjEtMy42aC0xLjc2bC0xLjI3IDIuMjUtMS40MS0yLjI0aC0xLjk4bDIuMjQgMy41NS0yLjMzIDMuODZoMS43OWwxLjQ5LTIuNXoiLz48L2c+PC9zdmc+)}
 /**/
@@ -99,62 +100,56 @@
 /**/
 </style><style type="text/css" data-ymaps="css-modules">.ymaps-2-1-79-pictogramCircleIconContent{display: block; background-size: contain; width: 22px; height: 22px; background-repeat: no-repeat; position: absolute; top: -11px; left: -11px;}
 </style></head>
-	<body data-aos-easing="ease" data-aos-duration="500" data-aos-delay="0"><div class="access"><dl class="a-fontsize"><dt>Размер шрифта:</dt><dd><a href="https://gsr.by/product/sahar/sahar-bridzh#" rel="fontsize-small" class="a-fontsize-small">А</a></dd><dd><a rel="fontsize-normal" href="https://gsr.by/product/sahar/sahar-bridzh#" class="a-fontsize-normal">А</a></dd><dd><a href="https://gsr.by/product/sahar/sahar-bridzh#" rel="fontsize-big" class="a-fontsize-big">А</a></dd></dl><dl class="a-colors"><dt>Цвет:</dt><dd><a href="https://gsr.by/product/sahar/sahar-bridzh#" rel="color1" class="a-color1"><i class="fa fa-eye" aria-hidden="true"></i></a></dd><dd><a href="https://gsr.by/product/sahar/sahar-bridzh#" rel="color2" class="a-color2"><i class="fa fa-eye" aria-hidden="true"></i></a></dd></dl><dl class="a-images"><dt>Изображения</dt><dd><a rel="imagesoff" href="https://gsr.by/product/sahar/sahar-bridzh#" class="a-imagesoff"><span class="icon-off">выкл</span><span class="icon-on">вкл</span><span class="image-bar"></span></a></dd></dl><div class="access-up"></div><div class="popped"><div class="h2">Настройки шрифта:</div><p class="choose-font-family">Выберите шрифт <a class="font-family" id="sans-serif" rel="sans-serif" href="https://gsr.by/product/sahar/sahar-bridzh#">Arial</a><a class="font-family" rel="serif" id="serif" href="https://gsr.by/product/sahar/sahar-bridzh#">Times New Roman</a></p><p class="choose-letter-spacing">Интервал между буквами <span>(Кернинг)</span>: <a class="letter-spacing" id="spacing-small" rel="spacing-small" href="https://gsr.by/product/sahar/sahar-bridzh#">Стандартный</a><a rel="spacing-normal" class="letter-spacing" id="spacing-normal" href="https://gsr.by/product/sahar/sahar-bridzh#">Средний</a><a rel="spacing-big" class="letter-spacing" id="spacing-big" href="https://gsr.by/product/sahar/sahar-bridzh#">Большой</a></p><div class="h2">Выбор цветовой схемы:</div><ul class="choose-colors"><li id="color1"><a rel="color1" href="https://gsr.by/product/sahar/sahar-bridzh#"><span>—</span>Черным по белому</a></li><li id="color2"><a rel="color2" href="https://gsr.by/product/sahar/sahar-bridzh#"><span>—</span>Белым по черному</a></li><li id="color3"><a rel="color3" href="https://gsr.by/product/sahar/sahar-bridzh#"><span>—</span>Темно-синим по голубому</a></li><li id="color4"><a rel="color4" href="https://gsr.by/product/sahar/sahar-bridzh#"><span>—</span>Коричневым по бежевому</a></li><li id="color5"><a rel="color5" href="https://gsr.by/product/sahar/sahar-bridzh#"><span>—</span>Зеленым по темно-коричневому</a></li></ul><p class="saveit"><a class="closepopped" href="https://gsr.by/product/sahar/sahar-bridzh#"><span>Закрыть панель</span></a><a class="default" href="https://gsr.by/product/sahar/sahar-bridzh#"><span>Вернуть стандартные настройки</span></a></p></div></div>
+	<body data-aos-easing="ease" data-aos-duration="500" data-aos-delay="0">
+        <div class="access"><dl class="a-fontsize"><dt>Размер шрифта:</dt><dd><a href="https://gsr.by/products/sahar#" rel="fontsize-small" class="a-fontsize-small">А</a></dd><dd><a rel="fontsize-normal" href="https://gsr.by/products/sahar#" class="a-fontsize-normal">А</a></dd><dd><a href="https://gsr.by/products/sahar#" rel="fontsize-big" class="a-fontsize-big">А</a></dd></dl><dl class="a-colors"><dt>Цвет:</dt><dd><a href="https://gsr.by/products/sahar#" rel="color1" class="a-color1"><i class="fa fa-eye" aria-hidden="true"></i></a></dd><dd><a href="https://gsr.by/products/sahar#" rel="color2" class="a-color2"><i class="fa fa-eye" aria-hidden="true"></i></a></dd></dl><dl class="a-images"><dt>Изображения</dt><dd><a rel="imagesoff" href="https://gsr.by/products/sahar#" class="a-imagesoff"><span class="icon-off">выкл</span><span class="icon-on">вкл</span><span class="image-bar"></span></a></dd></dl><div class="access-up"></div><div class="popped"><div class="h2">Настройки шрифта:</div><p class="choose-font-family">Выберите шрифт <a class="font-family" id="sans-serif" rel="sans-serif" href="https://gsr.by/products/sahar#">Arial</a><a class="font-family" rel="serif" id="serif" href="https://gsr.by/products/sahar#">Times New Roman</a></p><p class="choose-letter-spacing">Интервал между буквами <span>(Кернинг)</span>: <a class="letter-spacing" id="spacing-small" rel="spacing-small" href="https://gsr.by/products/sahar#">Стандартный</a><a rel="spacing-normal" class="letter-spacing" id="spacing-normal" href="https://gsr.by/products/sahar#">Средний</a><a rel="spacing-big" class="letter-spacing" id="spacing-big" href="https://gsr.by/products/sahar#">Большой</a></p><div class="h2">Выбор цветовой схемы:</div><ul class="choose-colors"><li id="color1"><a rel="color1" href="https://gsr.by/products/sahar#"><span>—</span>Черным по белому</a></li><li id="color2"><a rel="color2" href="https://gsr.by/products/sahar#"><span>—</span>Белым по черному</a></li><li id="color3"><a rel="color3" href="https://gsr.by/products/sahar#"><span>—</span>Темно-синим по голубому</a></li><li id="color4"><a rel="color4" href="https://gsr.by/products/sahar#"><span>—</span>Коричневым по бежевому</a></li><li id="color5"><a rel="color5" href="https://gsr.by/products/sahar#"><span>—</span>Зеленым по темно-коричневому</a></li></ul><p class="saveit"><a class="closepopped" href="https://gsr.by/products/sahar#"><span>Закрыть панель</span></a><a class="default" href="https://gsr.by/products/sahar#"><span>Вернуть стандартные настройки</span></a></p></div></div>
     		<header class="header header-hiden header-fixed">
-                <div class="row">
-                    <div class="col-3 col-xl-3 header-logo-wrap">
-                        <div class="header-logo logo-fixed">
-                            <a href="http://sugarfactory">
-                                <img src="{{ asset('/images/logo.png') }}" alt="">
-                                <p>Городейский <br> сахарный <br> комбинат</p>
-                            </a>
-            
-                        </div>
-                    </div>
-                    <div class="col-2 col-xl-7 d-none d-xl-block header-wrap-menu" style="margin-left: 0px; margin-top: 20px;">
-                        <p>
-                            <strong>
-                                ул. Заводская 2, 222611, г.п. Городея, <br> Несвижский р-н, Минская область
-                            </strong>
-                        </p>
-                        <p>
-                            <a href="tel:+375 1770 62 524">+375 1770 62 524</a>
-                            <a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a>
-                        </p>
-                        <a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
-                    </div>
-                    
-                    <div class="col-2 col-xl-2">
-                        <ul class="header__top-menu li-group li-style">
-                            @auth
-                                @if(Auth::user()->name != 'admin')
-                                    <li><a href="https://gsr.by/partners">Партнерам</a></li>
-                                    @auth 
-                                        <li><a href="{{ route('cabinet.index') }}">Личный кабинет</a></li> 
-                                    @endauth
+    <div class="row">
+        <div class="col-3 col-xl-3 header-logo-wrap">
+            <div class="header-logo logo-fixed">
+                <a href="http://sugarfactory">
+                    <img src="{{ asset('/images/logo.png') }}" alt="">
+                    <p>Городейский <br> сахарный <br> комбинат</p>
+                </a>
 
-                                    @guest 
-                                        <li><a href="{{ route('signin.index') }}">Войти</a></li>
-                                        <li><a href="{{ route('register.index') }}">Регистрация</a></li>
-                                    @endguest
-                                @endif
-                            @endauth
+            </div>
+        </div>
+        <div class="col-2 col-xl-7 d-none d-xl-block header-wrap-menu" style="margin-left: -40px; margin-top: 20px;">
+            <p>
+                <strong>
+                    ул. Заводская 2, 222611, г.п. Городея, <br> Несвижский р-н, Минская область
+                </strong>
+            </p>
+            <p>
+                <a href="tel:+375 1770 62 524">+375 1770 62 524</a>
+                <a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a>
+            </p>
+            <a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
+        </div>
 
-                            @guest 
-                                <li><a href="https://gsr.by/partners">Партнерам</a></li>
-                                <li><a href="{{ route('signin.index') }}">Войти</a></li>
-                                <li><a href="{{ route('register.index') }}">Регистрация</a></li>
-                            @endguest                            
-                        </ul>
-                    </div>
+        <div class="col-2 col-xl-2" style="margin-left: 20px;">
+            <ul class="header__top-menu li-group li-style">
+                @auth
+                    @if(Auth::user()->name != 'admin')
+                        <li><a href="https://gsr.by/partners">Партнерам</a></li>
+                        <li><a href="{{ route('cabinet.index') }}">Личный кабинет</a></li> 
+                    @endif
+                @endauth
+
+                @guest 
+                    <li><a href="https://gsr.by/partners">Партнерам</a></li>
+                    <li><a href="{{ route('signin.index') }}">Войти</a></li>
+                    <li><a href="{{ route('register.index') }}">Регистрация</a></li>
+                @endguest
+            </ul>
+        </div>        
 </header>
-<div class="section-menu">
+    <div class="section-menu">
     <div class="section-menu-wrap">
         <div class="row">
             <div class="col-3 col-xl-3 header-logo-wrap">
                 <div class="header-logo">
                     <a href="https://gsr.by/">
-                        <img src="./sahar-bridzh_files/logo.png" alt="">
+                        <img src="./sahar_files/logo.png" alt="">
                         <p>Городейский <br> сахарный <br> комбинат</p>
                     </a>
 
@@ -173,16 +168,136 @@
                 </div>
             </div>
             <div class="col-9 col-xl-3 header-wrap-btn">
+                <div class="header__group-buttons">
+                    <a href="https://gsr.by/products/sahar" id="search" class="searh-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="36" viewBox="0 0 35 36">
+                            <image id="search_3_" data-name="search (3)" width="35" height="36" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAkCAYAAAAD3IPhAAAABHNCSVQICAgIfAhkiAAAA5lJREFUWEftl0loVEEQhvPck2hwTUQJehEXRCQuFxWiJMRcPGgUXEDMQRJwAUHEg4joRb0oCAZcohFUUMT1oBhFBY0rQfCiggcFjShuccEtfn9SEybjvNc9MyEq2PDTM/O6/vq7XnV1TdDS0pL1t4zgnxcTBMFoopkPFNaXbOhhZ0TXOzII2ITDMjAFfAQ/TEB35hxwG1xA2MZ0hTnFIGIz5CtBN3P6gTnXxATMwifQz+avzLsRtSFVUaFiECHnJ0Ax6GVODzAfBo04k6gs1uUxTQSLQKWJ/MJcDxaw7qevqKRiTMhVSCYB7fQIqIY48uhhp1dWA+aD3uAGKPEVFCbmJCTKD41tqeaB5ddai+Y57Ct8ovObGIi2YLjCiHakKiTm1ASt5ruiucsnh5KJeYuxcqQOgiqfHYWtQdBeni0GzXANcXF1EGO7WYNRD5DjyhEneVsOKZk/gyr4lPyhI1HMTVYqafdgWO1y5vOcDe5h3TLQAOf0VMToGL4DczC85uPMtQYxM1mjEtEXzp5eYjAaw8JboA8YFKsjLmeu5/AOYM1zoBJRBO/jMJv214TRDBadBtkYSFCnDbi/QaYrpAxupULSES9mGivOAiWuClanDcR8h6wZlMKtO8wpZhQr7gId66EY6YhnPBAyGJKnQIImwPvEKUYLLJzaQQVGulsyHnCWQ6Ij7Xz9iUf7CkY6fgcRo0sv44GYQ5Co8NXDWRpFmChGd8g+oHYgF2MVq7QHQtTnKHFVLpbCd8pbjL2qZ8wq3ccwXpK2krbXrtt+HmiCq9DFlexuUke3ygxrIFnvIkn2HCFb+X25PSuHp8HFE9ZC1GE4F6giq2tb5yKKf25CdMmqQTuOva4D54jq9PR+ZwEdyYug0lWVreurNbv+zMqVnb5tSGQPDPl+i5B6Xo0z4Ci4B5rstwLmyWAhmG3RUNI+AuOB+pntPoJ8GnI5UiKqeGm374Ga8NiVoRZBDtULq1C+ADrKjeA8iN3UhQh6ZRtIOjnFxKyIUgmf1VYUA0VK942GKrZehxzX4vBSnI1yRrVrKtDnvKhy4S0mfisIU4QG2m+vcSAxyXcbBIrgZVBkwiWo9Z9F4khLTJjjCEHZPNNtPdbW5CPozR8RI6dEU1X9OhgH9KdPOdThMu6SyMTlkBqtO2AE0IkbGR+hLhVjEVK+3QfDga6JYe1i+ZJqCmS83lrRBxAV4F//IFpHl0cmaif/xYRF5xch0ZvIlDdPtwAAAABJRU5ErkJggg=="></image>
+                        </svg>
+
+                    </a>
+                    <a href="https://gsr.by/products/sahar" id="sv_button" class="version-blind">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 472.615 472.615" xml:space="preserve">
+<g>
+    <g>
+        <path d="M472.615,205.774h-25.344c-12.797-37.99-48.686-65.462-90.935-65.462c-43.224,0-79.837,28.73-91.823,68.087
+			c-7.582-5.011-17.305-8.115-28.211-8.115c-10.903,0-20.624,3.103-28.207,8.114c-11.989-39.357-48.608-68.085-91.831-68.085
+			c-42.249,0-78.135,27.472-90.93,65.462H0v19.692h20.925c-0.403,3.565-0.656,7.175-0.656,10.846
+			c0,52.933,43.063,95.99,95.995,95.99s96-43.058,96-95.99c0-0.552-0.073-1.085-0.083-1.635h0.069
+			c0-6.952,9.88-14.702,24.053-14.702c14.178,0,24.053,7.75,24.053,14.702h0.073c-0.01,0.549-0.083,1.083-0.083,1.635
+			c0,52.933,43.058,95.99,95.99,95.99s96-43.058,96-95.99c0-3.671-0.253-7.281-0.656-10.846h20.935V205.774z M116.264,312.611
+			c-42.072,0-76.303-34.231-76.303-76.298c0-42.077,34.231-76.308,76.303-76.308c42.077,0,76.308,34.231,76.308,76.308
+			C192.572,278.38,158.341,312.611,116.264,312.611z M356.337,312.611c-42.067,0-76.298-34.231-76.298-76.298
+			c0-42.077,34.231-76.308,76.298-76.308c42.077,0,76.308,34.231,76.308,76.308C432.644,278.38,398.413,312.611,356.337,312.611z"></path>
+    </g>
+</g>
+
+</svg>
+
+
+                    </a>
+                                    <div class="lang" id="lang">
+                                            <a href="https://gsr.by/products/sahar" class="lang-current">RU</a>
+                                        <div class="langs-dropdown">
+
+                                                <a href="https://gsr.by/setlocale/ru" style="display:none">RU</a>
+                                                                            <a href="https://gsr.by/setlocale/by">BY</a>
+                                                                            <a href="https://gsr.by/setlocale/en">EN</a>
+                                                                            <a href="https://gsr.by/setlocale/ar">AR</a>
+                                            </div>
+
+                </div>
+                    <div class="toggle-menu toggle-closed">
+                        <div class="toggle-menu-wrap">
+                            <!-- 							<div class="header__toggle-element">
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                        </div> -->
+                            <div class="header__toggle-element-open">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
             </div>
         </div>
         <div class="menu-wrap">
             <div class="container">
                 <div class="menu-wrapper">
                     <div class="row w-100">
-                        <div class="col-md-8">
+                        <!--<div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-6 mb-5">
+                                    <div class="header__top-menu-title">
+                                        <a href="https://gsr.by/about">Предприятие</a>
+                                    </div>
+                                    <ul class="menu__group">
+                                        <li><span><a href="https://gsr.by/about/obrashhenie-generalnogo-direktora">Обращение генерального директора</a></span></li>
+                                        <li><span><a href="https://gsr.by/about/harakteristika-predpriyatiya">О предприятии </a></span></li>
+
+                                        <li><span><a href="https://gsr.by/about/history-development">История развития</a></span></li>
+
+                                        <li><span><a href="https://gsr.by/about/dostizheniya-i-nagrady">Достижения и награды</a></span></li>
+
+
+
+                                        <li><span><a href="https://gsr.by/about/teams">Коллектив</a></span></li>
+                                        <li><span><a href="https://gsr.by/about/profsoyuznaya-organizaciya">Профсоюзная организация</a></span></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="header__top-menu-title">
+                                        <a href="https://gsr.by/products">Продукция</a>
+                                    </div>
+                                    <ul class="menu__group">
+                                        
+                                            <li><span><a href="https://gsr.by/products/sahar">Сахар</a></span></li>
+                                        
+                                            <li><span><a href="https://gsr.by/products/fruktovaya-produkciya">Фруктовая продукция</a></span></li>
+                                        
+                                            <li><span><a href="https://gsr.by/products/sokovaya-produkciya">Соковая продукция</a></span></li>
+                                        
+                                            <li><span><a href="https://gsr.by/products/ovoshnaya-produkciya">Овощная продукция</a></span></li>
+                                        
+                                            <li><span><a href="https://gsr.by/products/pobochnaya-produkciya">Побочная продукция</a></span></li>
+                                                                            </ul>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="header__top-menu-title">
+                                        <a href="https://gsr.by/stolbcovskij-filial">Столбцовский филиал</a>
+                                    </div>
+                                    <div class="header__top-menu-title">
+                                        <a href="http://hotel.gsr.by/">Гостиница «Гарадзейскi Фальварак»</a>
+                                    </div>
+                                                                            <div class="header__top-menu-title">
+                                            <a href="https://gsr.by/entertainment/restoran-traktir-dlya-druzej">Ресторан «Трактиръ для друзей»</a>
+                                        </div>
+                                                                            <div class="header__top-menu-title">
+                                            <a href="https://gsr.by/entertainment/rc-bumerang">Развлекательный центр «Бумеранг»</a>
+                                        </div>
+                                    
+
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="header__top-menu-title">
+                                        <a href="https://gsr.by/partners">Партнерам</a>
+                                    </div>
+                                    <div class="header__top-menu-title">
+                                        <a href="https://gsr.by/contacts">Контакты</a>
+                                    </div>
+                                    <div class="header__top-menu-title">
+                                        <a href="https://gsr.by/site-map">Карта сайта</a>
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-4 mb-5">
-                            <!--<div class="header__top-menu-title">
+                            <div class="header__top-menu-title">
                                 <a href="https://gsr.by/information">Информация</a>
                             </div>
                             <ul class="menu__group">
@@ -195,8 +310,8 @@
                                 <li><span><a href="https://gsr.by/information/certificates">Сертификаты, Декларации и Свидетельства</a></span></li>
                                 <li><span><a href="https://gsr.by/information/elektronnoe-obrashenie">Электронное обращение</a></span></li>
 
-                            </ul>-->
-                        </div>
+                            </ul>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -208,9 +323,9 @@
                     <p>Тел.: <strong>+375 1770 62 524</strong></p>
                     <p>E-mail: <strong>info@gsr.by, marketing@gsr.by</strong></p>
                 </div>
-                <div class="col-md-6">
-                                            <a href="https://gsr.by/media/1002/Y3vxMV41bqBCOndFd5ZKCnIvyzOk0mAY9LqNIL7W.pdf" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
-                                    </div>
+                <!--<div class="col-md-6">
+                    <a href="https://gsr.by/media/1002/Y3vxMV41bqBCOndFd5ZKCnIvyzOk0mAY9LqNIL7W.pdf" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
+                </div>-->
                 <div class="col-md-12">
                     <div class="block-social">
 
@@ -256,17 +371,17 @@
 </div>
 <div class="section-search">
     <div class="search-wrap">
-        <span class="search-close"><img src="./sahar-bridzh_files/close.svg" alt=""></span>
+        <span class="search-close"><img src="./sahar_files/close.svg" alt=""></span>
         <div class="container">
             <div class="row">
-                <!--<div class="col-md-12">
+                <div class="col-md-12">
                     <form action="https://gsr.by/search" method="GET">
                         <div class="search-input">
                             <input id="navbar-search-input" name="search" class="search-field" placeholder="">
                             <label for="navbar-search-input">Поиск <span>(после ввода поискового запроса нажмите Enter)</span></label>
                         </div>
                     </form>
-                </div>-->
+                </div>
             </div>
         </div>
 
@@ -274,391 +389,100 @@
 </div>
 
 		
-    <div class="section-top" style="background-image: url(&#39;https://gsr.by/media/328/HsxPuu7qz9r2Grxww3USoG44LyynkEx5EyS3DdpV.jpg&#39;)">
-        <div class="container">
-            <div class="row">
-                <h2 class="section-top-title aos-init aos-animate" data-aos="fade-up">
-                    Сахар
-                </h2>
-            </div>
-        </div>
-        <!--<nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="https://gsr.by/">Главная</a></li>
-                <li class="breadcrumb-item"><a href="https://gsr.by/products">Продукция</a></li>
-                <li class="breadcrumb-item"><a href="https://gsr.by/products/sahar">Сахар</a></li>
-                                <li class="breadcrumb-item">Сахар белый кусковой</li>
-                                
-            </ol>
-        </nav>-->
-
-    </div>
-
-    <div class="section-card-product">
-        <div class="container">
-           <!--<div class="back-link">
-              <a href="https://gsr.by/products"><i class="fal fa-chevron-left"></i> В каталог</a>
-           </div>-->
-        </div>
-                <h4 style="text-align: center">
-                    @guest Для оформления заказа необходимо войти в аккаунт @endguest
-                </h4>
+<div class="section-top" style="background-image: url(&#39;https://gsr.by/media/12/shOPNgkZFEuRjjYDd693RgAwKzcYkgvtUI9xe2w4.jpeg&#39;)">
+    <div class="container">
         <div class="row">
-            <div class="col-md-5">
-                <div style="margin-left: 10px">
-                    <div style="display: flex">
-                        @for($i = 0; $i < 2; $i++)
-                            @if(isset($good['images'][$i]) && File::exists(str_replace('http://sugarfactory/', '', $good['images'][$i])))
-                                <div class="image_block">
-                                    <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px" class="minimized"> 
-                                </div>
-                            @endif
-                        @endfor
-                    </div>
+            <h2 class="section-top-title aos-init aos-animate" data-aos="fade-up">
+                Сахар
+            </h2>
+        </div>
+    </div>
+    <!--<nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+           <li class="breadcrumb-item"><a href="https://gsr.by/">Главная</a></li>
+            <li class="breadcrumb-item"><a href="https://gsr.by/products">Продукция</a></li>
+            <li class="breadcrumb-item">Сахар</li>
+        </ol>
+    </nav>-->
 
-                    <div style="display: flex">
-                        @for($i = 2; $i < 4; $i++)
-                            @if(isset($good['images'][$i]) && File::exists(str_replace('http://sugarfactory/', '', $good['images'][$i])))
-                                <div class="image_block">
-                                    <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px" class="minimized"> 
-                                </div>
-                            @endif
-                        @endfor
-                    </div>
+</div>
 
-                    <div style="display: flex">
-                        @for($i = 4; $i < 6; $i++)
-                            @if(isset($good['images'][$i]) && File::exists(str_replace('http://sugarfactory/', '', $good['images'][$i])))
-                                <div class="image_block">
-                                    <img src="{{ $good['images'][$i] }}" alt="" width="300px" height="180px" class="minimized"> 
-                                </div>
-                            @endif
-                        @endfor
-                    </div>
-                    <div class="card-variable">
-                        <h3>Отзывы</h3>
-                        @foreach($reviews as $key => $value)
-                            <div class="card-variable-item">
-                                <!--<div class="v-img">
-                                    <img src="" alt="">
-                                </div>-->
-                                <div class="v-properties">
-                                    <div class="v-properties-wrap">
-                                    <table>
-                                        <tbody>
-                                            <tr>
-                                                <td>Автор</td>
-                                                <td class="weight">{{ $value['company_name'] }}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Заголовок</td>
-                                                <td class="forma">{{ $value['title'] }}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Отзыв</td>
-                                                <td class="group">{{ $value['review'] }}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Дата</td>
-                                                <td class="group">{{ $value['date'] }}</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    </div>
-                                </div>
-                            </div>  
-                        @endforeach
-                    </div>
+<div class="catalog" style="background-color: #f7f7f7;">
+
+        <div class="catalog__cols">
+            <div class="catalog__cols1">
+                <div class="catalog__menu">
                 </div>
             </div>
-
-            <div class="card__description">
-                <div class="overlay_popup"></div>
-                    <div class="popup" id="popup1">
-                        <div class="object">
-                            <form action="{{ route('order.store') }}" method="post">
-                            @csrf
-                            <p>ID товара: </p>
-                            <input type="number" name="good_id" id="good_id" value="{{ $good['id'] }}" readonly="readonly">
-                            <p>Количество: </p>
-                            <p><input type="number" name="quantity" min="1" id="quantity" required></p>
-                            <select name="pack" id="packs" style="width: 100%">
-
-                            </select> <br>
-                            <input type="submit" value="Заказать">
-                            </form>
+            <div class="catalog__cols12">
+            <div id="reg_form_wrapper">
+                    @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
                         </div>
-                    </div>
-
-                @auth
-                    @if(Auth::user()->name != 'admin')
-                        @auth 
-                            <button id="make_order_btn" type="button" class="btn btn-primary" rel="popup1" style="margin-left:0px;" >Оформить заказ</button>
-                        @endauth
                     @endif
-                @endauth
-                    
-                <div class="card__description-top">
-                    <div class="card__description-wrap">
-                        <div class="dropdown-social-wrap">
-                            <div class="dropdown-social">
-                            <!--<div class="share-icon">
-                                <span class="share">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="transform:;-ms-filter:">
-                                        <circle fill="none" cx="17.5" cy="18.5" r="1.5"></circle>
-                                        <circle fill="none" cx="5.5" cy="11.5" r="1.5"></circle>
-                                        <circle fill="none" cx="17.5" cy="5.5" r="1.5"></circle>
-                                        <path d="M5.5,15c0.91,0,1.733-0.358,2.357-0.93l6.26,3.577C14.048,17.922,14,18.204,14,18.5c0,1.93,1.57,3.5,3.5,3.5 s3.5-1.57,3.5-3.5S19.43,15,17.5,15c-0.91,0-1.733,0.358-2.357,0.93l-6.26-3.577c0.063-0.247,0.103-0.502,0.108-0.768l6.151-3.515 C15.767,8.642,16.59,9,17.5,9C19.43,9,21,7.43,21,5.5S19.43,2,17.5,2S14,3.57,14,5.5c0,0.296,0.048,0.578,0.117,0.853L8.433,9.602 C7.808,8.64,6.729,8,5.5,8C3.57,8,2,9.57,2,11.5S3.57,15,5.5,15z M17.5,17c0.827,0,1.5,0.673,1.5,1.5S18.327,20,17.5,20 S16,19.327,16,18.5S16.673,17,17.5,17z M17.5,4C18.327,4,19,4.673,19,5.5S18.327,7,17.5,7S16,6.327,16,5.5S16.673,4,17.5,4z M5.5,10C6.327,10,7,10.673,7,11.5S6.327,13,5.5,13S4,12.327,4,11.5S4.673,10,5.5,10z"></path>
-                                    </svg>
-                                </span>
-                            </div>-->
-                            <div class="dropdown-content">
-                                <!---->
-                                <!--<a href="https://www.instagram.com/gsrby_official/?hl=ru" target="_blank">-->
-                                <!--    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.596 28.596">-->
-                                <!--        <g id="instagram_8_" data-name="instagram (8)" transform="translate(0.501 -4.021)">-->
-                                <!--            <path id="Контур_3373" data-name="Контур 3373" d="M20.125,0H7.469A7.478,7.478,0,0,0,0,7.47V20.126a7.478,7.478,0,0,0,7.47,7.47H20.125a7.478,7.478,0,0,0,7.47-7.47V7.47A7.478,7.478,0,0,0,20.125,0Z" transform="translate(0 4.521)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"/>-->
-                                <!--            <path id="Контур_3374" data-name="Контур 3374" d="M123.815,129.742a5.928,5.928,0,1,1,5.928-5.928A5.934,5.934,0,0,1,123.815,129.742Zm0,0" transform="translate(-110.018 -105.496)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"/>-->
-                                <!--            <path id="Контур_3375" data-name="Контур 3375" d="M361.067,70.584a1.208,1.208,0,1,1,1.208-1.208A1.209,1.209,0,0,1,361.067,70.584Zm0,0" transform="translate(-339.545 -59.053)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"/>-->
-                                <!--        </g>-->
-                                <!--    </svg>-->
-                                <!--</a>-->
-                                <!---->
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=https://gsr.by/product/sahar/sahar-bridzh" target="_blank">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.434 37.865">
-                                        <path id="facebook_6_" data-name="facebook (6)" d="M21.256,6.121h3.365V.26a43.458,43.458,0,0,0-4.9-.26c-4.852,0-8.176,3.052-8.176,8.662v5.163H6.187v6.553h5.355V36.865h6.565V20.379h5.138l.816-6.553H18.105V9.312c0-1.894.512-3.19,3.15-3.19Z" transform="translate(-5.687 0.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-                                    </svg>
-                                </a>
-                                <a href="https://vkontakte.ru/share.php?url=https://gsr.by/product/sahar/sahar-bridzh" target="_blank">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.233 25.635">
-                                        <path id="vk_6_" data-name="vk (6)" d="M35.043,19.126c-.683-.862-.487-1.246,0-2.017.009-.009,5.645-7.8,6.226-10.438l0,0c.289-.963,0-1.67-1.4-1.67H35.259a1.982,1.982,0,0,0-2.008,1.286,37.767,37.767,0,0,1-5.677,9.275c-1.073,1.054-1.57,1.392-2.156,1.392-.289,0-.737-.338-.737-1.3V6.67c0-1.154-.329-1.67-1.3-1.67H16.12a1.1,1.1,0,0,0-1.175,1.04c0,1.094,1.663,1.346,1.835,4.425v6.681c0,1.464-.266,1.733-.855,1.733-1.57,0-5.379-5.65-7.637-12.117C7.832,5.509,7.387,5,6.2,5H1.584C.266,5,0,5.609,0,6.288c0,1.2,1.57,7.167,7.3,15.05,3.818,5.381,9.2,8.3,14.088,8.3,2.94,0,3.3-.648,3.3-1.761,0-5.142-.266-5.627,1.207-5.627.683,0,1.858.338,4.6,2.933,3.137,3.078,3.653,4.455,5.409,4.455h4.617c1.316,0,1.983-.648,1.6-1.925C41.244,25.023,35.31,19.5,35.043,19.126Z" transform="translate(0.5 -4.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-                                    </svg>
-                                </a>
-                                <a href="https://connect.ok.ru/offer?url=https://gsr.by/product/sahar/sahar-bridzh" target="_blank">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.841 41.011">
-                                        <g id="odnoklassniki_1_" data-name="odnoklassniki (1)" transform="translate(-95.737 0.5)">
-                                        <path id="Контур_3376" data-name="Контур 3376" d="M128.337,21.528a10.764,10.764,0,1,0-10.764-10.764A10.764,10.764,0,0,0,128.337,21.528Zm0-16.56a5.8,5.8,0,1,1-5.8,5.8A5.8,5.8,0,0,1,128.337,4.968Z" transform="translate(-19.68 0)" fill="none" stroke="#991426" stroke-width="1"></path>
-                                        <path id="Контур_3377" data-name="Контур 3377" d="M119.2,265.211a4.17,4.17,0,0,0,1.876-3.478,3,3,0,0,0-1.684-2.741,3.146,3.146,0,0,0-3.312.311,12.6,12.6,0,0,1-14.846,0,3.163,3.163,0,0,0-3.312-.311,3.007,3.007,0,0,0-1.686,2.739,4.175,4.175,0,0,0,1.876,3.478,19.117,19.117,0,0,0,4.852,2.318q.437.136.9.252l-5,4.894a3.312,3.312,0,0,0,4.613,4.754l.081-.081,5.1-5.279,5.11,5.289a3.312,3.312,0,0,0,4.758-4.609l-.081-.081-5-4.889q.465-.119.906-.253A19.047,19.047,0,0,0,119.2,265.211Z" transform="translate(0 -238.582)" fill="none" stroke="#991426" stroke-width="1"></path>
-                                        </g>
-                                    </svg>
-                                </a>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="card-title">{{ $good['title'] }}</div>
-                        <div class="card-sub-title">
-                            <p>{{ $good['short_description'] }}</p>
-                            <p><strong>{{ $good['forma'] }}</strong></p>
-                        </div>
-                        <div class="card-description">
-                            <p>{{ $good['description'] }}<br>
-                                <strong>ID блюда:</strong><p id="good_id"> {{ $good['id'] }}</p><strong>Пищевая ценность</strong> (в 100 г. продукта): 
-                            {{ $good['nutritional_value'] }}
-                            </p>
-                            <p><strong></strong><strong>Энергетическая ценность</strong> (в 100 г. продукта): {{ $good['energy_value'] }}</p>
-                            <p><strong>Срок годности:</strong> с даты упаковки {{ $good['shelf_life'] }}</p>
-                        </div>
-                        <hr>
-                        <!--<div class="card-char">
-                            <table>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <span>
-                                        <svg id="box-seam" xmlns="http://www.w3.org/2000/svg" width="21.523" height="21.419" viewBox="0 0 21.523 21.419">
-                                            <path id="Контур_3442" data-name="Контур 3442" d="M11.012,1.566a.673.673,0,0,0-.5,0L2.483,4.778,5.717,6.07,14,2.76Zm4.794,1.918L7.528,6.8l3.234,1.293,8.278-3.31L15.806,3.485Zm4.372,2.287-8.744,3.5V19.925l8.744-3.5V5.773ZM10.089,19.927V9.268l-8.744-3.5V16.43ZM10.012.317a2.018,2.018,0,0,1,1.5,0L21.1,4.153a.673.673,0,0,1,.422.624V16.43a1.345,1.345,0,0,1-.846,1.248l-9.665,3.866a.673.673,0,0,1-.5,0L.847,17.678A1.345,1.345,0,0,1,0,16.43V4.778a.673.673,0,0,1,.423-.624Z" transform="translate(0 -0.173)" fill-rule="evenodd"></path>
-                                        </svg>
-                                        </span>
-                                        Состав
-                                    </td>
-                                    <td>Сахар белый кристаллический</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span>
-                                        <svg id="box" xmlns="http://www.w3.org/2000/svg" width="21.523" height="21.419" viewBox="0 0 21.523 21.419">
-                                            <path id="Контур_3443" data-name="Контур 3443" d="M11.012,1.566a.673.673,0,0,0-.5,0L2.483,4.778l8.278,3.31,8.278-3.31Zm9.166,4.205-8.744,3.5V19.926l8.744-3.5V5.773ZM10.089,19.927V9.268l-8.744-3.5V16.43ZM10.012.317a2.018,2.018,0,0,1,1.5,0L21.1,4.153a.673.673,0,0,1,.422.624V16.43a1.345,1.345,0,0,1-.846,1.248l-9.665,3.866a.673.673,0,0,1-.5,0L.847,17.678A1.345,1.345,0,0,1,0,16.43V4.778a.673.673,0,0,1,.423-.624Z" transform="translate(0 -0.173)" fill-rule="evenodd"></path>
-                                        </svg>
-                                        </span>
-                                        Упаковка
-                                    </td>
-                                    <td>Картонная коробка</td>
-                                </tr>
-                            </tbody>
-                            </table>
-                        </div>-->
-                    </div>
-                </div>
-                <div class="card-variable">
-                    <h3>Варианты упаковки</h3>
-                    @foreach($good['packs'] as $key => $value)
-                        <div class="card-variable-item">
-                            <div class="v-img">
-                                <img src="{{ $value['photo'] }}" alt="">
-                            </div>
-                            <div class="v-properties">
-                                <div class="v-properties-wrap">
-                                <table class="packs_table">
-                                    <tbody>
-                                        <tr>
-                                            <td>Вес</td>
-                                            <td class="weight">{{ $value['weight'] }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Форма</td>
-                                            <td class="forma">{{ $value['forma'] }}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Групповая упаковка</td>
-                                            <td class="group">{{ $value['group'] }}</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                </div>
-                            </div>
-                        </div>  
-                    @endforeach
-                </div>
+
+                    <form action="{{ route('order.store') }}" method="post">
+                        @csrf
+                        <p>ID товара: </p>
+                        <input type="number" name="good_id" id="good_id" value="{{ $goodId }}" style="width: 300px;" readonly="readonly">
+                        <p>Количество: </p>
+                        <p><input type="number" name="quantity" min="1" id="quantity" required></p>
+                        <select name="pack" id="packs" style="width: 100%">
+
+                        </select> <br>
+                        <input type="submit" value="Заказать">
+                    </form>
+            </div>
+                
             </div>
         </div>
-     </div>
-</div>
 
 
-    <div class="section-footer">
-        <div class="footer-inner">
-            <div class="footer-inner-top">
-                <div class="contact-info-row contact-info-addres">
-                    <p><strong>ул. Заводская 2, 222611, г.п. Городея, <br>
-            Несвижский р-н, Минская область</strong></p>
-            </div>
-            <div class="contact-info-row">
-                <p><a href="tel:+375 1770 62 524">+375 1770 62 524</a></p>
-            </div>
-            <div class="contact-info-row contact-info-mail">
-                <p><a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a></p>
-                <br>
-                <a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
-                            </div>
-            <div class="block-social">
-
-                <a href="https://www.instagram.com/gsrby_official/?hl=ru" class="social-icon" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.596 28.596">
-                <g id="instagram_8_" data-name="instagram (8)" transform="translate(0.501 -4.021)">
-                    <path id="Контур_3373" data-name="Контур 3373" d="M20.125,0H7.469A7.478,7.478,0,0,0,0,7.47V20.126a7.478,7.478,0,0,0,7.47,7.47H20.125a7.478,7.478,0,0,0,7.47-7.47V7.47A7.478,7.478,0,0,0,20.125,0Z" transform="translate(0 4.521)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-                    <path id="Контур_3374" data-name="Контур 3374" d="M123.815,129.742a5.928,5.928,0,1,1,5.928-5.928A5.934,5.934,0,0,1,123.815,129.742Zm0,0" transform="translate(-110.018 -105.496)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-                    <path id="Контур_3375" data-name="Контур 3375" d="M361.067,70.584a1.208,1.208,0,1,1,1.208-1.208A1.209,1.209,0,0,1,361.067,70.584Zm0,0" transform="translate(-339.545 -59.053)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-                </g>
-            </svg>
-        </a>
-        <a href="https://m.facebook.com/gsr.byy/" class="social-icon" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.434 37.865">
-                <path id="facebook_6_" data-name="facebook (6)" d="M21.256,6.121h3.365V.26a43.458,43.458,0,0,0-4.9-.26c-4.852,0-8.176,3.052-8.176,8.662v5.163H6.187v6.553h5.355V36.865h6.565V20.379h5.138l.816-6.553H18.105V9.312c0-1.894.512-3.19,3.15-3.19Z" transform="translate(-5.687 0.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-            </svg>
-        </a>
-        <a href="https://vk.com/gsr_by" class="social-icon" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.233 25.635">
-                <path id="vk_6_" data-name="vk (6)" d="M35.043,19.126c-.683-.862-.487-1.246,0-2.017.009-.009,5.645-7.8,6.226-10.438l0,0c.289-.963,0-1.67-1.4-1.67H35.259a1.982,1.982,0,0,0-2.008,1.286,37.767,37.767,0,0,1-5.677,9.275c-1.073,1.054-1.57,1.392-2.156,1.392-.289,0-.737-.338-.737-1.3V6.67c0-1.154-.329-1.67-1.3-1.67H16.12a1.1,1.1,0,0,0-1.175,1.04c0,1.094,1.663,1.346,1.835,4.425v6.681c0,1.464-.266,1.733-.855,1.733-1.57,0-5.379-5.65-7.637-12.117C7.832,5.509,7.387,5,6.2,5H1.584C.266,5,0,5.609,0,6.288c0,1.2,1.57,7.167,7.3,15.05,3.818,5.381,9.2,8.3,14.088,8.3,2.94,0,3.3-.648,3.3-1.761,0-5.142-.266-5.627,1.207-5.627.683,0,1.858.338,4.6,2.933,3.137,3.078,3.653,4.455,5.409,4.455h4.617c1.316,0,1.983-.648,1.6-1.925C41.244,25.023,35.31,19.5,35.043,19.126Z" transform="translate(0.5 -4.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-            </svg>
-        </a>
-        <a href="https://m.ok.ru/group/55253855240282/album/878670904666" class="social-icon" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.841 41.011">
-                <g id="odnoklassniki_1_" data-name="odnoklassniki (1)" transform="translate(-95.737 0.5)">
-                    <path id="Контур_3376" data-name="Контур 3376" d="M128.337,21.528a10.764,10.764,0,1,0-10.764-10.764A10.764,10.764,0,0,0,128.337,21.528Zm0-16.56a5.8,5.8,0,1,1-5.8,5.8A5.8,5.8,0,0,1,128.337,4.968Z" transform="translate(-19.68 0)" fill="none" stroke="#991426" stroke-width="1"></path>
-                    <path id="Контур_3377" data-name="Контур 3377" d="M119.2,265.211a4.17,4.17,0,0,0,1.876-3.478,3,3,0,0,0-1.684-2.741,3.146,3.146,0,0,0-3.312.311,12.6,12.6,0,0,1-14.846,0,3.163,3.163,0,0,0-3.312-.311,3.007,3.007,0,0,0-1.686,2.739,4.175,4.175,0,0,0,1.876,3.478,19.117,19.117,0,0,0,4.852,2.318q.437.136.9.252l-5,4.894a3.312,3.312,0,0,0,4.613,4.754l.081-.081,5.1-5.279,5.11,5.289a3.312,3.312,0,0,0,4.758-4.609l-.081-.081-5-4.889q.465-.119.906-.253A19.047,19.047,0,0,0,119.2,265.211Z" transform="translate(0 -238.582)" fill="none" stroke="#991426" stroke-width="1"></path>
-                </g>
-            </svg>
-        </a>
-
-            </div>
-        </div>
-        <div class="footer-inner-bottom">
-            <div class="copy">© 2021  Городейский сахарный комбинат</div>
-            <!--<div class="site-develop"><a href="https://scroll.by/" target="_blank">Сайт изготовлен<span></span></a>
-            </div>-->
-        </div>
-        </div>
-    </div>
-<!--<div class="back-top" style="opacity: 1; pointer-events: auto;"><i class="arrow-top"></i></div>-->
+            
+        <div class="back-top" style="opacity: 0; pointer-events: none;"><i class="arrow-top"></i></div>
 
 
-<!-- Modal -->
-<div class="modal fade" id="map" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-custom" role="document">
-        <div class="modal-content">
-            <div class="container">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Как проехать</h5>
-                    <span class="close" data-dismiss="modal" aria-label="Close">
-                    <img src="./sahar-bridzh_files/close.svg" alt="">
-                </span>
-                </div>
-                <div class="modal-body">
-                                                                            </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="requisites" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-custom" role="document">
-        <div class="modal-content">
-            <div class="container">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Банковские реквизиты</h5>
-                    <span class="close" data-dismiss="modal" aria-label="Close">
-                    <img src="./sahar-bridzh_files/close.svg" alt="">
-                </span>
-                </div>
-                <div class="modal-body">
-                                                                     
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
-<script src="{{ asset('js/jquery.min.js') }}"></script>
-<script src="{{ asset('js/slick.min.js') }}"></script>
-<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('jquery.min.js') }}"></script>
+<script src="{{ asset('slick.min.js') }}"></script>
+<script src="{{ asset('bootstrap.min.js') }}"></script>
 <!--<script src="./sahar_files/json.txt" type="text/javascript"></script>-->
-<script src="{{ asset('js/api.js') }}"></script>
+<script src="{{ asset('api.js') }}"></script>
 <script src="{{ asset('js/jquery.maskedinput.min.js') }}"></script>
-<script src="{{ asset('js/aos.js') }}"></script>
+<script src="{{ asset('aos.js') }}"></script>
 <!--<script src="./sahar_files/cookie.js"></script>-->
-<script src="{{ asset('js/slabo.js') }}"></script>
+<script src="{{ asset('slabo.js') }}"></script>
+<script src="{{ asset('js/main.js') }}"></script>
 
-<script src="{{ asset('js/slider.js') }}"></script>
-<script src="{{ asset('js/jquery.fancybox.min.js') }}"></script>
+<script src="{{ asset('slider.js') }}"></script>
+<script src="{{ asset('jquery.fancybox.min.js') }}"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         $(".fancybox").fancybox();
-
-        $(function(){
-            $('.minimized').click(function(event) {
-                var i_path = $(this).attr('src');
-                $('body').append('<div id="overlay"></div><div id="magnify"><img src="'+i_path+'"><div id="close-popup"><i></i></div></div>');
-                $('#magnify').css({
-                left: ($(document).width() - $('#magnify').outerWidth())/2,
-                // top: ($(document).height() - $('#magnify').outerHeight())/2 upd: 24.10.2016
-                        top: ($(window).height() - $('#magnify').outerHeight())/2
-            });
-                $('#overlay, #magnify').fadeIn('fast');
-            });
-            
-            $('body').on('click', '#close-popup, #overlay', function(event) {
-                    event.preventDefault();
-                    $('#overlay, #magnify').fadeOut('fast', function() {
-                    $('#close-popup, #magnify, #overlay').remove();
-                });
-            });
-        });
     });
 </script>
-<script src="{{ asset('js/app.js') }}"></script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+
+        if (localStorage.getItem("my_app_scroll") != null) {
+            $(window).scrollTop(localStorage.getItem("my_app_scroll"));
+        }
+
+        $(window).on("scroll", function() {
+            localStorage.setItem("my_app_scroll", $(window).scrollTop());
+        });
+
+    });
+</script>
+<script src="{{ asset('app.js') }}"></script>
     <div class="modal fade modal-notify" id="modal-success" tabindex="-1" role="dialog" aria-hidden="true">
-  <!--<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+  <div class="modal-dialog modal-dialog-centered modal-md" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title my-0 d-block w-100 font-b">Успешно отправлено!</h5>
@@ -673,7 +497,7 @@
         </div>
       </div>
     </div>
-  </div>-->
+  </div>
 </div>
 
 <div class="modal fade modal-notify" id="modal-error" tabindex="-1" role="dialog" aria-hidden="true">
@@ -695,12 +519,12 @@
 </div>
 
     <!--<div class="cookie-wrapper">
-        <div class="cookie">
-            <div class="cookie-close"><img src="https://gsr.by/assets/images/src/close.svg" alt=""></div> 
+    <div class="cookie">
+    <div class="cookie-close"><img src="https://gsr.by/assets/images/src/close.svg" alt=""></div>
         <div class="cookie-wrap">
             <div>
                 <p> </p><p>С целью улучшения работы сайта используются файлы «cookies» (файлы с данными о прошлых посещениях сайта). 
-        nk">Согласии на обработку персональных данных</a> условиях.</p><p></p>
+Продолжая использовать данный сайт и нажимая на кнопку «Принять», я подтверждаю, что я ознакомлен(а) с <a href="https://gsr.by/privacy.pdf" target="_blank">Политикой обработки персональных данных</a>  и согласен(на) на обработку моих персональных данных на изложенных в <a href="https://gsr.by/file/%D0%A1%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%B8%D0%B5_%D0%BD%D0%B0_%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D1%83_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82_%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%BE%D0%B2_1647411725.pdf" target="_blank">Согласии на обработку персональных данных</a> условиях.</p><p></p>
             </div>
             <div class="cookie-wrap__accept">
               Принять
@@ -709,6 +533,62 @@
     </div>-->
 </div>
 
-    
+<div class="section-footer">
+    <div class="footer-inner">
+        <div class="footer-inner-top">
+            <div class="contact-info-row contact-info-addres">
+                <p><strong>ул. Заводская 2, 222611, г.п. Городея, <br>
+    Несвижский р-н, Минская область</strong></p>
+            </div>
+                <div class="contact-info-row">
+                    <p><a href="tel:+375 1770 62 524">+375 1770 62 524</a></p>
+                </div>
+                <div class="contact-info-row contact-info-mail">
+                    <p><a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a></p>
+                    <br>
+                    <<a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
+                </div>
+                <div class="block-social">
 
-<div class="betternet-wrapper"></div><g-ext-in></g-ext-in></body></html>
+                    <a href="https://www.instagram.com/gsrby_official/?hl=ru" class="social-icon" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.596 28.596">
+                        <g id="instagram_8_" data-name="instagram (8)" transform="translate(0.501 -4.021)">
+                            <path id="Контур_3373" data-name="Контур 3373" d="M20.125,0H7.469A7.478,7.478,0,0,0,0,7.47V20.126a7.478,7.478,0,0,0,7.47,7.47H20.125a7.478,7.478,0,0,0,7.47-7.47V7.47A7.478,7.478,0,0,0,20.125,0Z" transform="translate(0 4.521)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+                            <path id="Контур_3374" data-name="Контур 3374" d="M123.815,129.742a5.928,5.928,0,1,1,5.928-5.928A5.934,5.934,0,0,1,123.815,129.742Zm0,0" transform="translate(-110.018 -105.496)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+                            <path id="Контур_3375" data-name="Контур 3375" d="M361.067,70.584a1.208,1.208,0,1,1,1.208-1.208A1.209,1.209,0,0,1,361.067,70.584Zm0,0" transform="translate(-339.545 -59.053)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+                        </g>
+                    </svg>
+                    </a>
+                    <a href="https://m.facebook.com/gsr.byy/" class="social-icon" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.434 37.865">
+                            <path id="facebook_6_" data-name="facebook (6)" d="M21.256,6.121h3.365V.26a43.458,43.458,0,0,0-4.9-.26c-4.852,0-8.176,3.052-8.176,8.662v5.163H6.187v6.553h5.355V36.865h6.565V20.379h5.138l.816-6.553H18.105V9.312c0-1.894.512-3.19,3.15-3.19Z" transform="translate(-5.687 0.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+                        </svg>
+                    </a>
+                    <a href="https://vk.com/gsr_by" class="social-icon" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.233 25.635">
+                            <path id="vk_6_" data-name="vk (6)" d="M35.043,19.126c-.683-.862-.487-1.246,0-2.017.009-.009,5.645-7.8,6.226-10.438l0,0c.289-.963,0-1.67-1.4-1.67H35.259a1.982,1.982,0,0,0-2.008,1.286,37.767,37.767,0,0,1-5.677,9.275c-1.073,1.054-1.57,1.392-2.156,1.392-.289,0-.737-.338-.737-1.3V6.67c0-1.154-.329-1.67-1.3-1.67H16.12a1.1,1.1,0,0,0-1.175,1.04c0,1.094,1.663,1.346,1.835,4.425v6.681c0,1.464-.266,1.733-.855,1.733-1.57,0-5.379-5.65-7.637-12.117C7.832,5.509,7.387,5,6.2,5H1.584C.266,5,0,5.609,0,6.288c0,1.2,1.57,7.167,7.3,15.05,3.818,5.381,9.2,8.3,14.088,8.3,2.94,0,3.3-.648,3.3-1.761,0-5.142-.266-5.627,1.207-5.627.683,0,1.858.338,4.6,2.933,3.137,3.078,3.653,4.455,5.409,4.455h4.617c1.316,0,1.983-.648,1.6-1.925C41.244,25.023,35.31,19.5,35.043,19.126Z" transform="translate(0.5 -4.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+                        </svg>
+                    </a>
+                    <a href="https://m.ok.ru/group/55253855240282/album/878670904666" class="social-icon" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.841 41.011">
+                            <g id="odnoklassniki_1_" data-name="odnoklassniki (1)" transform="translate(-95.737 0.5)">
+                                <path id="Контур_3376" data-name="Контур 3376" d="M128.337,21.528a10.764,10.764,0,1,0-10.764-10.764A10.764,10.764,0,0,0,128.337,21.528Zm0-16.56a5.8,5.8,0,1,1-5.8,5.8A5.8,5.8,0,0,1,128.337,4.968Z" transform="translate(-19.68 0)" fill="none" stroke="#991426" stroke-width="1"></path>
+                                <path id="Контур_3377" data-name="Контур 3377" d="M119.2,265.211a4.17,4.17,0,0,0,1.876-3.478,3,3,0,0,0-1.684-2.741,3.146,3.146,0,0,0-3.312.311,12.6,12.6,0,0,1-14.846,0,3.163,3.163,0,0,0-3.312-.311,3.007,3.007,0,0,0-1.686,2.739,4.175,4.175,0,0,0,1.876,3.478,19.117,19.117,0,0,0,4.852,2.318q.437.136.9.252l-5,4.894a3.312,3.312,0,0,0,4.613,4.754l.081-.081,5.1-5.279,5.11,5.289a3.312,3.312,0,0,0,4.758-4.609l-.081-.081-5-4.889q.465-.119.906-.253A19.047,19.047,0,0,0,119.2,265.211Z" transform="translate(0 -238.582)" fill="none" stroke="#991426" stroke-width="1"></path>
+                            </g>
+                        </svg>
+                    </a>
+
+        </div>
+    </div>
+            <div class="footer-inner-bottom">
+                <div class="copy"></div>
+                    <span style="text-align:left">© 2021  Городейский сахарный комбинат</span>
+                <!--<div class="site-develop"><a href="https://scroll.by/" target="_blank">Сайт изготовлен<span></span></a>
+                </div>-->
+            </div>
+        </div>
+
+</div>
+
+</body>
+</html>

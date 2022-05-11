@@ -113,20 +113,17 @@
 
             </div>
         </div>
-        <div class="col-2 col-xl-6 d-none d-xl-block header-wrap-menu">
-            <div class="row">
-                <div class="col-8"></div>
-                <div class="col-4">
-                    <ul class="header__top-menu li-group li-style">
-                        <!--<li><a href="https://gsr.by/partners">Партнерам</a></li>
-                        <li><a href="https://gsr.by/stolbcovskij-filial">Столбцовский филиал</a></li>
-                        <li><a href="https://gsr.by/entertainment/restoran-traktir-dlya-druzej">Ресторан</a></li>
-                        <li><a href="https://gsr.by/entertainment/rc-bumerang">Регистрация</a></li>
-                        <li><a href="https://gsr.by/entertainment/rc-bumerang">Войти в личный кабинет</a></li>
-                        <li><a href="http://hotel.gsr.by/" target="_blank">Гостиница<span><img src="./sahar_files/exit-target.svg" alt=""></span></a></li>-->
-                    </ul>
-                </div>
-            </div>
+        <div class="col-2 col-xl-7 d-none d-xl-block header-wrap-menu" style="margin-left: -40px; margin-top: 20px;">
+            <p>
+                <strong>
+                    ул. Заводская 2, 222611, г.п. Городея, <br> Несвижский р-н, Минская область
+                </strong>
+            </p>
+            <p>
+                <a href="tel:+375 1770 62 524">+375 1770 62 524</a>
+                <a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a>
+            </p>
+            <a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
         </div>
         <div class="col-2 col-xl-2">
             <ul class="header__top-menu li-group li-style">
@@ -505,62 +502,8 @@
 </div>
 
 
-            <div class="section-footer">
-    <div class="footer-inner">
-        <div class="footer-inner-top">
-            <div class="contact-info-row contact-info-addres">
-                <p><strong>ул. Заводская 2, 222611, г.п. Городея, <br>
-Несвижский р-н, Минская область</strong></p>
-            </div>
-            <div class="contact-info-row">
-                <p><a href="tel:+375 1770 62 524">+375 1770 62 524</a></p>
-            </div>
-            <div class="contact-info-row contact-info-mail">
-                <p><a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a></p>
-                <br>
-                <a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
-            </div>
-            <div class="block-social">
-
-                <a href="https://www.instagram.com/gsrby_official/?hl=ru" class="social-icon" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.596 28.596">
-            <g id="instagram_8_" data-name="instagram (8)" transform="translate(0.501 -4.021)">
-                <path id="Контур_3373" data-name="Контур 3373" d="M20.125,0H7.469A7.478,7.478,0,0,0,0,7.47V20.126a7.478,7.478,0,0,0,7.47,7.47H20.125a7.478,7.478,0,0,0,7.47-7.47V7.47A7.478,7.478,0,0,0,20.125,0Z" transform="translate(0 4.521)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-                <path id="Контур_3374" data-name="Контур 3374" d="M123.815,129.742a5.928,5.928,0,1,1,5.928-5.928A5.934,5.934,0,0,1,123.815,129.742Zm0,0" transform="translate(-110.018 -105.496)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-                <path id="Контур_3375" data-name="Контур 3375" d="M361.067,70.584a1.208,1.208,0,1,1,1.208-1.208A1.209,1.209,0,0,1,361.067,70.584Zm0,0" transform="translate(-339.545 -59.053)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-            </g>
-        </svg>
-    </a>
-    <a href="https://m.facebook.com/gsr.byy/" class="social-icon" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.434 37.865">
-            <path id="facebook_6_" data-name="facebook (6)" d="M21.256,6.121h3.365V.26a43.458,43.458,0,0,0-4.9-.26c-4.852,0-8.176,3.052-8.176,8.662v5.163H6.187v6.553h5.355V36.865h6.565V20.379h5.138l.816-6.553H18.105V9.312c0-1.894.512-3.19,3.15-3.19Z" transform="translate(-5.687 0.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-        </svg>
-    </a>
-    <a href="https://vk.com/gsr_by" class="social-icon" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.233 25.635">
-            <path id="vk_6_" data-name="vk (6)" d="M35.043,19.126c-.683-.862-.487-1.246,0-2.017.009-.009,5.645-7.8,6.226-10.438l0,0c.289-.963,0-1.67-1.4-1.67H35.259a1.982,1.982,0,0,0-2.008,1.286,37.767,37.767,0,0,1-5.677,9.275c-1.073,1.054-1.57,1.392-2.156,1.392-.289,0-.737-.338-.737-1.3V6.67c0-1.154-.329-1.67-1.3-1.67H16.12a1.1,1.1,0,0,0-1.175,1.04c0,1.094,1.663,1.346,1.835,4.425v6.681c0,1.464-.266,1.733-.855,1.733-1.57,0-5.379-5.65-7.637-12.117C7.832,5.509,7.387,5,6.2,5H1.584C.266,5,0,5.609,0,6.288c0,1.2,1.57,7.167,7.3,15.05,3.818,5.381,9.2,8.3,14.088,8.3,2.94,0,3.3-.648,3.3-1.761,0-5.142-.266-5.627,1.207-5.627.683,0,1.858.338,4.6,2.933,3.137,3.078,3.653,4.455,5.409,4.455h4.617c1.316,0,1.983-.648,1.6-1.925C41.244,25.023,35.31,19.5,35.043,19.126Z" transform="translate(0.5 -4.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
-        </svg>
-    </a>
-    <a href="https://m.ok.ru/group/55253855240282/album/878670904666" class="social-icon" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.841 41.011">
-            <g id="odnoklassniki_1_" data-name="odnoklassniki (1)" transform="translate(-95.737 0.5)">
-                <path id="Контур_3376" data-name="Контур 3376" d="M128.337,21.528a10.764,10.764,0,1,0-10.764-10.764A10.764,10.764,0,0,0,128.337,21.528Zm0-16.56a5.8,5.8,0,1,1-5.8,5.8A5.8,5.8,0,0,1,128.337,4.968Z" transform="translate(-19.68 0)" fill="none" stroke="#991426" stroke-width="1"></path>
-                <path id="Контур_3377" data-name="Контур 3377" d="M119.2,265.211a4.17,4.17,0,0,0,1.876-3.478,3,3,0,0,0-1.684-2.741,3.146,3.146,0,0,0-3.312.311,12.6,12.6,0,0,1-14.846,0,3.163,3.163,0,0,0-3.312-.311,3.007,3.007,0,0,0-1.686,2.739,4.175,4.175,0,0,0,1.876,3.478,19.117,19.117,0,0,0,4.852,2.318q.437.136.9.252l-5,4.894a3.312,3.312,0,0,0,4.613,4.754l.081-.081,5.1-5.279,5.11,5.289a3.312,3.312,0,0,0,4.758-4.609l-.081-.081-5-4.889q.465-.119.906-.253A19.047,19.047,0,0,0,119.2,265.211Z" transform="translate(0 -238.582)" fill="none" stroke="#991426" stroke-width="1"></path>
-            </g>
-        </svg>
-    </a>
-
-            </div>
-        </div>
-        <div class="footer-inner-bottom">
-            <div class="copy">© 2021  Городейский сахарный комбинат</div>
-            <!--<div class="site-develop"><a href="https://scroll.by/" target="_blank">Сайт изготовлен<span></span></a>
-            </div>-->
-        </div>
-    </div>
-
-</div>
-<div class="back-top" style="opacity: 0; pointer-events: none;"><i class="arrow-top"></i></div>
+        
+            <div class="back-top" style="opacity: 0; pointer-events: none;"><i class="arrow-top"></i></div>
 
 
 <!-- Modal -->
@@ -670,6 +613,61 @@
 
 </div>
 
+<div class="section-footer">
+    <div class="footer-inner">
+        <div class="footer-inner-top">
+            <div class="contact-info-row contact-info-addres">
+                <p><strong>ул. Заводская 2, 222611, г.п. Городея, <br>
+    Несвижский р-н, Минская область</strong></p>
+                </div>
+                <div class="contact-info-row">
+                    <p><a href="tel:+375 1770 62 524">+375 1770 62 524</a></p>
+            </div>
+            <div class="contact-info-row contact-info-mail">
+                <p><a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a></p>
+                <br>
+                <a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
+            </div>
+            <div class="block-social">
+
+                <a href="https://www.instagram.com/gsrby_official/?hl=ru" class="social-icon" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.596 28.596">
+            <g id="instagram_8_" data-name="instagram (8)" transform="translate(0.501 -4.021)">
+                <path id="Контур_3373" data-name="Контур 3373" d="M20.125,0H7.469A7.478,7.478,0,0,0,0,7.47V20.126a7.478,7.478,0,0,0,7.47,7.47H20.125a7.478,7.478,0,0,0,7.47-7.47V7.47A7.478,7.478,0,0,0,20.125,0Z" transform="translate(0 4.521)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+                <path id="Контур_3374" data-name="Контур 3374" d="M123.815,129.742a5.928,5.928,0,1,1,5.928-5.928A5.934,5.934,0,0,1,123.815,129.742Zm0,0" transform="translate(-110.018 -105.496)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+                <path id="Контур_3375" data-name="Контур 3375" d="M361.067,70.584a1.208,1.208,0,1,1,1.208-1.208A1.209,1.209,0,0,1,361.067,70.584Zm0,0" transform="translate(-339.545 -59.053)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+            </g>
+        </svg>
+    </a>
+    <a href="https://m.facebook.com/gsr.byy/" class="social-icon" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.434 37.865">
+            <path id="facebook_6_" data-name="facebook (6)" d="M21.256,6.121h3.365V.26a43.458,43.458,0,0,0-4.9-.26c-4.852,0-8.176,3.052-8.176,8.662v5.163H6.187v6.553h5.355V36.865h6.565V20.379h5.138l.816-6.553H18.105V9.312c0-1.894.512-3.19,3.15-3.19Z" transform="translate(-5.687 0.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+        </svg>
+    </a>
+    <a href="https://vk.com/gsr_by" class="social-icon" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.233 25.635">
+            <path id="vk_6_" data-name="vk (6)" d="M35.043,19.126c-.683-.862-.487-1.246,0-2.017.009-.009,5.645-7.8,6.226-10.438l0,0c.289-.963,0-1.67-1.4-1.67H35.259a1.982,1.982,0,0,0-2.008,1.286,37.767,37.767,0,0,1-5.677,9.275c-1.073,1.054-1.57,1.392-2.156,1.392-.289,0-.737-.338-.737-1.3V6.67c0-1.154-.329-1.67-1.3-1.67H16.12a1.1,1.1,0,0,0-1.175,1.04c0,1.094,1.663,1.346,1.835,4.425v6.681c0,1.464-.266,1.733-.855,1.733-1.57,0-5.379-5.65-7.637-12.117C7.832,5.509,7.387,5,6.2,5H1.584C.266,5,0,5.609,0,6.288c0,1.2,1.57,7.167,7.3,15.05,3.818,5.381,9.2,8.3,14.088,8.3,2.94,0,3.3-.648,3.3-1.761,0-5.142-.266-5.627,1.207-5.627.683,0,1.858.338,4.6,2.933,3.137,3.078,3.653,4.455,5.409,4.455h4.617c1.316,0,1.983-.648,1.6-1.925C41.244,25.023,35.31,19.5,35.043,19.126Z" transform="translate(0.5 -4.5)" fill="none" stroke="#991426" stroke-miterlimit="10" stroke-width="1"></path>
+        </svg>
+    </a>
+    <a href="https://m.ok.ru/group/55253855240282/album/878670904666" class="social-icon" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.841 41.011">
+            <g id="odnoklassniki_1_" data-name="odnoklassniki (1)" transform="translate(-95.737 0.5)">
+                <path id="Контур_3376" data-name="Контур 3376" d="M128.337,21.528a10.764,10.764,0,1,0-10.764-10.764A10.764,10.764,0,0,0,128.337,21.528Zm0-16.56a5.8,5.8,0,1,1-5.8,5.8A5.8,5.8,0,0,1,128.337,4.968Z" transform="translate(-19.68 0)" fill="none" stroke="#991426" stroke-width="1"></path>
+                <path id="Контур_3377" data-name="Контур 3377" d="M119.2,265.211a4.17,4.17,0,0,0,1.876-3.478,3,3,0,0,0-1.684-2.741,3.146,3.146,0,0,0-3.312.311,12.6,12.6,0,0,1-14.846,0,3.163,3.163,0,0,0-3.312-.311,3.007,3.007,0,0,0-1.686,2.739,4.175,4.175,0,0,0,1.876,3.478,19.117,19.117,0,0,0,4.852,2.318q.437.136.9.252l-5,4.894a3.312,3.312,0,0,0,4.613,4.754l.081-.081,5.1-5.279,5.11,5.289a3.312,3.312,0,0,0,4.758-4.609l-.081-.081-5-4.889q.465-.119.906-.253A19.047,19.047,0,0,0,119.2,265.211Z" transform="translate(0 -238.582)" fill="none" stroke="#991426" stroke-width="1"></path>
+            </g>
+        </svg>
+    </a>
+
+            </div>
+        </div>
+        <div class="footer-inner-bottom">
+            <div class="copy">© 2021  Городейский сахарный комбинат</div>
+            <!--<div class="site-develop"><a href="https://scroll.by/" target="_blank">Сайт изготовлен<span></span></a>
+            </div>-->
+        </div>
+    </div>
+
+</div>
 <div class="betternet-wrapper"></div><g-ext-in></g-ext-in>
 
 </body>

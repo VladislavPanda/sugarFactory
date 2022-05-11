@@ -37,6 +37,11 @@ $(document).ready(function() {
 
     });
 
+    // Заказ в 1 клик
+    $("#one_click_btn").click(function() {
+        alert(123)
+    });
+
     /*alert(123)
     $('.overlay_popup').click(function() { // Обрабатываем клик по заднему фону
         $('.overlay_popup, .popup').hide(); // Скрываем затемнённый задний фон и основное всплывающее окно

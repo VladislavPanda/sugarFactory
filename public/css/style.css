@@ -6295,8 +6295,14 @@ textarea {
     display: none;
     position: relative;
     z-index: 1000;
-    margin:-40% 10% 20% 35%;
+    /* margin:-40% 10% 20% 35%; */
     width: 50%;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -280px;
+    margin-top: -175px;
   }
   
   /* Ещё немного стилей для popup окна */

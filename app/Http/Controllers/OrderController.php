@@ -55,4 +55,8 @@ class OrderController extends Controller
         $item = Order::find($statusData['id']);
         $item->update(['status' => $statusData['status']]);
     }
+
+    public function oneClick($id){
+        return view('oneClick')->with('goodId', $id);
+    }
 }

@@ -113,14 +113,17 @@
 
             </div>
         </div>
-        <div class="col-2 col-xl-6 d-none d-xl-block header-wrap-menu">
-            <div class="row">
-                <div class="col-8"></div>
-                <div class="col-4">
-                    <ul class="header__top-menu li-group li-style">
-                    </ul>
-                </div>
-            </div>
+        <div class="col-2 col-xl-7 d-none d-xl-block header-wrap-menu" style="margin-left: -40px; margin-top: 20px;">
+            <p>
+                <strong>
+                    ул. Заводская 2, 222611, г.п. Городея, <br> Несвижский р-н, Минская область
+                </strong>
+            </p>
+            <p>
+                <a href="tel:+375 1770 62 524">+375 1770 62 524</a>
+                <a href="mailto:info@gsr.by,marketing@gsr.by">info@gsr.by, marketing@gsr.by</a>
+            </p>
+            <a href="{{ asset('docs/price.pdf') }}" target="_blank" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
         </div>
         <div class="col-2 col-xl-2">
             <ul class="header__top-menu li-group li-style">

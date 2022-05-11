@@ -32,6 +32,8 @@ Route::post('/store', [OrderController::class, 'store'])->name('order.store');
 
 Route::middleware(['auth', 'prevent-back-history'])->prefix('cabinet')->group(function(){
     Route::get('/orders', [CabinetController::class, 'index'])->name('cabinet.index');
+    Route::get('/one_click/{id}', [OrderController::class, 'oneClick'])->name('oneClick.index');
+
     /*Route::get('/appointment/procedures/{id}', [AppointmentController::class, 'getProcedures'])->name('procedures_modal');*/
     Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 

@@ -112,7 +112,7 @@
 
             </div>
         </div>
-        <div class="col-2 col-xl-7 d-none d-xl-block header-wrap-menu" style="margin-left: 90px; margin-top: 20px;">
+        <div class="col-2 col-xl-7 d-none d-xl-block header-wrap-menu" style="margin-left: 30px; margin-top: 20px;">
                 <p>
                     <strong>
                         ул. Заводская 2, 222611, г.п. Городея, <br> Несвижский р-н, Минская область
@@ -323,12 +323,17 @@
             <h3 style="text-align: center">Каталог</h3>
             <div class="catalog__items">
                 @foreach($goods as $key => $value)  
-                    <div href="{{ route('goods.show', $value['id']) }}" class="catalog__card aos-init   aos-animate" data-aos="fade-up" data-aos-offset="150">
-                            <div onClick="window.open('http://example.com');" class="catalog__card-img" style="background-image: url({{ $value['images'][0] }})"></div>
+                    <div class="catalog__card aos-init   aos-animate" data-aos="fade-up" data-aos-offset="150">
+                            <a href="{{ route('goods.show', $value['id']) }}"><div class="catalog__card-img" style="background-image: url({{ $value['images'][0] }})"></div></a>
                             <div class="catalog__card-txt">
-                                <h2>{{ $value['title'] }}</h2>
-                                <p>{{ $value['short_description'] }}</p><p><strong>{{ $value['forma'] }}</strong></p>
-                                <a href="" target="_blank" onClick="alert(123);" class="btn btn-2" download="">СКАЧАТЬ ПРАЙС</a>
+                                <a href="{{ route('goods.show', $value['id']) }}"><h2>{{ $value['title'] }}</h2></a>
+                                <a href="{{ route('goods.show', $value['id']) }}"><p>{{ $value['short_description'] }}</p><p><strong>{{ $value['forma'] }}</strong></p></a>
+                                @auth
+                                    @if(Auth::user()->name != 'admin')    
+                                <a href="{{ route('oneClick.index', $value['id']) }}" id="one_click_btn" class="btn btn-2">Купить в один клик</a>
+                                    @endif
+                                @endauth
+
                                 {{-- <p style="border: 1px solid #991426; padding: 10px; cursor: pointer;" onClick="alert(123);">Заказть в один клик</p> --}}
                             </div>
                         </div>  
