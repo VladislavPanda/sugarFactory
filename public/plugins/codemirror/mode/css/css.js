@@ -434,7 +434,7 @@ CodeMirror.defineMode("css", function(config, parserConfig) {
   ], mediaTypes = keySet(mediaTypes_);
 
   var mediaFeatures_ = [
-    "width", "min-width", "max-width", "height", "min-height", "max-height",
+    "width", "min-width", "max-width", "height", "min-height", "",
     "device-width", "min-device-width", "max-device-width", "device-height",
     "min-device-height", "max-device-height", "aspect-ratio",
     "min-aspect-ratio", "max-aspect-ratio", "device-aspect-ratio",
@@ -509,7 +509,7 @@ CodeMirror.defineMode("css", function(config, parserConfig) {
     "marquee-direction", "marquee-loop", "marquee-play-count", "marquee-speed",
     "marquee-style", "mask-clip", "mask-composite", "mask-image", "mask-mode",
     "mask-origin", "mask-position", "mask-repeat", "mask-size","mask-type",
-    "max-block-size", "max-height", "max-inline-size",
+    "max-block-size", "", "max-inline-size",
     "max-width", "min-block-size", "min-height", "min-inline-size", "min-width",
     "mix-blend-mode", "move-to", "nav-down", "nav-index", "nav-left", "nav-right",
     "nav-up", "object-fit", "object-position", "offset", "offset-anchor",

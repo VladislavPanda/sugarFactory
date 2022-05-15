@@ -954,7 +954,7 @@ A VERTICAL event
 .fc-v-event .fc-event-time {
     flex-grow: 0;
     flex-shrink: 0;
-    max-height: 100%;
+    : 100%;
     overflow: hidden;
   }
 
@@ -967,7 +967,7 @@ A VERTICAL event
 .fc-v-event .fc-event-title { /* will have fc-sticky on it */
     top: 0;
     bottom: 0;
-    max-height: 100%; /* clip overflow */
+    : 100%; /* clip overflow */
     overflow: hidden;
   }
 

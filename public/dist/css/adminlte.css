@@ -546,7 +546,7 @@ pre code {
 }
 
 .pre-scrollable {
-  max-height: 340px;
+  : 340px;
   overflow-y: scroll;
 }
 
@@ -4484,7 +4484,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-nav-scroll {
-  max-height: 75vh;
+  : 75vh;
   overflow-y: auto;
 }
 
@@ -6054,11 +6054,11 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 .modal-dialog-scrollable {
   display: -ms-flexbox;
   display: flex;
-  max-height: calc(100% - 1rem);
+  : calc(100% - 1rem);
 }
 
 .modal-dialog-scrollable .modal-content {
-  max-height: calc(100vh - 1rem);
+  : calc(100vh - 1rem);
   overflow: hidden;
 }
 
@@ -6098,7 +6098,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 }
 
 .modal-dialog-centered.modal-dialog-scrollable .modal-content {
-  max-height: none;
+  : none;
 }
 
 .modal-dialog-centered.modal-dialog-scrollable::before {
@@ -6202,10 +6202,10 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
     margin: 1.75rem auto;
   }
   .modal-dialog-scrollable {
-    max-height: calc(100% - 3.5rem);
+    : calc(100% - 3.5rem);
   }
   .modal-dialog-scrollable .modal-content {
-    max-height: calc(100vh - 3.5rem);
+    : calc(100vh - 3.5rem);
   }
   .modal-dialog-centered {
     min-height: calc(100% - 3.5rem);
@@ -8217,7 +8217,7 @@ button.bg-dark:focus {
 }
 
 .mh-100 {
-  max-height: 100% !important;
+  : 100% !important;
 }
 
 .min-vw-100 {
@@ -12511,7 +12511,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
   margin-left: .8rem;
   margin-right: .5rem;
   margin-top: -3px;
-  max-height: 33px;
+  /*: 33px;*/
   width: auto;
 }
 
@@ -12519,13 +12519,13 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
   float: left;
   line-height: .8;
   margin-top: -.1rem;
-  max-height: 33px;
+  /*: 33px;*/
   width: auto;
 }
 
 .brand-link .brand-image-xl {
   line-height: .8;
-  max-height: 40px;
+  /*: 40px;*/
   width: auto;
 }
 
@@ -12544,13 +12544,12 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 .brand-link.text-sm .brand-image-xs,
 .text-sm .brand-link .brand-image-xs {
   margin-top: -.2rem;
-  max-height: 29px;
 }
 
 .brand-link.text-sm .brand-image-xl,
 .text-sm .brand-link .brand-image-xl {
   margin-top: -.225rem;
-  max-height: 38px;
+  : 38px;
 }
 
 .main-sidebar {
@@ -13556,9 +13555,9 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 
 .nav-collapse-hide-child .menu-open > .nav-treeview {
-  max-height: -webkit-min-content;
-  max-height: -moz-min-content;
-  max-height: min-content;
+  : -webkit-min-content;
+  : -moz-min-content;
+  : min-content;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   -webkit-animation-duration: 0.3s;
@@ -13568,7 +13567,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 
 .sidebar-collapse .sidebar:not(:hover) .nav-collapse-hide-child .menu-open > .nav-treeview {
-  max-height: 0;
+  : 0;
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
   -webkit-animation-duration: 0.3s;
@@ -13585,9 +13584,9 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 .nav-collapse-hide-child .sidebar-mini-xs.sidebar-collapse .menu-open > .nav-treeview,
 .main-sidebar:not(.sidebar-no-expand):hover
 .nav-collapse-hide-child .sidebar-mini-xs.sidebar-collapse .menu-open > .nav-treeview {
-  max-height: -webkit-min-content;
-  max-height: -moz-min-content;
-  max-height: min-content;
+  : -webkit-min-content;
+  : -moz-min-content;
+  : min-content;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   -webkit-animation-duration: 0.3s;
@@ -28610,7 +28609,7 @@ body.text-sm .input-group-text {
 .card.maximized-card {
   height: 100% !important;
   left: 0;
-  max-height: 100% !important;
+  : 100% !important;
   max-width: 100% !important;
   position: fixed;
   top: 0;
@@ -28650,7 +28649,7 @@ body.text-sm .input-group-text {
 }
 
 .card.height-control .card-body {
-  max-height: 300px;
+  : 300px;
   overflow: auto;
 }
 
@@ -34857,7 +34856,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 .mailbox-attachment-icon {
   color: #666;
   font-size: 65px;
-  max-height: 132.5px;
+  : 132.5px;
   padding: 20px 10px;
   text-align: center;
 }
@@ -44562,7 +44561,7 @@ select.form-control-sm ~ .select2-container--default .select2-selection--multipl
 .attachment-block .attachment-img {
   float: left;
   height: auto;
-  max-height: 100px;
+  : 100px;
   max-width: 100px;
 }
 

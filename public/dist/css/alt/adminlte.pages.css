@@ -358,7 +358,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 .mailbox-attachment-icon {
   color: #666;
   font-size: 65px;
-  max-height: 132.5px;
+  : 132.5px;
   padding: 20px 10px;
   text-align: center;
 }

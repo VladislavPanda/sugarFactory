@@ -4,6 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Личный кабинет</title>
+  <style>
+    /*span{
+      color: black;
+    }*/
+  </style>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -23,11 +28,12 @@
   </div>
 
   <!-- Main Sidebar Container -->
-  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+  <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: white;">
     <!-- Brand Logo -->
-    <a href="#" class="brand-link">
-      <img src="{{ asset('images/logo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Личный кабинет</span>
+    <a href="{{ route('cabinet.index') }}" class="brand-link" style="margin-bottom: 130px;">
+      <img src="{{ asset('images/logo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8; width: 100px; height: 100px;">
+      <span class="brand-text font-weight-light" style="padding-left: 20px; color: black;">Личный</span> <br> 
+      <span class="brand-text font-weight-light" style="padding-left: 20px; color: black;">кабинет</span>
     </a>
 
     @include('includes.sidebar')

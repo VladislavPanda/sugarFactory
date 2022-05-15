@@ -1430,7 +1430,7 @@ a.note-dropdown-item:hover {
 }
 .note-hint-popover .popover-content {
     padding: 3px;
-    max-height: 150px;
+    : 150px;
     overflow: auto;
 }
 .note-hint-popover .popover-content .note-hint-group .note-hint-item {

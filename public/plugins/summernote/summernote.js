@@ -5474,7 +5474,7 @@ var Editor = /*#__PURE__*/function () {
         }
 
         if (this.options.maxHeight) {
-          this.$editable.css('max-height', this.options.maxHeight);
+          this.$editable.css('', this.options.maxHeight);
         }
 
         if (this.options.minHeight) {
@@ -9147,7 +9147,7 @@ var HelpDialog = /*#__PURE__*/function () {
         footer: body,
         callback: function callback($node) {
           $node.find('.modal-body,.note-modal-body').css({
-            'max-height': 300,
+            '': 300,
             'overflow': 'scroll'
           });
         }

@@ -180,7 +180,7 @@ div.dt-button-collection.fixed.columns {
   }
 }
 div.dt-button-collection.fixed > :last-child {
-  max-height: 100vh;
+  : 100vh;
   overflow: auto;
 }
 div.dt-button-collection.two-column > :last-child, div.dt-button-collection.three-column > :last-child, div.dt-button-collection.four-column > :last-child {

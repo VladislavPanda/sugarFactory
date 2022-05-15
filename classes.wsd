@@ -1,9 +1,31 @@
 @startuml SUGARFACTORY
+
+class RegistrationController{
+    
+    index()
+    store(RegistrationRequest $request)
+}
+
 class AuthController{
 
     index()
     login(AuthRequest $request)
     logout()
+}
+
+class User{
+    protected $fillable = []
+    protected $hidden = []
+    protected $casts = []
+
+    setPasswordAttribute($password)
+    company()
+    routeNotificationForTelegram()
+}
+
+class Company{
+    protected $table
+    protected $guarded
 }
 
 class CabinetController{
@@ -24,49 +46,18 @@ class GoodController{
     goodForOrder(Request $request)
 }
 
-class OrderController{
-    private $ordersService
+class GoodsService{
 
-    __construct(OrdersService $ordersService)
-    store(Request $request)
-    updateStatus($statusData)
+    encodeImages(&$goods)
+    getId($value)
 }
 
-class RegistrationController{
-    
-    index()
-    store(RegistrationRequest $request)
-}
-
-class ReviewController{
-    private $reviewsService
-
-    __construct(ReviewsService $reviewsService)
-    create($goodId)
-    store(Request $request)
-}
-
-class User{
-    protected $fillable = []
-    protected $hidden = []
-    protected $casts = []
-
-    setPasswordAttribute($password)
-    company()
-    routeNotificationForTelegram()
-}
-
-class Company{
-    protected $table
-    protected $guarded
-}
-
-class Order{
+class Good{
     protected $table
     protected $guarded
 
-    good()
-    pack()
+    packs()
+    order()
 }
 
 class Pack{
@@ -77,18 +68,12 @@ class Pack{
     order()
 }
 
-class Review{
-    protected $table
-    protected $guarded
+class OrderController{
+    private $ordersService
 
-    good()
-    company()
-}
-
-class GoodsService{
-
-    encodeImages(&$goods)
-    getId($value)
+    __construct(OrdersService $ordersService)
+    store(Request $request)
+    updateStatus($statusData)
 }
 
 class OrdersService{
@@ -103,8 +88,50 @@ class OrdersService{
     createMessage($order)
 }
 
+class Order{
+    protected $table
+    protected $guarded
+
+    good()
+    pack()
+}
+
+class ReviewController{
+    private $reviewsService
+
+    __construct(ReviewsService $reviewsService)
+    create($goodId)
+    store(Request $request)
+}
+
+class Review{
+    protected $table
+    protected $guarded
+
+    good()
+    company()
+}
+
 class ReviewsService{
     makeReviewObjectRecord(&$reviewData)
 }
+
+OrderController o-- OrdersService
+GoodController o-- GoodsService
+ReviewController o-- ReviewsService
+CabinetController o-- OrdersService
+Order *-- OrderController
+Good *-- GoodController
+Review *-- ReviewController
+GoodsService *-- Good
+OrdersService *-- Order
+OrdersService *-- Pack
+OrdersService *-- User
+ReviewsService *-- User
+Good <-- Pack
+Good <-- Order
+Company <-- User
+AuthController o-- User
+RegistrationController *-- User
 
 @enduml

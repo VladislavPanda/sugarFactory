@@ -1,5 +1,5 @@
 <!-- Sidebar -->
-<div class="sidebar">
+<div class="sidebar" style="padding-top: 65px;">
     <!-- Sidebar Menu -->
     <nav class="mt-2">
       <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
@@ -11,7 +11,7 @@
                 <!--<i class="nav-icon fas fa-table"></i>-->
                 <i class="fa fa-reply" aria-hidden="true"></i>
                 
-                <p style="margin-left: 6px;">
+                <p style="margin-left: 6px; color: black;">
                   На сайт
                 </p>
               </a>
@@ -22,7 +22,7 @@
             <!--<i class="nav-icon fas fa-table"></i>-->
             <i class="fa fa-user" aria-hidden="true"></i>
             
-            <p style="margin-left: 6px;">
+            <p style="margin-left: 6px; color: black;">
               Партнёрам
             </p>
           </a>
@@ -32,7 +32,7 @@
           <div>
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-table"></i>
-            <p>
+            <p style="color: black;">
               История заказов
             </p>
           </a>
@@ -43,7 +43,7 @@
             <!--<i class="nav-icon fas fa-table"></i>-->
             <i class="fas fa-sign-out-alt"></i>
             
-            <p style="margin-left: 6px;">
+            <p style="margin-left: 6px; color: black;">
               Выход из системы
             </p>
           </a>

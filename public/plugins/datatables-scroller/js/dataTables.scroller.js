@@ -289,7 +289,7 @@ $.extend( Scroller.prototype, {
 		var heights = this.s.heights;
 
 		if ( heights.row ) {
-			heights.viewport = this._parseHeight($(this.dom.scroller).css('max-height'));
+			heights.viewport = this._parseHeight($(this.dom.scroller).css(''));
 
 			this.s.viewportRows = parseInt( heights.viewport / heights.row, 10 )+1;
 			this.s.dt._iDisplayLength = this.s.viewportRows * this.s.displayBuffer;

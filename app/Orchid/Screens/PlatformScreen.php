@@ -20,6 +20,7 @@ use Illuminate\Http\Request;
 use Orchid\Screen\Fields\Group;
 use Orchid\Support\Color;
 use App\Services\OrdersService;
+use App\Services\GoodsService;
 use App\Http\Controllers\OrderController;
 
 class PlatformScreen extends Screen
@@ -393,7 +394,8 @@ class PlatformScreen extends Screen
         $statusData = $request->except(['_token']);
 
         $ordersService = new OrdersService();
-        $controller = new OrderController($ordersService);
+        $goodsService = new GoodsService(); 
+        $controller = new OrderController($ordersService, $goodsService);
         $controller->updateStatus($statusData);
     }
 }

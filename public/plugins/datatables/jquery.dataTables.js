@@ -5254,7 +5254,7 @@
 			} );
 		}
 	
-		$(scrollBody).css('max-height', scrollY);
+		$(scrollBody).css('', scrollY);
 		if (! scroll.bCollapse) {
 			$(scrollBody).css('height', scrollY);
 		}

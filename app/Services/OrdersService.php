@@ -10,7 +10,7 @@ use App\Models\User;
 use App\Models\Company;
 
 class OrdersService{
-    private const CHAT_ID = '491966622'; //'1498713091';  
+    private const CHAT_ID = '491966622';  
     private const TOKEN = '5363947644:AAFRqufLBfamyhEq65CW2cqJPtjvKrax2jE';
 
     // Парсинг строки упаковок к нужному формату

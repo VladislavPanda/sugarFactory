@@ -10684,7 +10684,7 @@ var core_helpers = function() {
 
 	};
 
-	// Private helper function to convert max-width/max-height values that may be percentages into a number
+	// Private helper function to convert max-width/ values that may be percentages into a number
 	function parseMaxStyle(styleValue, node, parentProperty) {
 		var valueInPixels;
 		if (typeof styleValue === 'string') {
@@ -10712,7 +10712,7 @@ var core_helpers = function() {
 	/**
 	 * Returns the max width or height of the given DOM node in a cross-browser compatible fashion
 	 * @param {HTMLElement} domNode - the node to check the constraint on
-	 * @param {string} maxStyle - the style that defines the maximum for the direction we are using ('max-width' / 'max-height')
+	 * @param {string} maxStyle - the style that defines the maximum for the direction we are using ('max-width' / '')
 	 * @param {string} percentageProperty - property of parent to use when calculating width as a percentage
 	 * @see {@link https://www.nathanaeljones.com/blog/2013/reading-max-width-cross-browser}
 	 */
@@ -10739,7 +10739,7 @@ var core_helpers = function() {
 	};
 	// returns Number or undefined if no constraint
 	helpers$1.getConstraintHeight = function(domNode) {
-		return getConstraintDimension(domNode, 'max-height', 'clientHeight');
+		return getConstraintDimension(domNode, '', 'clientHeight');
 	};
 	/**
 	 * @private

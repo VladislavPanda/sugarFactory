@@ -426,7 +426,7 @@ body .access--down .access-up:before {
   border-bottom: 1px solid #000;
   padding-top: 4px;
   font-size: 0;
-  max-height: none;
+  : none;
   text-align: center;
   font-family: "Pt Sans", sans-serif;
   display: none;

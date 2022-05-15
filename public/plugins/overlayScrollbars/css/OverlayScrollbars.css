@@ -131,7 +131,7 @@ body.os-dragging * {
 }
 .os-content-glue {
     box-sizing: inherit;
-    max-height: 100%;
+    : 100%;
     max-width: 100%;
     width: 100%;
     pointer-events: none;
@@ -207,7 +207,7 @@ body.os-dragging * {
     -webkit-transform: none !important;
             transform: none !important;
     max-width: none !important;
-    max-height: none !important;
+    : none !important;
     box-shadow: none !important;
     -webkit-perspective: none !important;
             perspective: none !important;
@@ -308,7 +308,7 @@ body.os-dragging * {
     max-width: 1px;
     position: relative;
     float: left;
-    max-height: 1px;
+    : 1px;
     overflow: hidden;
     z-index: -1;
     padding: 0;
